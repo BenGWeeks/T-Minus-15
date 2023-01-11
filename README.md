@@ -41,6 +41,7 @@ To read this book, see [book.asciidoc](https://github.com/BenGWeeks/T-Minus-15/b
 + Chapter 5: [Awesomeness](https://github.com/BenGWeeks/T-Minus-15/blob/main/Awesomeness.asciidoc)
 + Chapter 6: [Delivering value](https://github.com/BenGWeeks/T-Minus-15/blob/main/DeliveringValue.asciidoc)
 + Chapter 7: [Happy users](https://github.com/BenGWeeks/T-Minus-15/blob/main/HappyUsers.asciidoc)
++ Chapter 8: [Steps to success](https://github.com/BenGWeeks/T-Minus-15/blob/main/StepsToSuccess.asciidoc)
 + [Thanks](https://github.com/BenGWeeks/T-Minus-15/blob/main/Thanks.asciidoc)
 
 ## Source
