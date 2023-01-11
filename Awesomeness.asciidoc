@@ -1,0 +1,65 @@
+== Awesomeness
+
+We want to ensure that what we deliver to our customers is something we can be proud of, it's not just good - it's awesome! We therefore need to ensure that each-and-every Story is therefore cross-reference and checked with 1 or more test cases.
+
+Additionally, if we want to ensure we are delivery high-quality high-value (HQHV) we need to ensure we are performing testing earlier (a “Shift Left” of testing) rather than leaving it to the last step before deployment. For this reason, the Test Pilot is an integral member of the team who will be writing test cases when the first line of code is being written.
+
+=== The importance of acceptance criteria
+
+In order to ensure that each and every Story can be validated, a User Story should have an acceptance criteria to make it super clear to the developer what the business are accepting, and how the Test Pilot will be testing your solution. Let’s get the “story” straight before we start with delivering value as to what everybody’s expectations are. An example acceptance criteria for bug resolution could be:
+
+*	100% of major and critical bugs will be resolved
+*	50% of minor bugs will be resolved
+*	Cosmetic issues will be fixed on a best endeavour basis
+
+=== Test Plans, Suites & Cases
+
+A test plan is a group of test cases. We recommend a Test Plan is made up from a number of Test Suites (one for each Feature). You then create a test case per user story.
+
+A test case is the steps that validate a user story. Each step should have an expected result. A tester can thus validate the test case step by step, and create a bug at the designated step that caused the failure. Along with a screenshot (always include a screenshot and any other relevant information), this should give developers the resources necessary to troubleshoot the majority of issues.
+
+=== Static code analysis
+
+Static code analysis is where the code of a solution is analysed without it having to be build and executed. It ensures that the code adheres to industry and team standards. Performing static code analysis can:
+
+*	Improve the ability for developers to understand each other’s code
+*	Reduce the time needed for a peer review
+*	Catch issues that may not otherwise be caught
+
+=== Automated UI testing
+
+To speed up the repeatable nature of testing to help improve the cadence of release, where possible we should leverage the use of automated test tools such as Selenium Web Driver .
+
+=== Security asessment & compliance
+
+Consider security during the security and compliance using automated tools such as Microsoft Security Code Analysis , Secure DevOps Kit for Azure  and SME reviews. Best to find out early with regards to security issues prior to hitting production!
+
+Ensure that you are utilizing all the applicable security options available to you in the cloud hosting environment. For example, ensure you have policies set, firewalls configured, threat protection, encryption, monitoring, auditing and security event management.
+
+You can utilize more than a single security step in your release pipeline to ensure better coverage.
+
+=== Performance testing
+
+Performance testing your solution allows you to confirm that your deployment will handle the loads in production. It also allows you to see where in the stack performance improvements can be made.
+
+There are a number of tools available to carry out performance testing such as LoadRunner and Apache JMeter. JMeter is a popular free open source tool that supports many different protocols.
+
+Integrating automated performance tests into your release process means we are thinking about the performance of the solution up front, and not just an after thought when users start complaining there are performance issues.
+
+Typically you would carry out performance testing in the Test (QA) environment. To get results that are reflect of the Operations environment, the Test environment will need the same configuration in terms of sizing as Operations. Fortunately, if costs need to be kept to a minimum, the Test environment can be scaled up and down for doing performance testing.
+
+=== User acceptance testing
+
+User acceptance testing is where the client tests your solution to confirm the delivery meets their needs.
+
+This is where our Test Plan acceptance criteria comes into play. No software is completely bug free so set expectations. If you have structured your post-launch support arrangement correctly they will be happy that any small work items can still get resolved under the support arrangement. They’re not just going to be stuck with any remaining issues!
+
+Because your stakeholders most likely won’t have time to go through all test cases written for your system (well, they’ll tell you that anyway 😉), for use acceptance testing, create a smaller Test Plan that cover a broad range and the important stories that are representative of the overall Feature working well. NB The test cases should be written in a simple way anyway that any team member or stakeholder should be able to follow them.
+
+===	A/B testing
+
+A/B testing allows you to setup two deployment slots (A and B) in production  where one of those slots is used to deploy a new release to. So you have a hot slot and a staging slot. Using traffic routing, you can then send a percentage of the traffic to the new slot. That way, without affecting all users, you can have a period of testing in production where any new introduced issues should not affect all users.
+
+A/B testing also allows high performance sites to always be available with zero warm up time needed. You deploy to the staging slot, start the slot running, and once running, swap this slot to be the production slot.
+
+You can also look at implementing an intelligent solution that will analyse the logs and dynamically amend the routing rules to pass users to the new code on confirmation that there are no detrimental issues affecting performance or correct behaviour. Or, alternatively, fall back to the old code if an issue is detected.
