@@ -34,14 +34,16 @@ To read this book, see [book.asciidoc](https://github.com/BenGWeeks/T-Minus-15/b
 + [Foreword](https://github.com/BenGWeeks/T-Minus-15/blob/main/Foreword.asciidoc)
 + [Sponsors](https://github.com/BenGWeeks/T-Minus-15/blob/main/Sponsors.asciidoc)
 + [What's this all about?](https://github.com/BenGWeeks/T-Minus-15/blob/main/WhatsThisAllAbout.asciidoc)
-+ Chapter 1: [Let's get Agile!](https://github.com/BenGWeeks/T-Minus-15/blob/main/LetsGetAgile.asciidoc)
-+ Chapter 2: [So what about DevOps?](https://github.com/BenGWeeks/T-Minus-15/blob/main/LetsGetAgile.asciidoc)
-+ Chapter 3: [The A-Team](https://github.com/BenGWeeks/T-Minus-15/blob/main/TheATeam.asciidoc)
-+ Chapter 4: [In it together](https://github.com/BenGWeeks/T-Minus-15/blob/main/InItTogether.asciidoc)
-+ Chapter 5: [Awesomeness](https://github.com/BenGWeeks/T-Minus-15/blob/main/Awesomeness.asciidoc)
-+ Chapter 6: [Delivering value](https://github.com/BenGWeeks/T-Minus-15/blob/main/DeliveringValue.asciidoc)
-+ Chapter 7: [Happy users](https://github.com/BenGWeeks/T-Minus-15/blob/main/HappyUsers.asciidoc)
-+ Chapter 8: [15-steps to success](https://github.com/BenGWeeks/T-Minus-15/blob/main/15StepsToSuccess.asciidoc)
++ Chapter 1: [Understand the ask](https://github.com/BenGWeeks/T-Minus-15/blob/main/UnderstandTheAsk.asciidoc)
++ Chapter 2: [Create great user experiences](https://github.com/BenGWeeks/T-Minus-15/blob/main/LetsGetAgile.asciidoc)
++ Chapter 3: [Let's get Agile!](https://github.com/BenGWeeks/T-Minus-15/blob/main/LetsGetAgile.asciidoc)
++ Chapter 4: [So what about DevOps?](https://github.com/BenGWeeks/T-Minus-15/blob/main/LetsGetAgile.asciidoc)
++ Chapter 5: [The A-Team](https://github.com/BenGWeeks/T-Minus-15/blob/main/TheATeam.asciidoc)
++ Chapter 6: [In it together](https://github.com/BenGWeeks/T-Minus-15/blob/main/InItTogether.asciidoc)
++ Chapter 7: [Awesomeness](https://github.com/BenGWeeks/T-Minus-15/blob/main/Awesomeness.asciidoc)
++ Chapter 8: [Delivering value](https://github.com/BenGWeeks/T-Minus-15/blob/main/DeliveringValue.asciidoc)
++ Chapter 9: [Happy users](https://github.com/BenGWeeks/T-Minus-15/blob/main/HappyUsers.asciidoc)
++ Chapter 10: [15-steps to success](https://github.com/BenGWeeks/T-Minus-15/blob/main/15StepsToSuccess.asciidoc)
 + Appendix 1: Epic metadata
 + Appendix 2: Feature metadata
 + Appendix 3: User Story metadata
@@ -51,7 +53,7 @@ To read this book, see [book.asciidoc](https://github.com/BenGWeeks/T-Minus-15/b
 + Appendix 7: WIP limits
 + Appendix 8: Proposals
 + Appendix 8: Reports
-+ Appendix 8: Meetings
++ Appendix 9: Meetings
 + [Thanks](https://github.com/BenGWeeks/T-Minus-15/blob/main/Thanks.asciidoc)
 
 ## Source
