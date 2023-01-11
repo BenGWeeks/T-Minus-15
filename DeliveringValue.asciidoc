@@ -1,0 +1,140 @@
+==	Delivering value
+
+We need to ensure that development efforts can deliver high-value high-quality to the business quickly, continuously and react to feedback from the business on how to make improvements. In a business that is running a Cloud Operating Model, this ensures that the business can outpace its’ competition.
+
+=== What's the differen between CI and CD?
+
+Continuous Integration, CI is also about preparing a release quicker and integrating development efforts. As mentioned above, we want developers to be able to integrate (merge) their changes in the main branch quicker and more often, which is why we advocate the Release Flow methodology (over Git Flow for example). The developer’s changes should be validated by creating a build and running automated tests against the build. By integrating little and often and using a simple branching methodology we aim to prevent “integration hell”.
+
+Continuous Delivery or Continuous Deployment both share the acronym CD and often used interchangeably. Continuous Delivery is an approach to reduce delivery lifecycles and delivering value to the business in shorter cycles (planning, building and operating) and ensuring that a release can be made to production. Continuous Deployment is about automating your deployment to the various environments reducing manual intervention. This is achieved by creating a release pipeline.
+
+For more information, please see:
+[Design a CI/CD pipeline using Azure DevOps](https://docs.microsoft.com/en-us/azure/architecture/example-scenario/apps/devops-dotnet-webapp)
+
+[VSTS – The Road to Continuous Delivery with Visual Studio Team Services](https://msdn.microsoft.com/magazine/mt814804.aspx)
+
+=== Branching methodology
+
+For efficient software development for multi-developer projects, a source control system (or version control) is a crucial. As discussed, our source control mechanism will also now need to include the code for “infrastructure as code”. It is therefore, of even greater importance that we can track project source code to ensure that changes can be tracked and assist with the ability for team members to merge changes into the code repository.
+
+With a distributed (remote) team, tools such as Microsoft DevOps allow for source code to be maintained within a SaaS that is hosted by Microsoft in the cloud and facilitates remote teams to all have access and collaborate around the project code.
+
+There are commonly two types of source control, distributed (such as Git) or centralised (such as TFVC). Most organisations are using Git and we would also suggest the same.
+
+=== GitFlow vs Release Flow
+
+The next decision is what branching methodology to use. There are several choices here, such as GitFlow (which seems very popular currently), main branch, and the lesser known Release Flow.
+
+GitFlow seems to be a common methodology to implement. GitFlow uses the concept that branches reflect environments, where the master branch should reflect the current state of the production environment.
+
+// INSERT
+Figure 20. GitFlow uses the principle of branches matching environments (for dev, QA and production for example)
+
+With GitFlow, we have seen the common issues at our customers and internally:
+
+*	Lack of clarity with the development team of what the branching strategy is and what branches each relate to
+*	Difficulty with merging branches
+*	Difficulty creating pipelines that utilise the branching strategy
+
+As a result, we therefore advocate a “keep it simple” branching methodology that is clear and concise. In fact, we note that the development team behind VSTS  independently came to the same conclusion, and as such as have adopted the “Release Flow” name for what we also advocate.
+
+Release Flow is a trunk-based development approach that utilizes branches off the trunk for specific topics (as opposed to other trunk-based developments that continuously deploy to the trunk). A branch is created for every release. This way hotfixes can be cherry-picked from the master into the release branch.
+
+You can read more about Release Flow and the VSTS team here:
+
+[Release Flow: How we do branching on the VSTS team](https://devblogs.microsoft.com/devops/release-flow-how-we-do-branching-on-the-vsts-team/)
+
+[Release Flow](https://docs.microsoft.com/en-us/azure/devops/learn/devops-at-microsoft/release-flow)
+
+=== Topic branches
+
+When working on a particular topic, the engineer(s) should create a separate topic branch off the master branch. When they are satisfied that they have met the requirements, and feel it is ready for review, then they can submit a pull request. A topic could relate to a Feature although there is not necessarily a 1-to-1 relationship as we don’t want Topic branches hanging around too long and becoming stale.
+
+The pull request gives the team leader the opportunity to review the feature and that it meets standards. The team leader should check outbranch locally that it builds, is well written, and does what they expected it to do. As this can be time consuming, it is the developers responsibility to do their own testing first and think “Am I proud of what I have developed?”. They can provide feedback back to the developer of any changes that are needed. 
+
+// INSERT 
+Figure 21. Overview of the Release Flow branching methodology where we work on topics from the master branch. When releases are made a separate branch is created in case hot fixes are needed for production.
+
+// INSERT <insert image of rocket branching and merging>
+
+=== Branching policies
+
+We can also set some policies on the code repository with branching policies such as follows:
+
+*	Policy to enforce merge requests to MASTER
+*	Merges are done on the server
+*	Must be code reviewed
+*	No merge if build fails
+*	Comments must be resolved
+
+NB Repos – create a repo based on permissions and pipelines.
+
+=== Other good practicies and merging
+
+Here are some quick pointers to pin up for the development team with regards to good practices and merging practices:
+
+*	Check your own work first, save others time before sending a pull-request.
+*	Add comments when closing items so others who how/why it was closed. Screenshots are great.
+*	Only keep topic/feature branches short lived. Remove as soon as possible.
+*	Create a Topic/Feature branch when working (especially relevant when working with a colleague).
+*	Create Topic/Feature branches in a folder called Topic or Feature (suggest the former to know use the same term as “Feature” in the backlog as they do not necessarily correlate).
+*	Create a branch when you make a release so you know what exactly was deployed.
+*	Decide as a team if you are “fix-forward” or not.
+
+=== Infrastructure-as-code
+
+Infrastructure-as-Code is where we aspire deploying our infrastructure to the hosting environment “without touching it”. That is, we create our infrastructure as definitions, and provision the infrastructure using a standard development release pipeline.
+Infrastructure-as-code has a number of advantages such as:
+
+*	We can now track changes to the environment through source control
+*	Changes to the environment are managed the same way as code changes
+*	Restrictions and policies can be implemented to stop “quick fixes” outside of source control that are not tracked
+*	Operations engineers naturally start working closer with development engineers
+
+Having Infrastructure-as-code shows a relative high majority level of adoption of DevOps methodology.
+
+=== Build pipelines
+
+The build pipeline is a set of commands that are run in order to fetch dependencies (such as npm  packages), build components, validate code, and create an artefact that can be deployed.
+
+The Build pipeline is a way to implement the Continuous Integration we spoke about earlier.
+
+=== Release pipelines
+
+Release pipelines help us continuously deliver our artefacts (whether that be code or infrastructure as previously mentioned that are the output of a build pipeline) through the various environments with approvals and on-demand deployments (a tenant being that we should be able to make a deployment on demand). That is, it gets our idea to value.
+
+Releasing to the QA environment is the chance for our Test Pilot to take the rocket, and give it a test run. At this point, we may know that it’s not completed, but we can do hoper tests (reference to Elon Musk and Space X doing hopper launches) and start to test some of the functionality that has been completed.
+
+There can be additional scenarios for pre-deployment or post-deployment gates  to be inserted into the process outlined such as code quality validation, performance checks, security and compliance validations , infrastructure health checks and other change management procedures.
+
+The process of approval (by the business) to Production will be dependent on your business (and should be documented). For example, deployments to production may have to be approved through an existing Change Advisory Board (CAB) via a Service Now request  as follows:
+
+=== Ideas
+
+Ideas are where we log the draft Epics / Features / User Stories, etc. Ideas are organise, expanded upon, clarified and then prioritized. This could be a logical environment such as Microsoft DevOps . Ideas are then built into deliverable artefacts that can be packaged and shipped to the business.
+
+====	ENGINEERING
+This is where the output from our continuous integration is sent. Mainly, this is the first step for our build when a pull request is approved to the master branch.
+If you’re using an Azure environment, then you can create a development subscription . You can also set in place policies so that developers cannot provision the most expensive services.
+====	TEST
+This is where a successful build is sent to for QA. These can be scheduled to deploy a successful build to Test on say a Monday am, Wednesday am and Friday am for example as well as “on demand” (for example, something is ready for the QA to test on a Tuesday and there is no sense waiting to a Wednesday). The QA environment is where the Test Pilot will be doing their runs and the team will demo the release in the checkpoint meeting.
+====	OPERATIONS
+Naturally, the production environment is where the deployment ultimately gets delivered. Some rules for the Production environment:
+
+*	The team should not be making manual changes to Production.
+*	Consider using deployment slots in production and traffic routing to role changes out gradually to the users.
+
+=== Release notes
+
+Release notes are important to demonstrate value to the business so they know about all the high-quality high-value (HQHV) deliverables your team are making to the business. This is your chance to market the wares of the team, and as such, it should be clear, concise and well branded! Referring to sections that cover the metadata for Features, Bugs & Improvements, you will notice that there is a section for the release notes (and whether the current item should be included or not!). The release note can even include images for maximum impact! Take some time to make these visually appealing to the business.
+
+<INSERT>
+Table 7. Example release note showing Features deployed to a Tesla Model X.
+
+=== Launch
+
+Here’s where the analogy breaks down a little. I’m not an advocate of “big bang launches” unless required (a large public facing website, a TV campaign goes live, or otherwise). What we want to do in an ideal world is to progressively expand the circle of people that can use the system. And in fact, by the time we tell the whole business about the system being available, it’s already been flying and airworthy for a while and we didn’t just do a deployment to production the night before. Perhaps we’ve already been taking certain teams in the business up for flights already.
+
+Big bang launches are stressful, prone to late nights, and embarrassing when they go wrong. Ask Elon.
+
+Also consider good communications. Howe are you going to let the wider business know about this great new functionality that is available to them? Have you arranged training, presentations, and alike?
