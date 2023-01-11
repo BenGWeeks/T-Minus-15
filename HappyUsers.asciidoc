@@ -1,0 +1,16 @@
+== Happy Users
+
+Once Epics are delivered and operational, you need to consider how these are support after the completion of the Epic. All functionality should be supported and as such an adoption strategy considered that includes supporting the solution.
+
+=== Supporting the solution
+
+We suggest a time and material basis so that smaller features that are less than a designated percentage of the total monthly budget can be allocated to be engineered under a time and material basis support contract. This has an added advantage that the solution doesn’t “stale” and can be refreshed and updated alongside straight bug fixing.
+
+A time and material basis results in less discussion over “is it in scope” and a mentality of “getting it fixed” as well as allowing for ad hoc training requests.
+
+Having Operations Engineers involved in the delivery of the solution means that as a team we are also in a better solution to support the solution. In addition, Developer Engineers should also take turns to cover the support function. This keeps them informed of the kinds of support requests that are raised for the solutions they build, as well as providing the support function with deep knowledge of the solutions that are provided.
+
+=== T-Plus Monthly Support Meetings
+
+Attendees: Stakeholders
+Agenda: A monthly meeting will be held for the solution to cover aspects such as outlined in the Reports section.
