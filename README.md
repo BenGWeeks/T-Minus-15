@@ -41,7 +41,17 @@ To read this book, see [book.asciidoc](https://github.com/BenGWeeks/T-Minus-15/b
 + Chapter 5: [Awesomeness](https://github.com/BenGWeeks/T-Minus-15/blob/main/Awesomeness.asciidoc)
 + Chapter 6: [Delivering value](https://github.com/BenGWeeks/T-Minus-15/blob/main/DeliveringValue.asciidoc)
 + Chapter 7: [Happy users](https://github.com/BenGWeeks/T-Minus-15/blob/main/HappyUsers.asciidoc)
-+ Chapter 8: [Steps to success](https://github.com/BenGWeeks/T-Minus-15/blob/main/StepsToSuccess.asciidoc)
++ Chapter 8: [15-steps to success](https://github.com/BenGWeeks/T-Minus-15/blob/main/15StepsToSuccess.asciidoc)
++ Appendix 1: Epic metadata
++ Appendix 2: Feature metadata
++ Appendix 3: User Story metadata
++ Appendix 4: Task metadata
++ Appendix 5: Bug metadata
++ Appendix 6: Enhancement metadata
++ Appendix 7: WIP limits
++ Appendix 8: Proposals
++ Appendix 8: Reports
++ Appendix 8: Meetings
 + [Thanks](https://github.com/BenGWeeks/T-Minus-15/blob/main/Thanks.asciidoc)
 
 ## Source
