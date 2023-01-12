@@ -2,7 +2,7 @@
 
 We need to ensure that development efforts can deliver high-value high-quality to the business quickly, continuously and react to feedback from the business on how to make improvements. In a business that is running a Cloud Operating Model, this ensures that the business can outpace its’ competition.
 
-=== What's the differen between CI and CD?
+=== What's the difference between CI and CD?
 
 Continuous Integration, CI is also about preparing a release quicker and integrating development efforts. As mentioned above, we want developers to be able to integrate (merge) their changes in the main branch quicker and more often, which is why we advocate the Release Flow methodology (over Git Flow for example). The developer’s changes should be validated by creating a build and running automated tests against the build. By integrating little and often and using a simple branching methodology we aim to prevent “integration hell”.
 
