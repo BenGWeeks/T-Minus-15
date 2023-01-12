@@ -1,0 +1,19 @@
+== Thanks
+
+// Need to figure out how to make a link in ASCIIDOC as clear doesn't use Markdown format.
+
+This book has had contributions (pull requests from) the following community members.
+
+Those that made 100+ pull requests:
+
+// Please enter a line below per contributor in the format: Name (or handle) as a link to your preferred Url (e.g. Twitter)
+
+[@BenGWeeks](https://twitter.com/BenGWeeks)
+
+Those that made 25+ pull requests:
+
+// Please enter a line below per contributor in the format: Name (or handle) as a link to your preferred Url (e.g. Twitter)
+
+Other community members who made contributions:
+
+// Please enter a line below per contributor in the format: Name (or handle) as a link to your preferred Url (e.g. Twitter)
