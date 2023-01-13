@@ -1,6 +1,6 @@
 # T-Minus-15: Secrets of an Elite DevOps Team
 
-
+![01-3](https://user-images.githubusercontent.com/26070818/212311870-b6109060-eb98-4b7e-8c03-3ec9f7739ac8.png)
 
 The T-Minus-15 Methodology gives specific implementation details for development teams that want to apply the principles of Agile (specifically Scrum) and DevOps.
 
