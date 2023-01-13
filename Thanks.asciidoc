@@ -17,3 +17,5 @@ Those that made 25+ pull requests:
 Other community members who made contributions:
 
 // Please enter a line below per contributor in the format: Name (or handle) as a link to your preferred Url (e.g. Twitter)
+
+[@ValKhudya](https://github.com/ValKhudya)
