@@ -9,6 +9,7 @@ Those that made 100+ pull requests:
 // Please enter a line below per contributor in the format: Name (or handle) as a link to your preferred Url (e.g. Twitter)
 
 [@BenGWeeks](https://twitter.com/BenGWeeks)
+[@ValKhudya](I want ice cream)
 
 Those that made 25+ pull requests:
 
