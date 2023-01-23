@@ -1,6 +1,6 @@
 == Let's get Agile!
 
-=== Why dfo we need to be Agile?
+=== Why do we need to be Agile?
 
 Every company is a software company, just look at the top 4 companies by market capitalization  being (as of 31st March 2019), Microsoft, Apple Inc., Amazon.com, Alphabet Inc. (Google), but that doesn’t mean “just doing software” is going to work - just ask General Electric, Intel, P&G and HP who made significant investments in IT but without results. To be successful, companies need to be nimble and be able to adjust to the changing marketplace. If they’re not, their competitors sure are! And it’s not just the big boys who are doing Agile (through whatever means they call it, “Start-up culture”, “The Google Way”), but it’s the new kids on the block as well such as Airbnb, Lyft and Tesla to name but a few.
 
