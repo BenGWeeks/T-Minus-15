@@ -1,14 +1,17 @@
 == So what about DevOps?
 
-With fear of jumping on a using a portmanteau trend (a shortening a number of words and linking them together such as done with DevOps, SecOps, DevSecOps, NetOps, NetSecOps, DBAOps, WinOps, and DataOps etc.) let’s cover what the principles of DevOps are (we’ll then leave it at the discretion of the reader if further analysis of these terms is required). According to WikiPedia, DevOps is a set of software development practices that combines software development (Dev) and information technology operations (Ops) to shorten the systems development life cycle while delivering features, fixes, and updates frequently in close alignment with business objectives. 
+With fear of jumping on a using a portmanteau trend (a shortening a number of words and linking them together such as done with DevOps, SecOps, DevSecOps, NetOps, NetSecOps, DBAOps, WinOps, and DataOps etc.) let’s cover what the principles of DevOps are (we’ll then leave it at the discretion of the reader if further analysis of these terms is required). According to WikiPedia, DevOps is a set of software development practices that combines software development (Dev) and information technology operations (Ops) to shorten the systems development life cycle while delivering features, fixes, and updates frequently in close alignment with business objectives.footnote:[DevOps, https://en.wikipedia.org/wiki/DevOps] 
 
 === Agile vs DevOps
 
 Whilst Agile is intended to close the gap between the customers (business) and the development team, DevOps aims to close the gap between the development team and operations that typically operate in siloes. You can therefore see how utilising both can bring about operational effectiveness of the idea to value for the business. And likewise to Agile, DevOps also requires a cultural change within the enterprise.
 
+.Here we can see a nice summary of where Agile (Scrum) and DevOps operate. Thanks to my son Isaac for his representation of business, developers and IT operators! :-)
+image::Images/Agile%20vs%20DevOps.png[float=center,align=center]
+
 === DevOps Principles
 
-DevOps has the following 7 key principles  to follow:
+DevOps has the following 7 key principles{empty}footnote:[7 Key Principles for a Successful DevOps Culture, https://www.cmswire.com/information-management/7-key-principles-for-a-successful-devops-culture/] to follow:
 
 * Focus on the customers’ needs
 * Foster a collaborative environment
@@ -18,6 +21,9 @@ DevOps has the following 7 key principles  to follow:
 * Embrace failure and learn
 
 DevOps has the principle of continuous improvement, and as such has a continuous lifecycle as follows:
+
+.The familiar DevOps lifecycle of Prep > Design > Engineer > Test > Operate.
+image::Images/Infinity%20Lifecycle%20(Book).png[float=center,align=center]
 
 It should be noted that these individual activities can be carried out within a sprint focused on that activity, as well as during other sprints. The naming convention of these activities has an associated role (see the A-Team). In addition, we have lifecycles for all our work items, whether they are the Epic itself, or its’ Capabilities, Features, Tasks, Improvements or Bugs.
 
@@ -33,11 +39,14 @@ During this stage we are generally working in our requirements capturing tool (s
 
 Once we have client approval, items can move into the design stage. The design includes activities such as adding further clarity to the backlog, creating information architecture and wireframes, as well as graphic designs.
 
-Work items in this stage are generally the responsibility of the Technical Designer and/or UX/UI Designer. In this stage we might create wireframes, data dictionaries, workflows, taxonomy and technical design documentation (remember we try and keep documentation down so ideally no big lengthy technical design documents!). As we’ll talk about later, an important aspect of this methodology is that the “Test Pilots” (QA) are involved early on and during this stage they can be starting to create the Test Cases for the 
+Work items in this stage are generally the responsibility of the Technical Designer and/or UX/UI Designer. In this stage we might create wireframes, data dictionaries, workflows, taxonomy and technical design documentation (remember we try and keep documentation down so ideally no big lengthy technical design documents!). As we’ll talk about later, an important aspect of this methodology is that the “Test Pilots” (QA) are involved early on and during this stage they can be starting to create the Test Cases for the Epic.
 
 While we’re on the subject of design. Be cautious getting all your screens wireframed up and then each individually designed. My suggestion is to spend the time on creating wireframes yes, but create a common design language document rather than try and then “colour in” each and every screen. When changes come, and they will come, you will be in a losing battle to keep the development, graphic designs, and wireframes all in sync.
 
 With regards to the artefacts that come out of the design stage,  try and keep them nicely coupled to the Features and User Stories. Putting these assets into a tool such as InVision is not only a great way for developers to grab CSS and HTML code from the designs, but it’s also possible to put “notes” on the screens that link to the relevant User Story. For example, you may have a “Delete” button next to a record in the wireframes that has a note to the User Story “I need to be able to delete a record”. Likewise, the User Story can have a link back to the relevant wireframe in InVision.
+
+.Make sure your wireframes are linked to your user stories (for example, if you're using Microsoft DevOps, link directly from the design tool such as InVision to the Story in Microsoft DevOps)
+image::Images/Designs.png[float=center,align=center]
 
 Remember though, “working software over comprehensive documentation” from our Agile Manifesto, so don’t go to unnecessary levels of documentation that won’t be read anyway – you’ve worked with software developers right?! For example, don’t spend weeks creating mock-ups for each and every page if they are going to be time consuming, but instead create wireframes of the various pages (to save time) and instead create a set of brand guidelines to follow. That way if the design styles need to be changed, we don’t need to retrospectively go back and amend everything. Likewise, our designs and actual delivery won’t get out of sync and cause confusion about what should actual be delivered.
 
@@ -59,10 +68,10 @@ During this stage the solution is deployed to the Test environment (QA) with a r
 
 From the deployment to Test, the Test Pilot will identify Bugs and Improvements to improve the stability and quality of the solution being delivered. We’ll talk about the “Bug Cap” later which is a way to ensure that this stage doesn’t become overloaded with an insurmountable quantity of bugs to fix.
 
-During a project of over 3 or 4 engineering sprints, you may want a dedicated Test sprint to improve the stability of the solution. SAFeR has the concept of IP sprints (Innovation and Planning ) that follow a similar principle of allow the team to carry out improvements, training, and a general buffer for the project.
+During a project of over 3 or 4 engineering sprints, you may want a dedicated Test sprint to improve the stability of the solution. SAFe^R^ has the concept of IP sprints (Innovation and Planning{empty}footnote:[Innovation and Planning Sprints, https://www.scaledagileframework.com/innovation-and-planning-iteration/]) that follow a similar principle of allow the team to carry out improvements, training, and a general buffer for the project.
 
 === DevOps: Operate
 
-Following the principles of SAFeR, we make deployments to production “on demand”. We want to deploy to production little-and-often rather than “big bang” launches. This reduces the stress on the team on doing deployments because they are used to doing them frequently with each deployment being less of a code change. In addition, you can implement A-B deployments such as using deployment slots in Azure to allow for gradual rollouts of changes.
+Following the principles of SAFe^R^, we make deployments to production “on demand”. We want to deploy to production little-and-often rather than “big bang” launches. This reduces the stress on the team on doing deployments because they are used to doing them frequently with each deployment being less of a code change. In addition, you can implement A-B deployments such as using deployment slots in Azure to allow for gradual rollouts of changes.
 
 Whilst making deployments is great, think about the adoption of the value you are delivering to the business as well. Do they know what has been deployed? Using Release Notes that includes details on Features, Bug fixes and Improvements, in your release pipeline is a great way to ensure the business are aware of the great value your team are delivering. Do the business need training? Is there a communication strategy to inform the wider audience of changes? Are we learning from the deployment feeding back into our continuous improvement?
