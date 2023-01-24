@@ -13,12 +13,13 @@ image::Images/Agile%20vs%20DevOps.png[float=center,align=center]
 
 DevOps has the following 7 key principles{empty}footnote:[7 Key Principles for a Successful DevOps Culture, https://www.cmswire.com/information-management/7-key-principles-for-a-successful-devops-culture/] to follow:
 
-* Focus on the customers’ needs
-* Foster a collaborative environment
-* Impose end-to-end responsibility
-* Encourage continuous improvement
-* Automate (almost) everything
-* Embrace failure and learn
+1. Foster a collaborative environment
+2. Impose end-to-end responsibility
+3. Encourage continuous improvement
+4. Automate (almost) everything
+5. Focus on the customers’ needs
+6. Embrace failure, and learn from it
+7. Embrace failure and learn
 
 DevOps has the principle of continuous improvement, and as such has a continuous lifecycle as follows:
 
