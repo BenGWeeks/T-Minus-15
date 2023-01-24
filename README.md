@@ -37,7 +37,7 @@ To read this book, see [book.asciidoc](https://github.com/BenGWeeks/T-Minus-15/b
 + Chapter 1: [Understand the ask](https://github.com/BenGWeeks/T-Minus-15/blob/main/UnderstandTheAsk.asciidoc)
 + Chapter 2: [Create great user experiences](https://github.com/BenGWeeks/T-Minus-15/blob/main/LetsGetAgile.asciidoc)
 + Chapter 3: [Let's get Agile!](https://github.com/BenGWeeks/T-Minus-15/blob/main/LetsGetAgile.asciidoc)
-+ Chapter 4: [So what about DevOps?](https://github.com/BenGWeeks/T-Minus-15/blob/main/LetsGetAgile.asciidoc)
++ Chapter 4: [So what about DevOps?](https://github.com/BenGWeeks/T-Minus-15/blob/main/SoWhatAboutDevOps.asciidoc)
 + Chapter 5: [The A-Team](https://github.com/BenGWeeks/T-Minus-15/blob/main/TheATeam.asciidoc)
 + Chapter 6: [In it together](https://github.com/BenGWeeks/T-Minus-15/blob/main/InItTogether.asciidoc)
 + Chapter 7: [Awesomeness](https://github.com/BenGWeeks/T-Minus-15/blob/main/Awesomeness.asciidoc)
