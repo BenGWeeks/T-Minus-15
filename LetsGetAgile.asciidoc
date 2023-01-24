@@ -133,7 +133,7 @@ As an aside, in line with SAFe^TM^ you may also have an Innovation & Planning (I
 The Sprint Burndown Chart gives the team a quick graphical representation of the remaining work left in that sprint. It shows us in a view if the team are on track to deliver the promised functionality by the end of the sprint. The ideal burn down diagonal is shown in white and the actual remaining effort (typically shown in hours) in the green bars.
 
 .Representation of the sprint burndown chart.
-image::Images/Burndown%20Chart.png[float=center,align=center]
+image::Images/Burndown%20chart.png[float=center,align=center]
 
 What does the burndown chart above tell us? Well, it looks like the team had a little bit of a slow start, then picked up speed and got ahead of schedule. They then hit some blockers by the looks of it and started to slip behind schedule, but managed to pick it up with a good effort at the end and completed the sprint. 
 
@@ -149,7 +149,7 @@ This can be a difficult conversion and one of the sought after skills of a scrum
 The Product Backlog is our single list of requirements for the business. It is a hierarchical list of Epics, Features, Tasks, Bugs and Improvements.
 
 .Hierarchical structure of our product backlog. NB Risks and issues are held separately outside the hierarchy, but everything else should have a parent/child relationship.
-image::Images/Product%20Backlog.png[float=center,align=center]
+image::Images/Product%20backlog.png[float=center,align=center]
 
 These items can be prioritized into an order of delivery where the User Stories and above should only be updated with the consent of the Product Owner. The Scrum team will use the currency of Story Points to estimate the workload for items. We’ll cover Story Points later, but in essence they are a unit of prescribed varying sizes (a modified Fibonacci sequence) to help the team estimate work sizes. These estimates also help the Product Owner prioritize work items.
 
@@ -170,7 +170,7 @@ image::Images/Lean%20Startup.png[float=center,align=center]
 
 To see the Epic metadata please see Appendix.
 
-To find out more about Epics, please see: [https://www.scaledagileframework.com/epic/](https://www.scaledagileframework.com/epic/)
+To find out more about Epics, please see https://www.scaledagileframework.com/epic/.
 
 === Features
 
@@ -178,7 +178,7 @@ A Feature is a unit of value to be delivered to the business. It is described as
 
 To see the Feature metadata please see Appendix.
 
-To find out more about Features according to the SAFeR framework, please see: [https://www.scaledagileframework.com/features-and-capabilities/](https://www.scaledagileframework.com/features-and-capabilities/)
+To find out more about Features according to the SAFeR framework, please see https://www.scaledagileframework.com/features-and-capabilities/.
 
 === Stories
 
