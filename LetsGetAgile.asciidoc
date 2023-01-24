@@ -6,6 +6,9 @@ Every company is a software company, just look at the top 4 companies by market 
 
 The ability to adapt to the market is critical in the modern economy. With advances in technology this creates lower barriers to entry where newcomers can create disruption and shake things up. As a result, according to Yale professor Richard Foster, the lifespan of a company in the S&P500 has shrunk by more than 50 years in the last century, from 67 years in the 1920s to a more modest 15 years . S&P500 companies, you have been warned – 1 of you is being replaced every two weeks, and for the newcomers … the opportunity is there for the taking!
 
+.Creative Destruction W"hips through Corporate America
+image::Images/Average%20company%20lifespan.png[float=center,align=center,link=https://engageinnovate.files.wordpress.com/2012/03/creative-destruction-whips-through-corporate-america_final2012.pdf]
+
 === Overview of Agile
 
 Agile is a software development concept that evolves software through collaboration between the business and development. It’s methodology encourages an evolutionary approach to solution development (as opposed to a more waterfall method that would typically have a larger design period). The idea is to get a deliverable to the customer asap from which iterative improvements can be made. Having early deliverables will mean everyone is much more clearer about what needs to be developed further and where improvements can be made.
@@ -22,16 +25,32 @@ There are daily meetings (ideally face-to-face and standing up) to ensure everyo
 
 Work is organised into a product backlog (basically a list of requirements that we call user stories) and a set of user stories are chosen for a sprint. At the end of the sprint, the team reflect on how the sprint went and if any improvements could be made.
 
-The Agile Manifesto declares following values: 
+The Agile Manifesto{empty}footnote:[Manifesto for Agile Software Development, http://agilemanifesto.org/] declares following values: 
 
-* Individuals and Interactions over processes and tools
-*	Working Software over comprehensive documentation
-*	Customer Collaboration over contract negotiation
-*	Responding to Change over following a plan
+1.  Individuals and Interactions over processes and tools
+1.	Working Software over comprehensive documentation
+1.	Customer Collaboration over contract negotiation
+1.	Responding to Change over following a plan
 
-// Talk about the Agile principles
+The Agile Manefesto Principles{empty}footnote:[Agile Manefesto Principles, http://agilemanifesto.org/principles.html] these values are built on are:
 
-However, within a larger Enterprise SAFeR believes that “best architectures, requirements, and designs” do not necessarily  emerge from self-organizing teams in contrast to the Agile principles. For an Enterprise, you need to have a common design principle across all teams and that is why this function is therefore proposed to be driven from outside of the team.
+1.	Our highest priority is to satisfy the customer through early and continuous delivery of valuable software.
+1.	Welcome changing requirements, even late in development. Agile processes harness change for the customer's competitive advantage.
+1.	Deliver working software frequently, from a couple of weeks to a couple of months, with a preference to the shorter timescale.
+1.	Business people and developers must work together daily throughout the project.
+1.	Build projects around motivated individuals. 
+1.	Give them the environment and support they need, and trust them to get the job done.
+1.	The most efficient and effective method of conveying information to and within a development team is face-to-face conversation.
+1.	Working software is the primary measure of progress.
+1.	Agile processes promote sustainable development. 
+1.	The sponsors, developers, and users should be able to maintain a constant pace indefinitely.
+1.	Continuous attention to technical excellence and good design enhances agility.
+1.	Simplicity--the art of maximizing the amount of work not done--is essential.
+1.	The best architectures, requirements, and designs emerge from self-organizing teams.
+1.	At regular intervals, the team reflects on how to become more effective, then tunes and adjusts its behaviour accordingly.
+
+However, within a larger Enterprise SAFeR believes that “best architectures, requirements, and designs” do not necessarily  emerge from self-organizing teams in contrast to the Agile principles. For an Enterprise, you need to have a common design principle across all teams and that is why this function is therefore proposed to be driven from outside of the team by Enterprise, Solution, and System Architects/Engineers.
+
 
 === The Pro's and Con's of Agile
 
