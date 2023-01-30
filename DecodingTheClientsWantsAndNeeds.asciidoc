@@ -16,13 +16,15 @@ In order to understand the clients requirements fully, don't be afraid to ask th
 
 In order to keep on track with (sometimes changing) client requirements, it's important to work as a team with the client (stakeholders). They are an important member of the team and help ensure everyone is on the same page. This can include regular check-ins and status updates to ensure that requirements are being met and everyone is aligned.
 
-Build a backlog: A backlog is a prioritized list of requirements that should always reflect your current understanding of what the client wants. It's important to keep the backlog up-to-date, so everyone involved has access to the same information.
+Build a backlog: A backlog is a prioritized list of requirements that should always reflect your current understanding of what the client wants. It's important to keep the backlog up-to-date, so everyone involved has access to the same information. We cover more about backlogs later in the book.
 
 Get visual: If possible (and applicable) create UX/UI wireframes and walk-throughs from which revisions of requirements can be given. The more senior the stakeholder - the more they like a pretty picture! However, using UX/UI tools is a greeat way to iterate quickly before even writing a line of code.
 
 === Personas
 
 Personas are a powerful tool in understanding client requirements. A persona is a [fictional] character that represents the client's target audience and helps you to understand their needs, goals, and motivations. Creating personas allows you to empathize with the client's target audience and design a product that meets their needs. By understanding who the product is for, you can better understand the requirements that are most important to the client and prioritize accordingly. Personas are also a useful tool for keeping the team aligned and focused on the client's goals and objectives. In short, creating personas can help you to better understand the client's requirements, prioritize your efforts, and deliver a product that exceeds their expectations.
+
+> NB There should be a correlation between personas and requirements (or User Stories).
 
 === So, what does the client want?
 
