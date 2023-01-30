@@ -1,4 +1,4 @@
-== Happy Customers
+== Happy Clients
 
 Once Epics are delivered and operational, you need to consider how these are support after the completion of the Epic. All functionality should be supported and as such an adoption strategy considered that includes supporting the solution.
 
