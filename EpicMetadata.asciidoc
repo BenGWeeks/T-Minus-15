@@ -77,10 +77,10 @@
 | _Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget congue eros, sed pulvinar libero. Etiam tempor elementum mollis. Duis sodales tristique erat quis molestie. Etiam non turpis interdum, elementum eros sed, consectetur nibh. Praesent iaculis erat massa, eget commodo dolor porta nec. Cras nulla justo, dictum nec luctus eget, egestas vel nulla. In suscipit blandit nulla, eu tristique nisi. Mauris purus ex, malesuada non rutrum dignissim, ultricies non metus._
 
 | *Milestones or checkpoints*
-| _Lorem ipsum_
+| _Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget congue eros, sed pulvinar libero. Etiam tempor elementum mollis. Duis sodales tristique erat quis molestie. Etiam non turpis interdum, elementum eros sed, consectetur nibh. Praesent iaculis erat massa, eget commodo dolor porta nec. Cras nulla justo, dictum nec luctus eget, egestas vel nulla. In suscipit blandit nulla, eu tristique nisi. Mauris purus ex, malesuada non rutrum dignissim, ultricies non metus._
 
 | *Other notes and comments*
-| _Lorem ipsum_
+| _Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget congue eros, sed pulvinar libero. Etiam tempor elementum mollis. Duis sodales tristique erat quis molestie. Etiam non turpis interdum, elementum eros sed, consectetur nibh. Praesent iaculis erat massa, eget commodo dolor porta nec. Cras nulla justo, dictum nec luctus eget, egestas vel nulla. In suscipit blandit nulla, eu tristique nisi. Mauris purus ex, malesuada non rutrum dignissim, ultricies non metus._
 
 2+| *Approval*
 
