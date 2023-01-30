@@ -52,7 +52,7 @@ To read this book, see [book.asciidoc](https://github.com/BenGWeeks/T-Minus-15/b
 + Appendix 6: [WIP limits](https://github.com/BenGWeeks/T-Minus-15/blob/main/WIPLimits.asciidoc)
 + Appendix 7: Proposals
 + Appendix 8: Reports
-+ Appendix 9: Meetings
++ Appendix 9: [Meetings](https://github.com/BenGWeeks/T-Minus-15/blob/main/Meetings.asciidoc)
 + [Thanks](https://github.com/BenGWeeks/T-Minus-15/blob/main/Thanks.asciidoc)
 
 ## Source
