@@ -1,5 +1,12 @@
 == Meetings
 
+=== Mission Control
+
+Objective: 
+Frequency: Monthly
+Attendees: Scrum masters, Stakeholders
+Agenda: 
+
 === T-Plus Monthly Support Meetings
 
 Objective: To ensure the continued success and adoption of the supplied solution(s)
