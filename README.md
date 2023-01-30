@@ -50,7 +50,7 @@ To read this book, see [book.asciidoc](https://github.com/BenGWeeks/T-Minus-15/b
 + Appendix 4: Task metadata
 + Appendix 5: Bug metadata
 + Appendix 6: Enhancement metadata
-+ Appendix 7: WIP limits
++ Appendix 7: [WIP limits](https://github.com/BenGWeeks/T-Minus-15/blob/main/WIPLimits.asciidoc)
 + Appendix 8: Proposals
 + Appendix 8: Reports
 + Appendix 9: Meetings
