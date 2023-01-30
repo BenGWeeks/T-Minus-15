@@ -34,7 +34,7 @@ To read this book, see [book.asciidoc](https://github.com/BenGWeeks/T-Minus-15/b
 + [Foreword](https://github.com/BenGWeeks/T-Minus-15/blob/main/Foreword.asciidoc)
 + [Sponsors](https://github.com/BenGWeeks/T-Minus-15/blob/main/Sponsors.asciidoc)
 + [What's this all about?](https://github.com/BenGWeeks/T-Minus-15/blob/main/WhatsThisAllAbout.asciidoc)
-+ Chapter 1: [Understand the ask](https://github.com/BenGWeeks/T-Minus-15/blob/main/UnderstandTheAsk.asciidoc)
++ Chapter 1: [Decoding the client's wants and needs](https://github.com/BenGWeeks/T-Minus-15/blob/main/DecodingTheClientsWantsAndNeeds.asciidoc)
 + Chapter 2: [Create great user experiences](https://github.com/BenGWeeks/T-Minus-15/blob/main/CreateGreatUserExperiences.asciidoc)
 + Chapter 3: [Let's get Agile!](https://github.com/BenGWeeks/T-Minus-15/blob/main/LetsGetAgile.asciidoc)
 + Chapter 4: [So what about DevOps?](https://github.com/BenGWeeks/T-Minus-15/blob/main/SoWhatAboutDevOps.asciidoc)
