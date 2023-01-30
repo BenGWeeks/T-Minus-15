@@ -47,11 +47,10 @@ To read this book, see [book.asciidoc](https://github.com/BenGWeeks/T-Minus-15/b
 + Appendix 1: [Epic metadata](https://github.com/BenGWeeks/T-Minus-15/blob/main/EpicMetadata.asciidoc)
 + Appendix 2: [Feature metadata](https://github.com/BenGWeeks/T-Minus-15/blob/main/FeatureMetadata.asciidoc)
 + Appendix 3: [User Story metadata](https://github.com/BenGWeeks/T-Minus-15/blob/main/UserStoryMetadata.asciidoc)
-+ Appendix 4: Task metadata
-+ Appendix 5: Bug metadata
-+ Appendix 6: Enhancement metadata
-+ Appendix 7: [WIP limits](https://github.com/BenGWeeks/T-Minus-15/blob/main/WIPLimits.asciidoc)
-+ Appendix 8: Proposals
++ Appendix 4: [Task metadata](https://github.com/BenGWeeks/T-Minus-15/blob/main/TaskMetadata.asciidoc)
++ Appendix 5: [Bugs and Enhancements metadata](https://github.com/BenGWeeks/T-Minus-15/blob/main/BugsAndEnhancementsMetadata.asciidoc)
++ Appendix 6: [WIP limits](https://github.com/BenGWeeks/T-Minus-15/blob/main/WIPLimits.asciidoc)
++ Appendix 7: Proposals
 + Appendix 8: Reports
 + Appendix 9: Meetings
 + [Thanks](https://github.com/BenGWeeks/T-Minus-15/blob/main/Thanks.asciidoc)
