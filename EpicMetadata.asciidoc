@@ -1,0 +1,90 @@
+== Epic metadata
+
+.Example Epic metadata
+[width=80%]
+|===
+2+| EPIC
+
+2+| *General*
+
+| *Title*
+| _Example Title_
+
+| *State*
+| _Review analysis_
+
+| *Epic type*
+| _Lorem ipsum_
+
+| *Owner*
+| _Elon Musk_
+
+| *Area*
+| _Lorem ipsum_
+
+| *Start date*
+| _01/01/2040_
+
+| *Target end date*
+| _12/12/2045_
+
+2+| *Epic hypothesis*
+
+| *Value statement*
+| _Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget congue eros, sed pulvinar libero. Etiam tempor elementum mollis. Duis sodales tristique erat quis molestie. Etiam non turpis interdum, elementum eros sed, consectetur nibh. Praesent iaculis erat massa, eget commodo dolor porta nec. Cras nulla justo, dictum nec luctus eget, egestas vel nulla. In suscipit blandit nulla, eu tristique nisi. Mauris purus ex, malesuada non rutrum dignissim, ultricies non metus._
+
+| *Business outcome hypothesis*
+| _Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget congue eros, sed pulvinar libero. Etiam tempor elementum mollis. Duis sodales tristique erat quis molestie. Etiam non turpis interdum, elementum eros sed, consectetur nibh. Praesent iaculis erat massa, eget commodo dolor porta nec. Cras nulla justo, dictum nec luctus eget, egestas vel nulla. In suscipit blandit nulla, eu tristique nisi. Mauris purus ex, malesuada non rutrum dignissim, ultricies non metus._
+
+| *Non-Functional Requirements (NFRs)*
+| _Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget congue eros, sed pulvinar libero. Etiam tempor elementum mollis. Duis sodales tristique erat quis molestie. Etiam non turpis interdum, elementum eros sed, consectetur nibh. Praesent iaculis erat massa, eget commodo dolor porta nec. Cras nulla justo, dictum nec luctus eget, egestas vel nulla. In suscipit blandit nulla, eu tristique nisi. Mauris purus ex, malesuada non rutrum dignissim, ultricies non metus._
+
+2+| *Analysis*
+
+| *Users ands market affected*
+| _Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget congue eros, sed pulvinar libero. Etiam tempor elementum mollis. Duis sodales tristique erat quis molestie. Etiam non turpis interdum, elementum eros sed, consectetur nibh. Praesent iaculis erat massa, eget commodo dolor porta nec. Cras nulla justo, dictum nec luctus eget, egestas vel nulla. In suscipit blandit nulla, eu tristique nisi. Mauris purus ex, malesuada non rutrum dignissim, ultricies non metus._
+
+| *Impact products, programs and services*
+| _Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget congue eros, sed pulvinar libero. Etiam tempor elementum mollis. Duis sodales tristique erat quis molestie. Etiam non turpis interdum, elementum eros sed, consectetur nibh. Praesent iaculis erat massa, eget commodo dolor porta nec. Cras nulla justo, dictum nec luctus eget, egestas vel nulla. In suscipit blandit nulla, eu tristique nisi. Mauris purus ex, malesuada non rutrum dignissim, ultricies non metus._
+
+| *Analysis summary*
+| _Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget congue eros, sed pulvinar libero. Etiam tempor elementum mollis. Duis sodales tristique erat quis molestie. Etiam non turpis interdum, elementum eros sed, consectetur nibh. Praesent iaculis erat massa, eget commodo dolor porta nec. Cras nulla justo, dictum nec luctus eget, egestas vel nulla. In suscipit blandit nulla, eu tristique nisi. Mauris purus ex, malesuada non rutrum dignissim, ultricies non metus._
+
+| *Return*
+| _Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget congue eros, sed pulvinar libero. Etiam tempor elementum mollis. Duis sodales tristique erat quis molestie. Etiam non turpis interdum, elementum eros sed, consectetur nibh. Praesent iaculis erat massa, eget commodo dolor porta nec. Cras nulla justo, dictum nec luctus eget, egestas vel nulla. In suscipit blandit nulla, eu tristique nisi. Mauris purus ex, malesuada non rutrum dignissim, ultricies non metus._
+
+| *Anticipated business impact*
+| _Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget congue eros, sed pulvinar libero. Etiam tempor elementum mollis. Duis sodales tristique erat quis molestie. Etiam non turpis interdum, elementum eros sed, consectetur nibh. Praesent iaculis erat massa, eget commodo dolor porta nec. Cras nulla justo, dictum nec luctus eget, egestas vel nulla. In suscipit blandit nulla, eu tristique nisi. Mauris purus ex, malesuada non rutrum dignissim, ultricies non metus._
+
+2+| *Delivery and Analysis*
+
+| *Sponsors*
+| _Lorem ipsum_
+
+| *Epic owner*
+| _Lorem ipsum_
+
+| *Funnel entry date*
+| _01/01/2020_
+
+| *In/out-house*
+| _In-house_
+
+| *Incremental implementation strategy*
+| _Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget congue eros, sed pulvinar libero. Etiam tempor elementum mollis. Duis sodales tristique erat quis molestie. Etiam non turpis interdum, elementum eros sed, consectetur nibh. Praesent iaculis erat massa, eget commodo dolor porta nec. Cras nulla justo, dictum nec luctus eget, egestas vel nulla. In suscipit blandit nulla, eu tristique nisi. Mauris purus ex, malesuada non rutrum dignissim, ultricies non metus._
+
+| *Sequence and dependencies*
+| _Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eget congue eros, sed pulvinar libero. Etiam tempor elementum mollis. Duis sodales tristique erat quis molestie. Etiam non turpis interdum, elementum eros sed, consectetur nibh. Praesent iaculis erat massa, eget commodo dolor porta nec. Cras nulla justo, dictum nec luctus eget, egestas vel nulla. In suscipit blandit nulla, eu tristique nisi. Mauris purus ex, malesuada non rutrum dignissim, ultricies non metus._
+
+| *Milestones or checkpoints*
+| _Lorem ipsum_
+
+| *Other notes and comments*
+| _Lorem ipsum_
+
+2+| *Approval*
+
+| *Go or no-go*
+| _Go_
+
+|===
