@@ -45,7 +45,7 @@ To read this book, see [book.asciidoc](https://github.com/BenGWeeks/T-Minus-15/b
 + Chapter 9: [Happy customers](https://github.com/BenGWeeks/T-Minus-15/blob/main/HappyCustomers.asciidoc)
 + Chapter 10: [15-steps to success](https://github.com/BenGWeeks/T-Minus-15/blob/main/15StepsToSuccess.asciidoc)
 + Appendix 1: [Epic metadata](https://github.com/BenGWeeks/T-Minus-15/blob/main/EpicMetadata.asciidoc)
-+ Appendix 2: Feature metadata
++ Appendix 2: [Feature metadata](https://github.com/BenGWeeks/T-Minus-15/blob/main/FeatureMetadata.asciidoc)
 + Appendix 3: User Story metadata
 + Appendix 4: Task metadata
 + Appendix 5: Bug metadata
