@@ -142,6 +142,12 @@ The anticipated business impact of SpaceX getting a rocket to Mars could include
 
 2+| *Delivery and Analysis*
 
+| *Funnel entry date*
+| 01/01/2020
+
+| *In/out-house*
+| In-house
+
 | *Sponsors*
 a| 
 
@@ -155,12 +161,6 @@ The project sponsors/stakeholders in a SpaceX mission to Mars could include:
 - Astronauts and other personnel involved in the mission, who will play a crucial role in its success.
 
 It's worth noting that the project sponsors/stakeholders for a Mars mission could change over time as the mission evolves, and new opportunities and challenges emerge. Effective stakeholder management will be critical to the success of the mission, as it will ensure that all stakeholders are aligned on goals, objectives, and expectations.
-
-| *Funnel entry date*
-| _01/01/2020_
-
-| *In/out-house*
-| _In-house_
 
 | *Incremental implementation strategy*
 a|
