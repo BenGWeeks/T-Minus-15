@@ -1,0 +1,23 @@
+== Happy Customers
+
+Customer satisfaction is key when it comes to delivering solutions. It's all about making the customer happy, because happy customers are the ones who will stick around and keep coming back for more. They'll tell their friends about you, leaving you with great word-of-mouth advertising. And who doesn't want that? But, when customers aren't satisfied, it's a whole different story. They'll take their business elsewhere, leaving bad reviews in their wake and potentially damaging your reputation. That's why it's super important to prioritize customer satisfaction when delivering solutions.
+
+So, how do you make sure your customers are happy? Involve them in the process! Get their input and feedback regularly. Use what they tell you to continuously improve the solution and make sure it's meeting their needs. When you focus on customer satisfaction, you're focusing on delivering a solution that not only meets their needs, but exceeds their expectations too. This is a win-win situation for everyone involved - the customer is happy and you're building a stronger relationship with them.
+
+It's worth noting that customer satisfaction doesn't just happen overnight. It takes time and effort to build trust and establish a relationship with your customers. But when you put in the work, the results can be truly amazing. So, next time you're delivering a solution, remember to keep the customer front and center. Make their satisfaction your number one priority and watch as your business grows and thrives.
+
+=== Collecting feedback
+
+
+
+=== Supporting the solution
+
+Once Epics are delivered and operational, you need to consider how these are support after the completion of the Epic. All functionality should be supported and as such an adoption strategy considered that includes supporting the solution.
+
+We suggest a time and material basis so that smaller features that are less than a designated percentage of the total monthly budget can be allocated to be engineered under a time and material basis support contract. This has an added advantage that the solution doesn’t “stale” and can be refreshed and updated alongside straight bug fixing.
+
+A time and material basis results in less discussion over “is it in scope” and a mentality of “getting it fixed” as well as allowing for ad hoc training requests.
+
+Ideally the team that deliver the solution, are the same set of people who also support the solution, whilst continuing to develop and enhance the solution for the duration of it's lifetime.
+
+If the delivery team are a consultancy for example, that move on to different projects, then having Operational Engineers involved in the delivery of the solution means that as a team we are also in a better solution to support the solution post project completion. In addition, Developer Engineers could also rotate to cover the support function to provide required specialist advice where needed. This keeps them informed of the kinds of support requests that are raised for the solutions they build, as well as providing the support function with deep knowledge of the solutions that are provided.
