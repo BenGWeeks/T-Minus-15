@@ -1,0 +1,36 @@
+== Task metadata
+
+.Example Task metadata (with assistance from ChatGPT)
+[width=80%]
+|===
+2+| TASK
+
+2+| *General*
+
+| *Title*
+| Integrate the life support system with the rest of the rocket
+
+| *State*
+| In-Progress
+
+| *Task type*
+| Engineering
+
+| *Owner*
+| Mike Chaffee
+
+| *Area*
+| SpaceX > Exploration > Mars
+
+| *Iteration*
+| Sprint 4
+
+2+| *Details*
+
+| Effort
+| 1
+
+| Description
+a| 
+
+Integrating the life support system with the rest of the rocket involves ensuring that all components of the system, including air circulation, oxygen generation, carbon dioxide removal, and temperature control, are seamlessly connected to the main systems of the rocket and function together efficiently and effectively. This is critical to providing a safe and healthy atmosphere for crew members during the journey to Mars.
