@@ -25,6 +25,23 @@
 | *Iteration*
 | Sprint 4
 
+2+| *Effort*
+
+| Prep
+| 5
+
+| Design
+| 5
+
+| Engineer
+| 20
+
+| Test
+| 5
+
+| Plan
+| 5
+
 2+| *Details*
 
 | Persona(s)
