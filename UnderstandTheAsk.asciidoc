@@ -1,3 +1,37 @@
 == Understand the ask
 
-**_To be completed_**
+OK, first up, let's dive into the importance of getting a handle on what the client (whether internal or external) is expecting to be delivered as part of a project. If you don't understand the requirements, you're setting yourself up for a bumpy ride - so we best get this right!
+
+=== The importance of clarity
+
+It's important to ensure we're all on the same page to:
+
+- *Prevent miscommunication*: One of the biggest challenges in any project is miscommunication. When you understand the requirements clearly, you can avoid misunderstandings and ensure that everyone is on the same page. This leads to a smoother project flow and reduces the risk of costly mistakes.
+- *Improve outcome*: Understanding client requirements is critical to delivering a product that meets their expectations. If you don't understand the requirements, you may end up building something that is not aligned with the client's goals and objectives, resulting in dissatisfaction and a negative impact on your reputation.
+- *Save time and resources*: Understanding requirements helps to avoid confusion and rework. If you are clear on what the client wants, you can get right to work on delivering it, instead of wasting time and resources on things that aren't necessary.
+
+=== Getting the lowdown
+
+In order to understand the clients requirements fully, don't be afraid to ask the client for more information. It's always better to clarify requirements upfront than to assume and risk making a mistake. The ability to keep asking questions until you fully understand the requirement is an important skill (and something we talk about later in hiring team members).
+
+In order to keep on track with (sometimes changing) client requirements, it's important to work as a team with the client (stakeholders). They are an important member of the team and help ensure everyone is on the same page. This can include regular check-ins and status updates to ensure that requirements are being met and everyone is aligned.
+
+Build a backlog: A backlog is a prioritized list of requirements that should always reflect your current understanding of what the client wants. It's important to keep the backlog up-to-date, so everyone involved has access to the same information.
+
+Get visual: If possible (and applicable) create UX/UI wireframes and walk-throughs from which revisions of requirements can be given. The more senior the stakeholder - the more they like a pretty picture! However, using UX/UI tools is a greeat way to iterate quickly before even writing a line of code.
+
+=== Personas
+
+Personas are a powerful tool in understanding client requirements. A persona is a [fictional] character that represents the client's target audience and helps you to understand their needs, goals, and motivations. Creating personas allows you to empathize with the client's target audience and design a product that meets their needs. By understanding who the product is for, you can better understand the requirements that are most important to the client and prioritize accordingly. Personas are also a useful tool for keeping the team aligned and focused on the client's goals and objectives. In short, creating personas can help you to better understand the client's requirements, prioritize your efforts, and deliver a product that exceeds their expectations.
+
+=== So, what does the client want?
+
+We can categorize client requirements into these broad areas:
+
+- *Business goals*: Understanding the client's business goals, objectives, and processes is critical to delivering a product that meets their needs. This can include understanding their target audience, their pain points, and what they hope to achieve with the product.
+- *Features*: These are the specific functions (or group of requirements) that the product should do. It's important to prioritize these features.
+- *Non-functional requirements*: This includes requirements like performance, scalability, and security, which define the overall quality of the product.
+
+Enter MoSCoW: MoSCoW is a prioritization technique that categorizes requirements as Must Have, Should Have, Could Have, and Won't Have. This helps to prioritize what's most important to the client and focus on delivering the most essential requirements first. The MoSCoW method ensures that you focus on delivering what's most important to the client, so you can keep them happy and deliver a product that meets their needs.
+
+In conclusion, understanding client requirements is critical to delivering a successful project. By asking questions, working as a team, building a backlog, using MoSCoW to prioritize, and being aware of the different types of requirements, you can ensure that you deliver a product that meets the client's expectations and exceeds their needs. Remember, happy clients lead to more business and a better reputation, so make sure you understand their requirements and prioritize them accordingly.
