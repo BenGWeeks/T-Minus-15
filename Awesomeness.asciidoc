@@ -30,7 +30,7 @@ Static code analysis is where the code of a solution is analysed without it havi
 
 To speed up the repeatable nature of testing to help improve the cadence of release, where possible we should leverage the use of automated test tools such as Selenium Web Driver .
 
-=== Security asessment & compliance
+=== Security assessment & compliance
 
 Consider security during the security and compliance using automated tools such as Microsoft Security Code Analysis , Secure DevOps Kit for Azure  and SME reviews. Best to find out early with regards to security issues prior to hitting production!
 
