@@ -140,7 +140,7 @@ The anticipated business impact of SpaceX getting a rocket to Mars could include
 
 > Note: Actual impact will depend on success of mission, demand for interplanetary services, and ability to monetize investments.
 
-2+| *Delivery and Analysis*
+2+| *Delivery Strategy*
 
 | *Funnel entry date*
 | 01/01/2020
