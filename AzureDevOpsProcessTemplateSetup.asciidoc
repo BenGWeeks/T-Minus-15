@@ -1,0 +1,353 @@
+== Appendix: Azure DevOps Process Template Setup
+
+To setup an Azure DevOps process template that is configured to work with T-Minus-15, navigate to Organisation Settings > Process and then "All processes".
+
+Under "…" for "Agile (Default)" click on "Create inherited process".
+
+  . Name: T-Minus-15
+  . Description: This process template supports the T-Minus-15 methodology as outlined at https://github.com/BenGWeeks/T-Minus-15
+
+=== Extensions
+
+Install the following extension:
+
+	. Personas
+	. [Optional] Harvest Time Tracker
+
+=== Epic
+
+For the Epic, perform the following steps on the Details page:
+
+	. Edit the Description field,
+		.. Rename the Layout > Label from "Description" to "Objective".
+		.. Change Options > Required to True.
+	. Create a new field "Technical Solution", with:
+		.. Definition > Name: Technical Solution
+		.. Definition > Type: Text (multiple lines)
+		.. Definition > Description: Outline what technologies will be used to deliver the solution.
+		.. Layout > Label: Technical Solution
+		.. Page: Details
+		.. Group (new): Technical Solution
+		.. Column: Left
+	. Create a new field "Licensing, Permissions and Accounts", with:
+		.. Definition > Name: Licensing Accounts
+		.. Definition > Type: Text (multiple lines)
+		.. Definition > Description: Provide requirements and guidance around licensing (including costs), service accounts and access/permissions needed.
+		.. Options> Default value: <i>Outline what licenses and permissions the accounts will need to access the system, as well as licensing and permissions for any accounts that we need to deliver the solution.</i>
+		.. Layout > Label: Licensing, Permissions and Accounts
+		.. Layout > Group: Licensing, Permissions and Accounts
+		.. Layout > Column: Left
+	. Edit the "Effort" field,
+		. Rename the Layout > Label from "Effort" to "Engineering Effort (Days)"
+		. Change the Definition > Description from "The estimated effort to implemented the epic" to "The estimated engineering effort to implemented the epic"
+	. Create a new field "Prep Effort (Days)"
+		.. Definition > Name: Prep Effort
+		.. Definition > Type: Decimal
+		.. Definition > Description: The estimated prep effort to implemented the epic
+		.. Layout > Label: Prep Effort (Days)
+		.. Layout > Group: Planning
+	. Create a new field "Design Effort (Days)"
+		.. Definition > Name: Design Effort
+		.. Definition > Type: Decimal
+		.. Definition > Description: The estimated design effort to implemented the epic
+		.. Layout > Label: Design Effort (Days)
+		.. Layout > Group: Planning
+	. Create a new field "Test Effort (Days)"
+		.. Definition > Name: Test Effort
+		.. Definition > Type: Decimal
+		.. Definition > Description: The estimated test effort to implemented the epic
+		.. Layout > Label: Test Effort (Days)
+		.. Layout > Group: Planning
+	. Create a new field "Planning Effort (Days)"
+		.. Definition > Name: Test Effort
+		.. Definition > Type: Decimal
+		.. Definition > Description: The estimated planning effort to implemented the epic
+		.. Layout > Label: Test Effort (Days)
+		.. Layout > Group: Planning
+	. Create a new field "Operate Effort (Days)"
+		.. Definition > Name: Operate Effort
+		.. Definition > Type: Decimal
+		.. Definition > Description: The estimated operate effort to implemented the epic
+		.. Layout > Label: Operate Effort (Days)
+		.. Layout > Group: Planning
+	. Create a new field "Contingency (%)"
+		.. Definition > Name: Contingency
+		.. Definition > Type: Picklist (integer)
+		.. Definition > Description: The contingency varies based on clarity and risk associated with the estimated effort for projects.
+	  .. Definition > Picklist items: 30, 25, 20, 15, 10, 5, 0 (add in this order)
+		.. Layout > Label: Contingency (%)
+		.. Layout > Group: Planning
+	. [Optional] Create a PO Status (%)
+	. [Optional] PO Days (excluding contingency and operate)
+	. [Optional] PO Days (including contingency but excluding operate)
+	. [Optional] Order Value (€) (including contingency but excluding operate)
+	. [Optional] Discount Value (€)
+	. Create a new field "Client"
+		.. Definition > Name: Client
+		.. Definition > Type: Text (single line)
+		.. Definition > Description: Provide the client whom we are supplying this solution to.
+		.. Layout > Group: Classification
+	. Create a new field "Project Type"
+		.. Definition > Name: Project Type
+		.. Definition > Type: Picklist (string)
+		.. Definition > Description: Specify the type of project.
+		.. Definition > Picklist items: Workshop, Tender, Project, MSA, Consultancy
+	. Create a new field "Proposal/MSA Link"
+		.. Definition > Name: Proposal or MSA Link
+		.. Definition > Type: Text (single line)
+		.. Layout > Label: Proposal/MSA Link
+		.. Layout > Group: Classification
+	. Create a new field "Scrum Master"
+		.. Definition > Name: Scrum Master
+		.. Definition > Type: Identity
+		.. Definition > Description: Specific who will be the scrum master
+		.. Layout > Group: Classification
+	. [Optional] Account Manager
+	. [Optional] Customer Success Manager
+	. Create a new field "Product Owner"
+		.. Definition > Name: Product Owner
+		.. Definition > Type: Text (single line)
+		.. Definition > Description: Specific who will be the product owner
+		.. Layout > Label: Product Owner (Email)
+		.. Layout > Group: Classification
+	. [Optional] Order Number
+	. [Optional] Strategic Theme
+	. Hide Planning > Priority
+	. Hide Planning > Risk
+	. Hide Planning > Business Value
+	. Hide Planning > Time Criticality
+
+For the Epic, we need to populate a new "Epic Hypothesis" page:
+
+	. Create a new page called "Epic Hypothesis".
+	. Create a new field "Value Statement"
+		.. Definition > Name: Value Statement
+		.. Definition > Type: Text (multiple lines)
+		.. Definition > Description: Outline the benefits of this Epic
+		.. Layout > Label: Value Statement
+		.. Layout > Group (new): Value Statement
+		.. Layout > Column: Left
+	. Create a new field "Business Outcome Hypothesis"
+		.. Definition > Name: Business Outcome Hypothesis
+		.. Definition > Type: Text (multiple lines)
+		.. Definition > Description: Outline the hypothetical outcome to the business of this Epic
+		.. Layout > Label: Business Outcome Hypothesis
+		.. Layout > Group (new): Business Outcome Hypothesis
+		.. Layout > Column: Left
+	. Create a new field "Non-Functional Requirements (NFRs)"
+		.. Definition > Name: Non Functional Requirements
+		.. Definition > Type: Text (multiple lines)
+		.. Definition > Description: Outline the NFRs for this Epic
+		.. Layout > Label: Non-Functional Requirements (NFRs)
+		.. Layout > Group (new): Details
+		.. Layout > Column: Left
+	
+For the Epic, we need to populate a new "Analysis" page:
+
+	. Create a new page called "Epic Hypothesis".
+	. Create a new field "Users and Markets Affected"
+		.. Definition > Name: Users and Markets Affected
+		.. Definition > Type: Text (multiple lines)
+		.. Definition > Description: Outline the users and markets affected by this Epic
+		.. Layout > Label: Users and Markets Affected
+		.. Layout > Group (new): Users and Markets Affected
+		.. Layout > Column: Left
+	. Create a new field "Impact Products, Programs and Services"
+		.. Definition > Name: Impact Products Programs and Services
+		.. Definition > Type: Text (multiple lines)
+		.. Definition > Description: Outline the products, programs or services impacted by this Epic
+		.. Layout > Label: Impact Products, Programs and Services
+		.. Layout > Group (new): Impact Products, Programs and Services
+		.. Layout > Column: Left
+	. Create a new field "Analysis Summary"
+		.. Definition > Name: Analysis Summary
+		.. Definition > Type: Text (multiple lines)
+		.. Definition > Description: Provide a summary analysis of the Epic
+		.. Layout > Label: Analysis Summary
+		.. Layout > Group (new): Analysis Summary
+		.. Layout > Column: Left
+	. Create a new field "Return"
+		.. Definition > Name: Return
+		.. Definition > Type: Text (multiple lines)
+		.. Definition > Description: Provide a financial (or otherwise) return of the Epic
+		.. Layout > Label: Return
+		.. Layout > Group (new): Return
+		.. Layout > Column: Left
+	. Create a new field "Anticipated Business Impact"
+		.. Definition > Name: Anticipated Business Impact
+		.. Definition > Type: Text (multiple lines)
+		.. Definition > Description: Outline the anticipated business impact of this solution
+		.. Layout > Label: Anticipated Business Impact
+		.. Layout > Group (new): Anticipated Business Impact
+		.. Layout > Column: Left
+	
+For the Epic, we need to populate a new "Delivery Strategy" page:
+
+	. Create a new page called "Delivery Strategy".
+	. Create a new field "Sponsors"
+		.. Definition > Name: Sponsors
+		.. Definition > Type: Text (multiple lines)
+		.. Definition > Description: Identify who the sponsors are for this Epic
+		.. Definition > Default value: TBC
+		.. Layout > Label: Sponsors
+		.. Layout > Group (new): Sponsors
+		.. Layout > Column: Left
+	. Create a new field "Incremental Implementation Strategy"
+		.. Definition > Name: Incremental Implementation Strategy
+		.. Definition > Type: Text (multiple lines)
+		.. Definition > Description: Identify how this Epic will be delivered incrementally
+		.. Definition > Default value: TBC
+		.. Layout > Label: Sponsors
+		.. Layout > Group (new): Sponsors
+		.. Layout > Column: Left
+	. Create a new field "Sequence and Dependencies"
+		.. Definition > Name: Sequence and Dependencies
+		.. Definition > Type: Text (multiple lines)
+		.. Definition > Description: Identify the sequence and dependencies for delivering this Epic
+		.. Definition > Default value: TBC
+		.. Layout > Label: Sponsors
+		.. Layout > Group (new): Sponsors
+		.. Layout > Column: Left
+	. Create a new field "Milestones or Checkpoints"
+		.. Definition > Name: Milestones or Checkpoints
+		.. Definition > Type: Text (multiple lines)
+		.. Definition > Description: Identify the milestones or checkpoints for delivering this Epic
+		.. Definition > Default value: TBC
+		.. Layout > Label: Sponsors
+		.. Layout > Group (new): Sponsors
+		.. Layout > Column: Left
+	. Create a new field "Other Notes and Comments"
+		.. Definition > Name: Milestones or Checkpoints
+		.. Definition > Type: Text (multiple lines)
+		.. Definition > Description: Provide any other relevant notes or comments regarding this Epic
+		.. Definition > Default value: TBC
+		.. Layout > Label: Sponsors
+		.. Layout > Group (new): Sponsors
+		.. Layout > Column: Left
+	. Create a new field "Go or No-Go"
+		.. Definition > Name: Go or no go
+		.. Definition > Type: Picklist (string)
+		.. Definition > Picklist items: No-Go, Go
+		.. Definition > Description: Specify if this project is to go ahead, and scheduled in the Epic plan
+		.. Layout > Label: Go or No-Go
+		.. Layout > Group (new): Approval
+		.. Layout > Column: Middle
+	. Create a new field "Approved By"
+		.. Definition > Name: Approved By
+		.. Definition > Type: Identity
+		.. Definition > Picklist items: No-Go, Go
+		.. Definition > Description:  Track who approved the go/no-go state for this Epic
+		.. Layout > Label: Go or No-Go
+		.. Layout > Group (new): Approval
+	. Create a new field "Approved Date"
+		.. Definition > Name: Approved Date
+		.. Definition > Type: Date/Time
+		.. Definition > Picklist items: No-Go, Go
+		.. Definition > Description:  Track the approval date for the go/no-go state for this Epic
+		.. Layout > Label: Go or No-Go
+		.. Layout > Group (new): Approval
+	
+For the Epic, we need to populate a new "Resourcing" page.
+
+	*_Instructions to be completed._*
+	
+For an Epic we need to create the following States (as specified by the SAFe Framework):
+	
+	. Create a new state of Name: Funnel, State category: Proposed, Color: 1st from bottom grey (1st column)
+	. Create a new State of Name: Reviewing, State category: Proposed, Color: 2nd from bottom grey (1st column)
+	. Create a new State of Name: Analyzing, State category: Proposed, Color: 3rd from bottom grey (1st column)
+	. Create a new State of Name: Pending, State category: Proposed, Color: 4th from bottom grey (1st column)
+	. Create a new State of Name: Portfolio backlog, State category: Proposed, Color: 5th from bottom grey (1st column)
+	. Hide "Active"
+	. Hide "Resolved"
+	. Create a new State of Name: Implementing, State category: In Progress, Color: 3nd from bottom blue (2nd column)
+	. Create a new State of Name: On-hold, State category: In Progress, Color: Top orange (7th column)
+	. Create a new State of Name: Done, State category: Resolved, Color: Top green (5th column)
+	. Create a new State of Name: Cancelled, State category: Removed, Color: White
+
+For an Epic we need to create the following Rules:
+
+	*_Instructions to be completed_*
+	
+=== Feature
+
+For the Feature, perform the following steps on the Details tab:
+
+	. Add the existing field of "Prep Effort",
+		.. Definition > Use an existing field: Prep Effort
+		.. Layout > Label: Prep Effort (Days)
+		.. Layout > Select existing group: Planning
+	. Add the existing field of "Prep Effort",
+		.. Definition > Use an existing field: Prep Effort
+		.. Layout > Label: Prep Effort (Days)
+		.. Layout > Select existing group: Planning
+	. Add the existing field of "Design Effort",
+		.. Definition > Use an existing field: Design Effort
+		.. Layout > Label: Design Effort (Days)
+		.. Layout > Select existing group: Planning
+	. Ensure "Effort" is labelled as "Engineering Effort (Days)"
+	. Add the existing field of "Test Effort",
+		.. Definition > Use an existing field: Test Effort
+		.. Layout > Label: Test Effort (Days)
+		.. Layout > Select existing group: Planning
+	. Add the existing field of "Planning Effort",
+		.. Definition > Use an existing field: Planning Effort
+		.. Layout > Label: Planning Effort (Days)
+		.. Layout > Select existing group: Planning
+	. Add the existing field of "Operate Effort",
+		.. Definition > Use an existing field: Planning Effort
+		.. Layout > Label: Planning Effort (Days)
+		.. Layout > Select existing group: Planning
+	. Create a new field of "MoSCoW",
+		.. Definition > Name: MoSCoW
+		.. Definition > Type: Picklist (string)
+		.. Definition > Description: Help prioritize this Feature for delivery by the Team.
+		.. Definition > Picklist items: Wont Have, Could Have, Should Have, Must Have
+		.. Layout > Label: MoSCoW
+		.. Layout > Group: Classification
+	. Create a new field of "Value Area",
+		.. Definition > Name: Value Area
+		.. Definition > Type: Picklist (string)
+		.. Definition > Description: Business = Services provided by the system to fulfill stakeholder needs; Architectural = Technical system services to implement business features that deliver solution value
+		.. Definition > Picklist items: Architectural, Business
+		.. Options > Required: True
+		.. Options > Default value: Business
+		.. Layout > Label: MoSCoW
+		.. Layout > Group: Classification
+	. Hide "Personas affected" extension
+	. Hide "Log time in Harvest" extension
+	. Hide "Priority"
+	. Hide "Risk"
+	. Hide "Business Value"
+	. Hide "Time Criticality"
+
+Create the following states:
+
+	. Create a new state of Name: Prep, State category: Proposed, Color: 1st from bottom grey (2nd column)
+	. Create a new state of Name: Design, State category: Proposed, Color: 2nd from bottom blue (2nd column)
+	. Create a new state of Name: Engineer, State category: Proposed, Color: 3rd from bottom blue (2nd column)
+	. Create a new state of Name: Test, State category: Proposed, Color: 4th from bottom blue (2nd column)
+	. Create a new state of Name: Operate, State category: Proposed, Color: top green (5th column)
+	
+=== Issues
+
+	*_Instructions to be completed_*
+
+Mitigation (existing)
+
+=== Questions
+
+	*_Instructions to be completed_*
+
+=== User Story
+
+	*_Instructions to be completed_*
+
+=== Tasks
+
+	. Hide "Priority"
+	. Create a new field of "Activity",
+		.. *_TBC_*
+	. Create a new field of "Resolution",
+		.. Definition > Use an existing field > Field: Resolution
+    .. Layout > Group: Resolution
