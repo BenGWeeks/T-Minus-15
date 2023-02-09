@@ -16,7 +16,7 @@ To suggest changes, please submit a pull request. The format of this book uses [
 
 If you submit a pull request, please feel free to add your details to the [Thanks](https://github.com/BenGWeeks/T-Minus-15/blob/main/Thanks.asciidoc) section.
 
-If you submit in the region of 100-200 pull requests (dependent on size of the pull request and that includes new content and insight), you have the option to become a co-[author](https://github.com/BenGWeeks/TheBitcoinPlaybook/blob/main/AboutTheAuthors.asciidoc).
+If you submit in the region of 25+ pull requests (dependent on size of the pull request and that includes new content and insight), you have the option to become a co-[author](https://github.com/BenGWeeks/TheBitcoinPlaybook/blob/main/AboutTheAuthors.asciidoc).
 
 Sponsors of the project will be added to the [Sponsors](https://github.com/BenGWeeks/TheBitcoinPlaybook/blob/main/Introduction.asciidoc) page (see link above to become a sponsor of the project).
 
