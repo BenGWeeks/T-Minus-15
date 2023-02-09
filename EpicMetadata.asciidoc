@@ -223,4 +223,10 @@ In addition, the following should be taken into consideration for the mission to
 | *Go or no-go*
 | Go
 
+| *Approved by*
+| Elon Musk
+
+| *Approved date*
+| 1st January 2025
+
 |===
