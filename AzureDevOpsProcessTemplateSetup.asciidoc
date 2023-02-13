@@ -302,7 +302,7 @@ For the Feature, perform the following steps on the Details tab:
 		.. Definition > Name: MoSCoW
 		.. Definition > Type: Picklist (string)
 		.. Definition > Description: Help prioritize this Feature for delivery by the Team.
-		.. Definition > Picklist items: Wont Have, Could Have, Should Have, Must Have
+		.. Definition > Picklist items: Won't Have, Could Have, Should Have, Must Have
 		.. Layout > Label: MoSCoW
 		.. Layout > Group: Classification
 	. Create a new field of "Value Area",
