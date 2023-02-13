@@ -6,7 +6,7 @@ WIP Limits also help to reduce context switching, reduce waste, and increase tea
 
 In summary, we would much rather deliver 8 Features in a Sprint that are of high-value and high-quality than say 10 Features that are buggy and therefore of less value to the business.
 
-Decide what your own teams WIP limits should be. These can be a set value ore a multiple of the number of team members performing that role.
+Decide what your own teams WIP limits should be. These can be a set value or a multiple of the number of team members performing that role.
 
 .Example team WIP limits
 |===
