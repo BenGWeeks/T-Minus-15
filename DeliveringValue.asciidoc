@@ -115,7 +115,7 @@ Ideas are where we log the draft Epics / Features / User Stories, etc. Ideas are
 
 ====	ENGINEERING
 This is where the output from our continuous integration is sent. Mainly, this is the first step for our build when a pull request is approved to the master branch.
-If you’re using an Azure environment, then you can create a development subscription . You can also set in place policies so that developers cannot provision the most expensive services.
+If you’re using an Azure environment, then you can create a development subscription. You can also set in place policies so that developers cannot provision the most expensive services.
 ====	TEST
 This is where a successful build is sent to for QA. These can be scheduled to deploy a successful build to Test on say a Monday am, Wednesday am and Friday am for example as well as “on demand” (for example, something is ready for the QA to test on a Tuesday and there is no sense waiting to a Wednesday). The QA environment is where the Test Pilot will be doing their runs and the team will demo the release in the checkpoint meeting.
 ====	OPERATIONS
