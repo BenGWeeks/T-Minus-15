@@ -14,6 +14,6 @@ It comes from iterative improvements to a process over the last 20 years of bein
 
 Where does the name “T-Minus-15” name come from? The analogy made in this process is the launching of rockets. Not a big-bang launch, but continual launches made at the end of each sprint. Apparently in the rocket world, days before a launch are referred to as “L-Minus”, but I figure most people are not aware of this, so we’ll go with “T-Minus”. With regards to “15”, this is the proposed cadence of 15 working days per sprint. So, there we have it: T-Minus-15.
 
-This isn’t just theoretical; we practice what we preach and use this methodology internally on development projects. Having a defined process allows us to share this knowledge with newcomers and existing team members alike. It also allows us to share our process with our customers, so they are aware of their responsibilities within this process – after all they are an important member of the team as you will find out.
+This isn’t just theoretical; we practice what we preach and use this methodology internally on development projects. Having a defined process allows us to share this knowledge with newcomers and existing team members alike. It also allows us to share our process with our customers, so they are aware of their responsibilities within this process – after all they are an important members of the team as you will find out.
 
 In a similar vain to the iterative nature of the software delivery process outlined in this book, the book itself will therefore have subsequent versions – currently v1.950.
