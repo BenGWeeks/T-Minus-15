@@ -19,3 +19,134 @@ Frequency: Monthly
 Attendees: Stakeholders
 
 Agenda: A monthly meeting will be held for the solution to cover aspects such as outlined in the Reports section.
+
+=== Kick off Meeting
+====	Overview
+Length: 1 hour
+Frequency: once, before the Sprint 1 starts
+Attendees: stakeholders, Team.
+Objective: to align on the Project. 
+
+====	Meeting Agenda
+•	introduce Team members from each side describing roles and responsibilities
+•	align on the Project goal
+•	agree on the tools for communication (i.e. Team Channel). Define tenant to be used for communication. 
+•	Provisioning Strategy (which accounts will be in use)
+•	go through backlog and agree on scope (stakeholders need to understand what exactly we are planning to deliver).
+•	overview of how we run the Delivery Approach (showing Check Point dashboard). How we work with DevOps.
+•	set expectation on delivery dates (delivery plan to be presented)
+•	set expectation on budgets. If it is not T&M we need to set expectations that we are going to deliver Features A, B, C, but if you decide to add something during the course of the Project, we will estimate this change and substitute existing Features according to the priorities set by the client
+•	set expectations that not all the bugs will be fixed unless the budget is unlimited (to highlight that all software has bugs).
+Procedure: 
+•	we identify bugs&enhancements 
+•	log them into backlog to the Default Iteration
+•	run a dedicated session with the client to prioritize items
+all the critical must be fixed (Critical bug definition: this defect indicates a complete shut-down of the process or application and nothing can proceed further. An example of a critical defect is an application’s returning a server error message after a login attempt).
+•	we do our best to fix all major bugs, but can be restricted with capacity and/or budget (Major bug definition: Affects key functionality of an application or process and the application is clearly not behaving in line with the requirements. For example, an email provider does not allow adding more than one email address to the recipient field).
+•	Define procedure for the client to log items (i.e. in the test channel in Teams, 1 conversation per item, screenshot and step-by-step instruction is needed, set priority).
+•	Agree that the client will be involved in testing during the Project, not only in the end on the UAT session. Best practice is to get access to TEST and PROD on the early stages, build pipelines and start frequent deployments (to start even with the blank App.)
+•	inform the client about all the prerequisites we need from them (i.e. access to the environment, what is needed to build pipelines, test users).
+•	Agree on the schedule for meetings (Check Point mainly).
+•	Identify Risks from both sides.
+
+
+=== Sprint Planning Meeting 
+====	Overview
+Length: up to 4 hours
+Frequency: once, before the next Sprint starts (middle of the current Sprint).
+Attendees: Team.
+Objective: to estimate items for the next Sprint, get clarification with regards to what functionality is expected to be delivered. 
+====	Meeting Agenda
+•	BA presents backlog.
+•	Check if everything from the previous sprint is transferred.
+•	Prioritization and dependencies (from other Teams, from the Client etc.) 
+•	Team members discuss who will take responsibility for which User Stories, identifies which tasks need to be added and how much time it will take (might be done by playing Sprint Poker).
+•	Capacity planning.
+IMPORTANT! To set capacity around 70-75 % of the full assignment on the Project, which will help to mitigate risks that the person will get sick, get stuck with the tasks, ensure there is time for meetings, time spent for switching between tasks (normally eats 25 % of time).
+
+=== Daily Stand-ups 
+====	Overview
+Length: 15 minutes (2 minutes per person)
+Attendees: team members, ideally stakeholders (in order to unblock the Team if we have questions, so that we will not wait for a call to be scheduled or write mails).
+Objective: to provide update and current state
+====	Meeting Agenda
+•	what I worked on yesterday (have item numbers to hand)
+•	what I intend to work on today (propose items numbers)
+•	any blockers (highlight any items you are blocked on)
+•	check time sheet for the previous day.
+•	any news from Management.
+IMPORTANT! To identify blockers for the Team and for Scrum Master to unblock Team members as a priority. For Scrum Master to pay attention if the person is blocked and does not tell about the issue. 
+
+
+=== Weekly Check Point
+==== Overview
+Length: 1 hour
+Frequency: weekly 
+Attendees: stakeholders, Team.
+Objective: to review the progress of the Project.
+====	Meeting Agenda
+•	Project Management update
+•	Testing update
+•	Demo of the newly developed functionality
+•	Q&A
+====	Project Management Update in details
+=====	Overview
+We go through the Dashboard in DevOps (clients have access to it so can review whenever needed):
+ 
+1)	Name of the client and Solution
+2)	Customer Satisfaction Survey built in MS Forms. We ask to provide feedback on a weekly basis to see the tendency.
+3)	Reminder to record a call.
+4)	Section from where we can access backlogs, see user stories and task boards, queries created by the user.
+5)	Agenda for specific call.
+6)	Update the client where we are in the terms of the Sprint.
+7)	Amount of open bugs logged. If number is more than 10, the widget turns yellow. If more than 20, it turns red, we stop developments and concentrate on fixing bugs (this way we ensure high quality of the solution).
+8)	Amount of enhancements. 
+9)	Delivery Plan:
+It is important to outline here:
+•	Dates set as markers
+•	Sprints timelines
+•	Set expectations when and what is planned to be delivered
+•	Each feature (even enablers) needs to have an outcome and the result demoed on the CheckPoint (i.e. for 
+Enabler: Application Lifecycle Management – DevOps shows that pipeline is built and if needed how is built.
+Enabler: Test strategy – tester creates test strategy, presents it and agrees with the client
+Enabler: Personas – BA presents roles. Personas give us understanding about goals, and pain points of each type of user.
+Any Feature connected with development – ideally developer (or BA) presents functionality etc.
+
+From this board we can observe
+•	progress of each Feature (bar shows how many user stories are closed)
+•	who is responsible for Features
+•	state of Features
+ 
+10)	Burndown
+•	Grey line shows ideal trend
+•	Green line shows available capacity 
+•	Blue colour indicates amount of work taken into the Sprint.
+
+ 
+
+11)	Questions to the client (if the client comes to daily stand ups, we do not need to wait for 1 week to get clarifications)
+12)	Check Point Tasks (query with the tag “CheckPoint”) – task we need the client to perform on their side.
+13)	Risks – potential problems and ways to mitigate them on the early stages. We try to inform the client ASAP, which supports transparency and helps us to work on the mitigation together.
+14)	Issues (materialized risks).
+ 
+=====	Testing update
+To go through the board and show situation with the bugs and enhancements (applicable when testing has been started).
+Confirm Severity with the client.
+
+
+=== Sprint Retrospective
+==== Overview
+Length: 30 minutes (might be more if Sprints are longer than 3 weeks or we have a Team of more than 5 people).
+Frequency: last day of the Sprint
+Attendees: Team.
+Objective: reflect on the Sprint, gather opinions.
+=====	Meeting Agenda
+•	Familiarize Team with The Prime Directive (for new members or if it is the first retrospective)
+•	Team Assessment 
+•	Collect Good, Bad, Ideas
+•	Group Items
+•	Vote
+•	Act (create and assign tasks)
+IMPORTANT! To take actions and show the Team that they are heard and their opinion is taken into consideration.
+
+
