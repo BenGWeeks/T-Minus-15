@@ -38,7 +38,7 @@ Breathing a safe and healthy atmosphere is critical for the crew members of a ro
 | Acceptance Criteria
 a| 
 
-SCENERIO: On a trip to Mars
+SCENARIO: On a trip to Mars
 
 GIVEN the life support system is operational
 
