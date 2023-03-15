@@ -40,7 +40,7 @@ To read this book, see [book.asciidoc](https://github.com/BenGWeeks/T-Minus-15/b
 + Chapter 4: [So what about DevOps?](https://github.com/BenGWeeks/T-Minus-15/blob/main/SoWhatAboutDevOps.asciidoc)
 + Chapter 5: [The A-Team](https://github.com/BenGWeeks/T-Minus-15/blob/main/TheATeam.asciidoc)
 + Chapter 6: [In it together](https://github.com/BenGWeeks/T-Minus-15/blob/main/InItTogether.asciidoc)
-+ Chapter 7: [Awesomeness](https://github.com/BenGWeeks/T-Minus-15/blob/main/Awesomeness.asciidoc)
++ Chapter 7: [Raising the Bar: The Pursuit of Quality in Agile Projects](https://github.com/BenGWeeks/T-Minus-15/blob/main/RaisingTheBar.asciidoc)
 + Chapter 8: [Delivering value](https://github.com/BenGWeeks/T-Minus-15/blob/main/DeliveringValue.asciidoc)
 + Chapter 9: [Happy customers](https://github.com/BenGWeeks/T-Minus-15/blob/main/HappyCustomers.asciidoc)
 + Chapter 10: [15-steps to success](https://github.com/BenGWeeks/T-Minus-15/blob/main/15StepsToSuccess.asciidoc)
