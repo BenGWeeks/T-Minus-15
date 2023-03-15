@@ -1,6 +1,6 @@
 === Unleashing the A-Team: Building Highly Performing Cross-Functional Squads
 
-In general, we need to ensure we have coverage of the 5 main sections referred to in Error! Reference source not found., therefore, the project team should look like the following:
+In general, we need to ensure we have coverage of the 5 main stages in delivery (Prep > Design > Engineer > Test > Operate), therefore, the project team should look like the following:
 
 *	**Prepper**: This is the analyst who will liaise with the customer, populate the initial product backlog, and ideally be able be able to put together wireframes, information architecture, formulate the backlog in a typical project. They will also be hands on during the project delivery and help ensure the quality of the solution delivered that it matches the requirements.
 *	**Designer**: Dependent on the stage of the project, and type of project, you may need Solution Designers (Architects), UX/UI Designers, Data Designers (Architects/Scientists). It’s quite possible that in a smaller team the Solution Designer also has the skillset to act as the Prepper as well.
