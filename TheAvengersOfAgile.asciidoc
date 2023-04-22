@@ -86,3 +86,11 @@ Leverage collaboration tools that integrate with your toolchain. For Microsoft D
 Then invite your customer to participate within the Team! There is very little reason to need a private team chat for a project that a client is not privy too (Microsoft Teams now allows for private channels).
 
 If you still think you need a collaboration group (team) with the client not involved, then your demonstrating that you quite likely do not believe in what value you can offer to the client. Resolve this first. You should be confident that all in the team can communicate with the client – do not be the bottleneck.
+
+=== Positive Karma
+
+Positive karma is a concept that refers to the idea that good deeds and positive actions will bring about good things in return. In the context of team building, positive karma can be thought of as a way to build trust and respect among team members.
+
+In our team, we recognize others’ help and success by awarding karma points to each other. These points can be redeemed for hardware (screens, headsets, etc.) or days off, innovation days working on open source projects, or meals out with colleagues.
+
+We review these karma points every week in our team meeting to celebrate successes and recognize contributions. This system has helped us build a culture of collaboration and support that has made us more productive and effective.
