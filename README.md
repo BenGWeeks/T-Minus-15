@@ -38,7 +38,7 @@ To read this book, see [book.asciidoc](https://github.com/BenGWeeks/T-Minus-15/b
 + Chapter 2: [Crafting great user experiences](https://github.com/BenGWeeks/T-Minus-15/blob/main/CraftingGreatUserExperiences.asciidoc)
 + Chapter 3: [Let's get Agile!](https://github.com/BenGWeeks/T-Minus-15/blob/main/LetsGetAgile.asciidoc)
 + Chapter 4: [So what about DevOps?](https://github.com/BenGWeeks/T-Minus-15/blob/main/SoWhatAboutDevOps.asciidoc)
-+ Chapter 5: [Unleashing the A-Team: Building highly performing cross-functional squads](https://github.com/BenGWeeks/T-Minus-15/blob/main/TheATeam.asciidoc)
++ Chapter 5: [The Avengers of Agile: Assembling a Cross-Functional Squad That Delivers Results](https://github.com/BenGWeeks/T-Minus-15/blob/main/TheAvengersOfAgile.asciidoc)
 + Chapter 6: [Raising the Bar: The Pursuit of Quality in Agile Projects](https://github.com/BenGWeeks/T-Minus-15/blob/main/RaisingTheBar.asciidoc)
 + Chapter 7: [Delivering value](https://github.com/BenGWeeks/T-Minus-15/blob/main/DeliveringValue.asciidoc)
 + Chapter 8: [Happy customers](https://github.com/BenGWeeks/T-Minus-15/blob/main/HappyCustomers.asciidoc)
