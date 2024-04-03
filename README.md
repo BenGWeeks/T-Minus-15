@@ -4,7 +4,7 @@
 
 The T-Minus-15 Methodology gives specific implementation details for development teams that want to apply the principles of Agile (specifically Scrum) and DevOps.
 
-Whilst you can read about DevOps and Agile framework (at the time of writing, over 600 and 8,000 results respectively for books on these topics exist on Amazon), what an IT Manager and his team really want to know are specifics to hit the floor running. This includes knolwedge such as what roles you need in the team, how to create estimaters, what meetings are needed, the metadata for your work items, and other secrets from an Elite DevOps team.
+Whilst you can read about DevOps and Agile framework (at the time of writing, over 600 and 8,000 results respectively for books on these topics exist on Amazon), what an IT Manager and his team really want to know are specifics to hit the floor running. This includes knowledge such as what roles you need in the team, how to create estimates, what meetings are needed, the metadata for your work items, and other secrets from an Elite DevOps team.
 
 This book is specifically aimed at my team members and customers to know how we implement projects in order that they are successful. However, the book has now been made available for other teams to learn from.
 
