@@ -32,7 +32,7 @@
 
 *Frequency*: 
 
-*Attendees*: Squad Members, Stakeholders, Product Owner
+*Attendees*: Squad Members, Stakeholders, Product Owner, Account Manager
 
 === Epic Checkpoint
 
@@ -42,7 +42,7 @@
 
 *Frequency*: First day of Epic
 
-*Attendees*: Squad Members, Stakeholders, Product Owner
+*Attendees*: Squad Members, Stakeholders, Product Owner, Account Manager
 
 === Epic Closure
 
@@ -54,7 +54,7 @@
 
 *Frequency*: Last day of Epic
 
-*Attendees*: Squad Members, Stakeholders, Product Owner
+*Attendees*: Squad Members, Stakeholders, Product Owner, Account Manager
 
 === T-Plus Monthly Support Meetings
 
@@ -66,7 +66,7 @@
 
 *Frequency*: [Monthly/Quarterly]
 
-*Attendees*: Stakeholders
+*Attendees*: Operations Planner, Stakeholders, Account Manager
 
 === Mission Control
 
@@ -78,7 +78,7 @@
 
 *Frequency*: Monthly
 
-*Attendees*: Planners, Delivery Lead
+*Attendees*: Planners, Practice Lead
 
 === Squad 1-2-1's
 
@@ -102,4 +102,4 @@
 
 *Frequency*: Weekly
 
-*Attendees*: Practice Members
+*Attendees*: Practice Members, Practice Lead
