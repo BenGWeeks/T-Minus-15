@@ -1,21 +1,81 @@
 == Meetings
 
-=== Mission Control
+=== Daily Stand-ups
 
-Objective: 
+*Title*: Daily Stand-up for [Squad]
 
-Frequency: Monthly
+*Objective*: 
 
-Attendees: Scrum masters, Stakeholders
+*Agenda*: 
 
-Agenda: 
+*Frequency*: Daily
+
+*Attendees*: Squad members
+
+=== Epic Kick-off
+
+*Title*: Epic Kick-off for [Client]
+
+*Objective*: 
+
+*Frequency*: 
+
+*Attendees*: Squad Members, Stakeholders, Product Owner
+
+=== Epic Checkpoint
+
+*Title*: Epic Checkpoint for [Client]
+
+*Objective*: 
+
+*Frequency*: First day of Epic
+
+*Attendees*: Squad Members, Stakeholders, Product Owner
+
+=== Epic Closure
+
+*Title*: Epic Closure for [Client]
+
+*Objective*: 
+
+*Agenda*: A monthly meeting will be held for the solution to cover aspects such as outlined in the Reports section.
+
+*Frequency*: Last day of Epic
+
+*Attendees*: Squad Members, Stakeholders, Product Owner
 
 === T-Plus Monthly Support Meetings
 
-Objective: To ensure the continued success and adoption of the supplied solution(s)
+*Title*: T-Plus Monthly Support Meetings for [Client]
 
-Frequency: Monthly
+*Objective*: To ensure the continued success and adoption of the supplied solution(s)
 
-Attendees: Stakeholders
+*Agenda*: A monthly meeting will be held for the solution to cover aspects such as outlined in the Reports section.
 
-Agenda: A monthly meeting will be held for the solution to cover aspects such as outlined in the Reports section.
+*Frequency*: [Monthly/Quarterly]
+
+*Attendees*: Stakeholders
+
+=== Mission Control
+
+*Title*: Mission Control
+
+*Objective*: 
+
+*Agenda*: 
+
+*Frequency*: Monthly
+
+*Attendees*: Planners, Delivery Lead
+
+=== Weekly Round-Up
+
+*Title*: Weekly Round-Up
+
+*Objective*: 
+
+*Agenda*: 
+
+*Frequency*: Weekly
+
+*Attendees*: Practice Members
