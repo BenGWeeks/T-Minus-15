@@ -1,0 +1,39 @@
+== Appendix: Role Definition - Planner
+
+=== Role Overview
+
+The Planner, also known as the Scrum Master, is responsible for leading Agile teams to achieve their objectives by facilitating Scrum ceremonies, managing dependencies, and ensuring continuous improvement within the team.
+
+=== Responsibilities
+
+*Facilitate Scrum Ceremonies*: Organize and facilitate sprint planning, daily stand-ups, backlog refinement, sprint reviews, and retrospectives.
+
+*Team Support*: Assist the team in meeting their objectives by removing impediments and ensuring they have the necessary resources.
+
+*Stakeholder Liaison*: Liaise with customers and solution architects to understand requirements and propose relevant technical solutions.
+
+*Progress Tracking*: Provide visibility into team delivery plans and progress. Track project profitability and resource allocation.
+
+*Continuous Improvement*: Promote and coach the Agile mindset and principles, empowering the team to become self-managing and cross-functional.
+
+*Best Practices Definition*: Assist in defining and rolling out best practice ways of working to the teams.
+
+=== Skills and Knowledge
+
+*Experience*: 10+ years of IT experience with a strong software/technical background and proven experience in leading Agile/Scrum teams.
+
+*Stakeholder Management*: Experience in stakeholder management and customer liaison.
+
+*Agile Tools*: Proficiency in using Microsoft DevOps, especially backlog and process templates.
+
+*Certifications*: Certifications in Agile/Scrum delivery methodologies and SAFe (Scaled Agile Framework) are a bonus.
+
+=== Successful Candidate Attributes
+
+*Customer Focused*: Delivery and customer-focused with a flair for technology and challenging projects.
+
+*Team Player*: Enjoys working with multinational teams and liaising with multiple stakeholders.
+
+*Analytical and Detail-Oriented*: Strong analytical skills with excellent attention to detail.
+
+*Leadership*: Ability to lead and influence others, fostering a collaborative and productive team environment.
