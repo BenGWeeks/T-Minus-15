@@ -42,7 +42,7 @@ Delivering high-value solutions that are of high quality and at a high cadence i
 
 *High Cadence Delivery*: Maintain a steady pace of delivery, ensuring that increments are delivered regularly. This iterative approach allows for continuous feedback and improvement, ensuring the final product meets stakeholder expectations.
 
-=== Team Motivation and Morale
+=== Squad Motivation and Morale
 
 Keeping the team motivated and maintaining high morale is crucial for sustained productivity and project success. The Scrum Master plays a key role in fostering a positive team environment.
 
