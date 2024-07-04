@@ -68,6 +68,18 @@
 
 *Attendees*: Planners, Delivery Lead
 
+=== Squad 1-2-1's
+
+*Title*: 1-2-1 with [Squad Member]
+
+*Objective*: 
+
+*Agenda*: 
+
+*Frequency*: Weekly
+
+*Attendees*: Practice Member, Planner
+
 === Weekly Round-Up
 
 *Title*: Weekly Round-Up
