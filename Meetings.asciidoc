@@ -1,5 +1,17 @@
 == Meetings
 
+=== Decoding
+
+*Title*: Decoding [Epic Title]
+
+*Objective*: 
+
+*Agenda*: 
+
+*Frequency*: Daily
+
+*Attendees*: Prepper, Senior Engineer, Account Manager
+
 === Daily Stand-ups
 
 *Title*: Daily Stand-up for [Squad]
