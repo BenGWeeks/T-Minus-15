@@ -19,3 +19,17 @@ Frequency: Monthly
 Attendees: Stakeholders
 
 Agenda: A monthly meeting will be held for the solution to cover aspects such as outlined in the Reports section.
+
+=== Project Closure Meeting
+
+Objective: To ensure the project is completed according to the client's expectations, get feedback and hand over the project to the Support team.
+
+Frequency: after solution deployment to Production environment or else, that is specified as a project completion point (f.e getting customers' sign off on UAT environment if Production deployment requires additional phase).
+
+Attendees: All the project stakeholders
+
+Agenda: 
+  - Provide update on backlog, including revision of the Project Closure tasks
+  - Budget review and Project archive in Harvest
+  - Get feedback from the client and share with him the link to fill in the questionnaire 
+  - Introduce Support Scrum Master to the customer and get customer aquainted with the support process. 
