@@ -18,6 +18,8 @@ The Planner, also known as the Scrum Master, is responsible for leading Agile te
 
 *Best Practices Definition*: Assist in defining and rolling out best practice ways of working to the teams.
 
+*Automation Definition and Implementation*: Identify opportunities for automating repetitive tasks and processes to improve efficiency. Work with the team to define, create, and maintain these automations, ensuring they align with project goals and enhance productivity.
+
 === Skills and Knowledge
 
 *Experience*: 10+ years of IT experience with a strong software/technical background and proven experience in leading Agile/Scrum teams.
@@ -37,3 +39,37 @@ The Planner, also known as the Scrum Master, is responsible for leading Agile te
 *Analytical and Detail-Oriented*: Strong analytical skills with excellent attention to detail.
 
 *Leadership*: Ability to lead and influence others, fostering a collaborative and productive team environment.
+
+=== Automations
+
+Automations are essential for streamlining processes, reducing manual effort, and increasing efficiency within the team. Here are key automations that the Planner should help define and implement:
+
+1. **Project Initiation**
+   - *Team Site Creation*: Automatically create a team site when a new project is initiated.
+   - *Delivery Plan Setup*: Generate a delivery plan outlining milestones, tasks, and deadlines.
+
+2. **Daily Stand-ups**
+   - *Scheduling Stand-ups*: Automate the scheduling of daily stand-up meetings.
+
+3. **Timesheet Management**
+   - *Timesheet Submission Reminders*: Send automatic reminders to team members to submit their timesheets.
+   - *Timesheet Approval Workflow*: Implement a workflow for timesheet approvals and rejections at the end of the month.
+   - *Overdue Timesheet Notifications*: Notify team members and escalate overdue timesheets to the delivery manager and practice lead as required.
+
+4. **Billing Summaries**
+   - *Monthly Billing Reports*: Generate and distribute billing summaries to account managers on the 5th of each month.
+
+5. **Capacity Planning and Work-in-Progress (WIP) Limits**
+   - *WIP Limit Alerts*: Monitor and alert planners if Epics exceed WIP limits set for each state.
+
+6. **Project Updates and Summaries**
+   - *Automated Project Summaries*: Generate project summaries periodically or on-demand for stakeholders.
+
+7. **Daily Stand-up Reviews**
+   - *Progress Tracking*: Review daily stand-up reports to ensure tasks are progressing on track and identify any deviations.
+
+8. **Proposal Validation**
+   - *Proposal Review Workflows*: Set up workflows to ensure proposals are reviewed and validated efficiently.
+
+By implementing these automations, the Planner can significantly enhance the team's productivity, reduce manual errors, and ensure a smooth and efficient project management process.
+
