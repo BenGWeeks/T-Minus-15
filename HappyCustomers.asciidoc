@@ -12,7 +12,7 @@ It's worth noting that customer satisfaction doesn't just happen overnight. It t
 
 === Supporting the solution
 
-Once Epics are delivered and operational, you need to consider how these are support after the completion of the Epic. All functionality should be supported and as such an adoption strategy considered that includes supporting the solution.
+Once Epics are delivered and operational, you need to consider how these are supported after the completion of the Epic. All functionality should be supported and as such an adoption strategy considered that includes supporting the solution.
 
 We suggest a time and material basis so that smaller features that are less than a designated percentage of the total monthly budget can be allocated to be engineered under a time and material basis support contract. This has an added advantage that the solution doesn’t “stale” and can be refreshed and updated alongside straight bug fixing.
 
