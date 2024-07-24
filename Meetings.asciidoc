@@ -22,14 +22,16 @@ Agenda: A monthly meeting will be held for the solution to cover aspects such as
 
 === Project Closure Meeting
 
-Objective: To ensure the project is completed according to the client's expectations, get feedback and hand over the project to the Support team.
+Objective: To ensure the project is completed according to the client's expectations, get feedback and hand over the project to the Operations team.
 
-Frequency: after solution deployment to Production environment or else, that is specified as a project completion point (f.e getting customers' sign off on UAT environment if Production deployment requires additional phase).
+Frequency: Typically held on the last day of project (final Sprint), and after the solution has been deployment to Production.
 
 Attendees: All the project stakeholders
 
 Agenda: 
-  - Provide update on backlog, including revision of the Project Closure tasks
-  - Budget review and Project archive in Harvest
-  - Get feedback from the client and share with him the link to fill in the questionnaire 
-  - Introduce Support Scrum Master to the customer and get customer aquainted with the support process. 
+  - Provide update on the delivered Features
+  - Budget review
+  - Project archived in Harvest
+  - Client feedback (link to survey) 
+  - Introduce the Operations Manager
+  - Provide summary overview of the support process
