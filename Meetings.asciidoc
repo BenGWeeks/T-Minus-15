@@ -26,7 +26,7 @@ Objective: To ensure the project is completed according to the client's expectat
 
 Frequency: Typically held on the last day of project (final Sprint), and after the solution has been deployment to Production.
 
-Attendees: All the project stakeholders
+Attendees: Scrum masters, Operations Manager, Stakeholders
 
 Agenda: 
   - Provide update on the delivered Features
