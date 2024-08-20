@@ -6,7 +6,7 @@ Quality Assurance (QA) is more than just identifying bugs; it's about ensuring t
 
 === Shift-Left Testing: Early Integration of QA
 
-We begin with the concept of *Shift-Left Testing*—a proactive approach that incorporates testing at the earliest stages of the software development lifecycle. This approach aligns with modern Agile practices, promoting continuous collaboration between developers, testers, and stakeholders. Testing isn't something that waits until development is complete; instead, it begins with requirement gathering, where both functional and non-functional criteria are defined clearly.
+We begin with the concept of *Shift-Left Testing* — a proactive approach that incorporates testing at the earliest stages of the software development lifecycle. This approach aligns with modern Agile practices, promoting continuous collaboration between developers, testers, and stakeholders. Testing isn't something that waits until development is complete; instead, it begins with requirement gathering, where both functional and non-functional criteria are defined clearly.
 
 For this reason, the Test Pilot is an integral member of the team who will be writing test cases when the first line of code is being written.
 
