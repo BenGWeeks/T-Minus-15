@@ -1,6 +1,6 @@
 === Raising the Bar: The Pursuit of Quality in Agile Projects
 
-We want to ensure that what we deliver to our customers is something we can be proud of, it's not just good - it's awesome! We therefore need to ensure that each-and-every Story is therefore cross-referenced and checked with 1 or more test cases.
+We want to ensure that what we deliver to our customers is something we can be proud of, it's not just good - it's awesome!
 
 Quality Assurance (QA) is more than just identifying bugs; it's about ensuring the product meets the client's needs. In the lifecycle of a software project, QA must play a role from the earliest stages through to post-launch.
 
@@ -22,7 +22,7 @@ In order to ensure that each and every Story can be validated, a User Story shou
 
 === Test Plans, Suites & Cases
 
-A test plan is a collection of test cases. We recommend a Test Plan to be made up of a number of Test Suites (each contains a group of Test Cases related to 1 Feature). Then you can create at least 1 test case per user story.
+A test plan is a collection of test cases. We recommend a Test Plan to be made up of a number of Test Suites (each contains a group of Test Cases related to 1 Feature). We therefore need to ensure that each-and-every Story is therefore cross-referenced and checked with 1 or more test cases.
 
 A test case is the steps that validate and verify the quality of a product within the user story. Each step should have a defined expected result. A tester can thus validate the test case step by step, and create a bug or enhancement at the designated step that caused the failure. Along with a screenshot (always include a screenshot and any other relevant information), logs, and used test data, this should give developers the resources necessary to troubleshoot the majority of issues.
 
