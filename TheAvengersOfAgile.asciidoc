@@ -9,7 +9,7 @@ In general, we need to ensure we have coverage of the 5 main stages in delivery 
 
 In addition, we should also have the following roles that interact with the team:
 
-*	**Scrum master**: The scrum master will quite possibly work across a number of different sprint teams. The scrum master should be tracking budgets, timescales and unblock impediments. They also liaise with the product owner.
+*	**Planner**: The planner will quite possibly work across a number of different sprint teams. The scrum master should be tracking budgets, timescales and unblock impediments. They also liaise with the product owner.
 *	**Product owner**: This is normally the project stakeholder (client side). They are responsible for prioritizing the work and adding clarity when needed. For more information on this role, see: https://www.scrum.org/resources/what-is-a-product-owner
 
 For small teams, you may have to have one person covering multiple roles. Just ensure that everyone has clarity of what their role is and areas of responsibility. One of the first roles to go is often the Test pilot. However, if we want to ensure you are delivering quality value to the business, don’t underestimate the importance of thorough testing – engineers are not known for making great testers! If I can’t convince you otherwise, at very least, ensure that you are peer reviewing/testing and not getting engineers to test their own deliverables. Engineers will instinctively only think to test the routines they know they have written the code to handle. Don’t blame them … it’s human nature – just ensure someone else is testing their code!
