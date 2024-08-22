@@ -21,3 +21,12 @@ A time and material basis results in less discussion over “is it in scope” a
 Ideally the team that deliver the solution, are the same set of people who also support the solution, whilst continuing to develop and enhance the solution for the duration of it's lifetime.
 
 If the delivery team are a consultancy for example, that move on to different projects, then having Operational Engineers involved in the delivery of the solution means that as a team we are also in a better solution to support the solution post project completion. In addition, Developer Engineers could also rotate to cover the support function to provide required specialist advice where needed. This keeps them informed of the kinds of support requests that are raised for the solutions they build, as well as providing the support function with deep knowledge of the solutions that are provided.
+
+=== Clear Communication for Happy Customers
+
+Making sure our customers are satisfied is our top priority and clear communication is key to achieving this goal. Both our team and our customers must always be following a set of established procedures; this is crucial to maintaining a seamless experience. One of the most important steps in this process is for customers to submit any complaints, issues, bugs, tasks, or enhancement requests as tickets into our support system. By doing this, we create a record of their request, and follow the appropriate procedures to resolve the matter efficiently.
+
+Once a ticket is logged, our IT support team can promptly respond to the request. The issue will be recorded in our development operations system, where it will be assigned to the relevant developer. All discussions and updates related to that specific ticket are centralized, ensuring that everything is documented and easily accessible.
+
+Customers can view the status and details of their tickets through the Client Portal, while our team can manage and track them internally. This system of transparent and organized communication ensures that our customers are always informed about what is being done to address their needs. Ultimately, keeping our customers happy is about maintaining clear and open communication, knowing exactly what needs to be done, and ensuring that our customers are fully aware of the actions we are taking to support them.
+
