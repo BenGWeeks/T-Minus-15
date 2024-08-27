@@ -40,6 +40,10 @@ Effective *defect management* and continuous feedback loops between QA and devel
 
 As QA continues to evolve, *AI and machine learning* are becoming key players in advancing the field. From automating test case generation to predictive analytics for identifying high-risk areas in code, AI can augment traditional QA practices. Exploring these technologies will help future-proof testing processes and drive even more robust software quality.
 
+== Automated testing tools using
+
+To speed up the repeatable nature of testing to help improve the cadence of release, where possible we should leverage the use of automated test tools such as Playwright or Selenium Web Driver.
+
 == Types of Testing
 
 Testing is a critical aspect of ensuring software quality and stability. Different types of testing approaches help cover various aspects of a system, ensuring that it meets the needs of users and stakeholders. The following are some of the key types of testing used in modern software development:
@@ -59,10 +63,6 @@ A/B testing allows you to set up two deployment slots (A and B) in production wh
 A/B testing also allows high performance sites to always be available with zero warm up time needed. You deploy to the staging slot, start the slot running, and once running, swap this slot to be the production slot.
 
 You can also look at implementing an intelligent solution that will analyse the logs and dynamically amend the routing rules to pass users to the new code on confirmation that there are no detrimental issues affecting performance or correct behaviour. Or, alternatively, fall back to the old code if an issue is detected.
-
-=== Automated UI and API testing
-
-To speed up the repeatable nature of testing to help improve the cadence of release, where possible we should leverage the use of automated test tools such as Playwright or Selenium Web Driver.
 
 === CI/CD Pipelines
 
