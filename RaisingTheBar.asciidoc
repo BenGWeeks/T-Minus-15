@@ -74,11 +74,11 @@ Beyond automation, exploratory testing is invaluable for identifying edge cases 
 
 === Chaos Monkey Testing
 
-From our practise, we also found Chaos Monkey testing to be quite effective for some of the projects (mostly the ones that are large-scale, distributed systems). The idea behind this concept basically is to resilience testing strategy where failures are intentionally introduced to systems in production environments. The main idea is to ensure that systems can recover from unexpected disruptions, such as server crashes or network outages. Performing such an activity identifies weaknesses in infrastructure before they cause real-world problems and helps teams gain confidence in their systems' ability to handle failures in production.
+From our practice, we also found Chaos Monkey testing to be quite effective for some of the projects (mostly the ones that are large-scale, distributed systems). The idea behind this concept basically is to resilience testing strategy where failures are intentionally introduced to systems in production environments. The main idea is to ensure that systems can recover from unexpected disruptions, such as server crashes or network outages. Performing such an activity identifies weaknesses in infrastructure before they cause real-world problems and helps teams gain confidence in their systems' ability to handle failures in production.
 
 === Security assessment & compliance
 
-Consider security during the security and compliance using automated tools such as Microsoft Security Code Analysis , Secure DevOps Kit for Azure  and SME reviews. Best to find out early with regards to security issues prior to hitting production!
+Focus on security and compliance by utilizing automated tools such as Microsoft Security Code Analysis, Secure DevOps Kit for Azure and SME reviews. Best to find out early with regards to security issues prior to hitting production!
 
 Ensure that you are utilizing all the applicable security options available to you in the cloud hosting environment. For example, ensure you have policies set, firewalls configured, threat protection, encryption, monitoring, auditing and security event management.
 
