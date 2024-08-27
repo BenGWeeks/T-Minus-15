@@ -12,13 +12,15 @@ For this reason, the Test Pilot is an integral member of the team who will be wr
 
 === The importance of acceptance criteria
 
-In any successful software project, a well-planned testing strategy is key. We define testing not only by deadlines and requirements but by *acceptance criteria* agreed upon with stakeholders. It’s critical to create clear, *SMART acceptance criteria*—Specific, Measurable, Achievable, Relevant, and Time-bound—to ensure shared expectations across teams. This allows us to have precise testing and reduces ambiguity in what is deemed 'done.'
-
 In order to ensure that each and every Story can be validated, a User Story should have acceptance criteria to make it super clear to the developer what the business is accepting, and how the Test Pilot will be testing your solution. Let’s get the “story” straight before we start with delivering value as to what everybody’s expectations are. An example acceptance criteria for bug resolution could be:
 
 *	100% of major and critical bugs will be resolved
 *	50% of minor bugs will be resolved
 *	Cosmetic issues will be fixed on a best endeavour basis
+
+=== Test Strategy
+
+In any successful software project, a well-planned testing strategy is key. We define testing not only by deadlines and requirements but by *acceptance criteria* agreed upon with stakeholders. It’s critical to create clear, *SMART acceptance criteria*—Specific, Measurable, Achievable, Relevant, and Time-bound—to ensure shared expectations across teams. This allows us to have precise testing and reduces ambiguity in what is deemed 'done.'
 
 === Test Plans, Suites & Cases
 
