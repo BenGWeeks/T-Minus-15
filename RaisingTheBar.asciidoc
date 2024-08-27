@@ -1,16 +1,16 @@
-=== Raising the Bar: The Pursuit of Quality in Agile Projects
+= Raising the Bar: The Pursuit of Quality in Agile Projects
 
 We want to ensure that what we deliver to our customers is something we can be proud of, it's not just good - it's awesome!
 
 Quality Assurance (QA) is more than just identifying bugs; it's about ensuring the product meets the client's needs. In the lifecycle of a software project, QA must play a role from the earliest stages through to post-launch.
 
-=== Shift-Left Testing: Early Integration of QA
+== Shift-Left Testing: Early Integration of QA
 
 We begin with the concept of *Shift-Left Testing* — a proactive approach that incorporates testing at the earliest stages of the software development lifecycle. This approach aligns with modern Agile practices, promoting continuous collaboration between developers, testers, and stakeholders. Testing isn't something that waits until development is complete; instead, it begins with requirement gathering, where both functional and non-functional criteria are defined clearly.
 
 For this reason, the Test Pilot is an integral member of the team who will be writing test cases when the first line of code is being written.
 
-=== The importance of acceptance criteria
+== The importance of acceptance criteria
 
 In order to ensure that each and every Story can be validated, a User Story should have acceptance criteria to make it super clear to the developer what the business is accepting, and how the Test Pilot will be testing your solution. Let’s get the “story” straight before we start with delivering value as to what everybody’s expectations are. An example acceptance criteria for bug resolution could be:
 
@@ -18,27 +18,31 @@ In order to ensure that each and every Story can be validated, a User Story shou
 *	50% of minor bugs will be resolved
 *	Cosmetic issues will be fixed on a best endeavour basis
 
-=== Test Strategy
+== Test Strategy
 
 In any successful software project, a well-planned testing strategy is key. We define testing not only by deadlines and requirements but by *acceptance criteria* agreed upon with stakeholders. It’s critical to create clear, *SMART acceptance criteria*—Specific, Measurable, Achievable, Relevant, and Time-bound—to ensure shared expectations across teams. This allows us to have precise testing and reduces ambiguity in what is deemed 'done.'
 
-=== Test Plans, Suites & Cases
+== Test Plans, Suites & Cases
 
 A test plan is a collection of test cases. We recommend a Test Plan to be made up of a number of Test Suites (each contains a group of Test Cases related to 1 Feature). We therefore need to ensure that each-and-every Story is therefore cross-referenced and checked with 1 or more test cases.
 
 A test case is the steps that validate and verify the quality of a product within the user story. Each step should have a defined expected result. A tester can thus validate the test case step by step, and create a bug or enhancement at the designated step that caused the failure. Along with a screenshot (always include a screenshot and any other relevant information), logs, and used test data, this should give developers the resources necessary to troubleshoot the majority of issues.
 
-=== Managing Test Data
+== Managing Test Data
 
 Real-world data plays a crucial role in testing. It is vital to prepare and manage realistic and comprehensive *test data* sets to simulate production scenarios. Ensure that data covers all edge cases, security aspects, and performance metrics so that the final product behaves reliably in a real-world context.
 
-=== Continuous Feedback and Improvement
+== Continuous Feedback and Improvement
 
 Effective *defect management* and continuous feedback loops between QA and development teams ensure that issues are addressed promptly. So keep in mind that a streamlined process for tracking defects, setting priorities, and reporting results is vital. Regular reviews of key metrics such as defect density and mean time to resolution (MTTR) are really nice tools for assessing the health of the project and making informed decisions for continuous improvement.
 
-=== AI in QA
+== AI in QA
 
 As QA continues to evolve, *AI and machine learning* are becoming key players in advancing the field. From automating test case generation to predictive analytics for identifying high-risk areas in code, AI can augment traditional QA practices. Exploring these technologies will help future-proof testing processes and drive even more robust software quality.
+
+== Types of Testing
+
+Testing is a critical aspect of ensuring software quality and stability. Different types of testing approaches help cover various aspects of a system, ensuring that it meets the needs of users and stakeholders. The following are some of the key types of testing used in modern software development:
 
 === Static code analysis
 
@@ -67,6 +71,10 @@ Automation is crucial to maintaining a high level of efficiency and quality in f
 === Exploratory and Context-Driven Testing
 
 Beyond automation, exploratory testing is invaluable for identifying edge cases and unexpected behavior. Testers use their knowledge of the system to explore and test functionality in unscripted ways, often revealing bugs that standard scripted tests may miss. Coupled with context-driven testing, this approach allows testers to adapt based on the specific requirements and nuances of each project, making the testing process more flexible and responsive.
+
+=== Chaos Monkey Testing
+
+From our practise, we also found Chaos Monkey testing to be quite effective for some of the projects (mostly the ones that are large-scale, distributed systems). The idea behind this concept basically is to resilience testing strategy where failures are intentionally introduced to systems in production environments. The main idea is to ensure that systems can recover from unexpected disruptions, such as server crashes or network outages. Performing such an activity identifies weaknesses in infrastructure before they cause real-world problems and helps teams gain confidence in their systems' ability to handle failures in production.
 
 === Security assessment & compliance
 
