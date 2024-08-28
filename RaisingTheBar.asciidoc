@@ -96,8 +96,8 @@ Typically you would carry out performance testing in the Test (QA) environment. 
 
 === User acceptance testing
 
-User acceptance testing is where the client tests your solution to confirm the delivery meets their needs. Engaging the client in interactive demos and regular feedback loops throughout the UAT process helps ensure their needs are met before the software is finalized.
+User acceptance testing is where the client tests your solution to confirm the delivery meets their needs. Engaging the client in interactive demos and regular feedback loops throughout the UAT process helps ensure their needs are met before the software is finalized. In general, we don't expect to be able to test all the Features in week 1 of the Sprint, but get the Features through week by week. By having 3 sessions in a Sprint, we have 3 opportunities to get to production rather than only 1.
 
-This is where our Test Plan acceptance criteria come into play. No software is completely bug free so set expectations. If you have structured your post-launch support arrangement correctly they will be happy that any small work items can still get resolved under the support arrangement. They’re not just going to be stuck with any remaining issues!
+This is also where our Test Plan acceptance criteria come into play. No software is completely bug free so set expectations. If you have structured your post-launch support arrangement correctly they will be happy that any small work items can still get resolved under the support arrangement. They’re not just going to be stuck with any remaining issues!
 
 Because your stakeholders most likely won’t have time to go through all test cases written for your system (well, they’ll tell you that anyway 😉), for use acceptance testing, create a smaller Test Plan that cover a broad range and the important stories that are representative of the overall Feature working well. NB The test cases should be written in a simple way anyway that any team member or stakeholder should be able to follow them.
