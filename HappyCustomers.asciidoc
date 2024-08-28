@@ -1,23 +1,53 @@
-== Happy Customers
+## Happy Customers
 
-Customer satisfaction is key when it comes to delivering solutions. It's all about making the customer happy, because happy customers are the ones who will stick around and keep coming back for more. They'll tell their friends about you, leaving you with great word-of-mouth advertising. And who doesn't want that? But, when customers aren't satisfied, it's a whole different story. They'll take their business elsewhere, leaving bad reviews in their wake and potentially damaging your reputation. That's why it's super important to prioritize customer satisfaction when delivering solutions.
+Customer satisfaction is key when it comes to delivering solutions. It’s all about making the customer happy because happy customers are the ones who will stick around and keep coming back for more. They’ll tell their friends about you, leaving you with great word-of-mouth advertising. And who doesn’t want that? But, when customers aren’t satisfied, it’s a whole different story. They’ll take their business elsewhere, leaving bad reviews in their wake and potentially damaging your reputation. That’s why it’s super important to prioritize customer satisfaction when delivering solutions.
 
-So, how do you make sure your customers are happy? Involve them in the process! Get their input and feedback regularly. Use what they tell you to continuously improve the solution and make sure it's meeting their needs. When you focus on customer satisfaction, you're focusing on delivering a solution that not only meets their needs, but exceeds their expectations too. This is a win-win situation for everyone involved - the customer is happy and you're building a stronger relationship with them.
+So, how do you make sure your customers are happy? Involve them in the process! Get their input and feedback regularly. Use what they tell you to continuously improve the solution and make sure it’s meeting their needs. When you focus on customer satisfaction, you’re focusing on delivering a solution that not only meets their needs but exceeds their expectations too. This is a win-win situation for everyone involved—the customer is happy, and you’re building a stronger relationship with them.
 
-It's worth noting that customer satisfaction doesn't just happen overnight. It takes time and effort to build trust and establish a relationship with your customers. But when you put in the work, the results can be truly amazing. So, next time you're delivering a solution, remember to keep the customer front and center. Make their satisfaction your number one priority and watch as your business grows and thrives.
+It’s worth noting that customer satisfaction doesn’t just happen overnight. It takes time and effort to build trust and establish a relationship with your customers. But when you put in the work, the results can be truly amazing. So, next time you’re delivering a solution, remember to keep the customer front and center. Make their satisfaction your number one priority and watch as your business grows and thrives.
 
-=== Collecting feedback
+## Collecting Feedback
 
+Feedback is the backbone of continuous improvement. By regularly collecting feedback, both during and after the project, you gain invaluable insights into the customer’s experience. This ongoing dialogue not only helps you refine your solutions but also shows the customer that their voice matters. Active listening is essential—take their suggestions seriously, and act on them to exceed their expectations. When customers see that their feedback leads to real changes, it deepens their trust in your service and fosters a long-term relationship.
 
+## Supporting the Solution
 
-=== Supporting the solution
+Once Epics are delivered and operational, you need to consider how these are supported after the completion of the Epic. All functionality should be supported, and an adoption strategy considered that includes supporting the solution.
 
-Once Epics are delivered and operational, you need to consider how these are supported after the completion of the Epic. All functionality should be supported and as such an adoption strategy considered that includes supporting the solution.
+We suggest a time-and-materials basis so that smaller features that are less than a designated percentage of the total monthly budget can be engineered under a time-and-materials basis support contract. This has the added advantage of ensuring the solution doesn’t “stale” and can be refreshed and updated alongside standard bug fixing.
 
-We suggest a time and material basis so that smaller features that are less than a designated percentage of the total monthly budget can be allocated to be engineered under a time and material basis support contract. This has an added advantage that the solution doesn’t “stale” and can be refreshed and updated alongside straight bug fixing.
+A time-and-materials approach results in less discussion over “is it in scope?” and fosters a mentality of “getting it fixed,” as well as allowing for ad hoc training requests.
 
-A time and material basis results in less discussion over “is it in scope” and a mentality of “getting it fixed” as well as allowing for ad hoc training requests.
+Ideally, the team that delivers the solution should be the same set of people who also support it, while continuing to develop and enhance the solution throughout its lifetime.
 
-Ideally the team that deliver the solution, are the same set of people who also support the solution, whilst continuing to develop and enhance the solution for the duration of it's lifetime.
+If the delivery team is a consultancy that moves on to different projects, having Operational Engineers involved in the delivery of the solution means that as a team, we are better positioned to support the solution post-project completion. Additionally, Developer Engineers could also rotate to cover the support function, providing required specialist advice where needed. This keeps them informed of the kinds of support requests that are raised for the solutions they build, as well as providing the support function with deep knowledge of the solutions provided.
 
-If the delivery team are a consultancy for example, that move on to different projects, then having Operational Engineers involved in the delivery of the solution means that as a team we are also in a better solution to support the solution post project completion. In addition, Developer Engineers could also rotate to cover the support function to provide required specialist advice where needed. This keeps them informed of the kinds of support requests that are raised for the solutions they build, as well as providing the support function with deep knowledge of the solutions that are provided.
+## Rescue Team on Duty: Support
+
+Imagine this: you’re aboard a ship in the middle of a storm. The wind is tearing through the sails, waves crash against the hull, and it feels like the ship might sink at any moment. But then, on the horizon, a rescue vessel appears—your only hope for safety. In the business world, our Support team is that rescue vessel for our customers.
+
+Our guiding principle is that the customer always comes first. This is not just a slogan; it’s our creed, our everyday mission. In every ticket, in every interaction, we don’t just see a problem—we see an opportunity to make our customer happy, to resolve their issue in a way that makes them feel supported every step of the way.
+
+True support is not just about answering questions or solving problems. It’s an art form, ensuring that the customer doesn’t just leave satisfied but feels that their needs are our top priority. We never say "no." Our responses are always, "We’ll make it happen" or "We’ll find a way." Even if it’s challenging, we’re always looking for a path to meet the customer’s needs.
+
+Customer requests always take priority. If you’re faced with a choice between an internal task and a customer ticket, the choice is clear. We’re here to ensure that our customers don’t lose orders, money, or trust. Every customer request is like an SOS signal, and we, as true rescuers, drop everything to solve it.
+
+Equally important is our ability to listen to the customer. Even if the problem seems minor or non-existent, we are always ready to listen, show politeness, and respect. It’s crucial for the customer to feel heard and understood. Speed and courtesy in our responses are our primary tools. They help us build an atmosphere of trust where the customer knows their issues matter to us.
+
+Our main tools for managing tickets include Autotask, through which we receive and process all requests related to the Power Platform. For faster communication or when it's more convenient for the customer, we can also use Teams and Outlook for email and real-time communication. Additionally, we can utilize audio and video calls to better understand the problem and determine the best solution.
+
+### The Support Process: From Ticket Reception to Resolution
+
+1. **Ticket Reception:** The process begins when a customer submits a ticket through Autotask. This system allows us to log all relevant details of the issue, categorize it, and assign it to the appropriate team member.
+
+2. **Initial Response:** After receiving a ticket, we prioritize a quick response. Using Autotask, we immediately reach out to the customer to confirm receipt of the ticket and provide an estimated resolution time. This immediate communication reassures the customer that their issue is being handled.
+
+3. **Investigation and Communication:** The next step is a thorough investigation of the issue. During this process, we keep the customer informed by updating the status in Autotask and through emails or messages in Teams, ensuring the customer is always aware of the progress. For a deeper understanding of the problem, we may use audio or video calls to gather full details about the issue or requested enhancements.
+
+4. **Problem Resolution:** After detailed investigation and communication with the customer, we find the optimal solution and implement it.
+
+5. **Ticket Closure and Follow-Up:** Once the issue is resolved, we ask the customer if they are satisfied with the solution and if we can close the ticket. We also document the solution in Autotask for future reference, ensuring continuous improvement of our support processes.
+
+Every situation is unique, and we always strive to find a solution, offering various options. There are no unsolvable problems—only challenges that we’re ready to tackle with a smile and determination.
+
+So, when you’re working on your next ticket, remember: you’re not just a Support team member; you’re a rescuer, standing guard over our customers’ peace and success. Your mission is to ensure their ship doesn’t sink in the storm of issues, always providing them with the best solutions and the highest level of service.
