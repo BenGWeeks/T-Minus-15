@@ -9,24 +9,31 @@
 
 | *Title*
 | Mars Mission (MVP)
+| Guidance Column
 
 | *State*
 | Review analysis
+| 
 
 | *Epic type*
 | Rocketry
+| 
 
 | *Owner*
 | Elon Musk
+| 
 
 | *Area*
 | SpaceX > Exploration > Mars
+| 
 
 | *Start date*
 | 01/01/2040
+| 
 
 | *Target end date*
 | 12/12/2045
+| 
 
 | Description
 a| 
@@ -40,6 +47,14 @@ To create a minimum viable product (MVP) for its mission to Mars, SpaceX will ad
 - Launch: After successful testing and verification, the MVP rocket would be launched on its mission to Mars.
 
 This approach allows SpaceX to develop and launch its MVP rocket to Mars in a fast and cost-effective manner, while also providing opportunities to iteratively improve its capabilities over time. The focus is on delivering a basic functional product that can demonstrate the viability of the mission, with opportunities for further refinement and improvement as the market and technical environment evolve.
+| An elevator pitch (value statement) that describes the Epic in a clear and concise way (30 to 200 words). Use the following format:
+FOR ...
+WHO ...
+THE ...
+IS A ...
+THAT ....
+UNLIKE ...
+OUR SOLUTION ...
 
 2+| *Epic hypothesis*
 
