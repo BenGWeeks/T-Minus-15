@@ -3,9 +3,9 @@
 .Example Epic metadata (with assistance from ChatGPT)
 [width=80%]
 |===
-2+| EPIC
+3+| EPIC
 
-2+| *General*
+3+| *General*
 
 | *Title*
 | Mars Mission (MVP)
