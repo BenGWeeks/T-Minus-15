@@ -101,3 +101,25 @@ User acceptance testing is where the client tests your solution to confirm the d
 This is also where our Test Plan acceptance criteria come into play. No software is completely bug free so set expectations. If you have structured your post-launch support arrangement correctly they will be happy that any small work items can still get resolved under the support arrangement. They’re not just going to be stuck with any remaining issues!
 
 Because your stakeholders most likely won’t have time to go through all test cases written for your system (well, they’ll tell you that anyway 😉), for use acceptance testing, create a smaller Test Plan that cover a broad range and the important stories that are representative of the overall Feature working well. NB The test cases should be written in a simple way anyway that any team member or stakeholder should be able to follow them.
+
+=== Test Case Guide
+
+Test cases are fundamental in validating that software works as expected. Each test case must be concise and clear, with defined inputs, expected outcomes, and conditions for execution.
+
+==== Key Components of a Test Case
+
+*	Test Case ID: Unique identifier (e.g., TC001).
+*	Test Title/Objective – A brief description of what is being tested
+*	Preconditions: Setup requirements before running the test (if applicable)
+*   Test Steps: Sequential steps to execute the test
+*   Expected Result: The outcome expected after each test execution and each specific step if needed
+*   Links: to the requirements, user stories, features, designs
+*   Attachments: any useful attachments, such as designs or references
+
+Test cases should be organized and linked to specific requirements, user stories, or features to ensure coverage. This helps trace testing efforts directly to development progress, ensuring alignment between the test cases and the software functionalities.
+
+A few more hints to create a high quality test suite:
+
+*	Requirement Coverage: Ensure each test case is linked to a functional requirement.
+*	Modular Approach: Break test cases into small, manageable tests for specific components.
+*	Prioritize Testing: Prioritize based on risk and importance to the user.
