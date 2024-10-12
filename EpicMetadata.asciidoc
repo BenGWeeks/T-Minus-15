@@ -47,6 +47,7 @@ To create a minimum viable product (MVP) for its mission to Mars, SpaceX will ad
 - Launch: After successful testing and verification, the MVP rocket would be launched on its mission to Mars.
 
 This approach allows SpaceX to develop and launch its MVP rocket to Mars in a fast and cost-effective manner, while also providing opportunities to iteratively improve its capabilities over time. The focus is on delivering a basic functional product that can demonstrate the viability of the mission, with opportunities for further refinement and improvement as the market and technical environment evolve.
+
 | An elevator pitch (value statement) that describes the Epic in a clear and concise way (30 to 200 words). Use the following format:
 FOR ...
 WHO ...
@@ -75,7 +76,7 @@ The business outcome hypothesis for SpaceX getting a rocket to Mars is to:
 - Establish a profitable interplanetary transportation system for cargo and eventually human passengers.
 - Create new opportunities for commercial activities and resource exploitation on Mars.
 - Establish SpaceX as a leader in space exploration and a dominant player in the emerging space industry.
-- Generate long-term revenue streams through contracts with governments and private entities for Mars missions and service
+- Generate long-term revenue streams through contracts with governments and private entities for Mars missions and services.
 
 |
 | *Non-Functional Requirements (NFRs)*
