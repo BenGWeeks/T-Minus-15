@@ -77,6 +77,7 @@ The business outcome hypothesis for SpaceX getting a rocket to Mars is to:
 - Establish SpaceX as a leader in space exploration and a dominant player in the emerging space industry.
 - Generate long-term revenue streams through contracts with governments and private entities for Mars missions and service
 
+|
 | *Non-Functional Requirements (NFRs)*
 a| 
 
