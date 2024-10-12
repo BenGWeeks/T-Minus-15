@@ -56,7 +56,7 @@ THAT ....
 UNLIKE ...
 OUR SOLUTION ...
 
-2+| *Epic hypothesis*
+3+| *Epic hypothesis*
 
 | *Value statement*
 a| SpaceX going to Mars can offer multiple benefits, such as:
@@ -66,6 +66,7 @@ a| SpaceX going to Mars can offer multiple benefits, such as:
 - Develop new technologies and innovations that can also benefit life on Earth.
 - Inspire future generations to pursue careers in STEM fields and space exploration.
 
+|
 | *Business outcome hypothesis*
 a|
 
@@ -76,6 +77,7 @@ The business outcome hypothesis for SpaceX getting a rocket to Mars is to:
 - Establish SpaceX as a leader in space exploration and a dominant player in the emerging space industry.
 - Generate long-term revenue streams through contracts with governments and private entities for Mars missions and service
 
+|
 | *Non-Functional Requirements (NFRs)*
 a| 
 
@@ -88,7 +90,7 @@ a|
 - Interoperability: Ensure compatibility and integration with other systems and technologies.
 - Cost-effectiveness: Ensure the project is completed within budget and generates a return on investment.
 
-2+| *Analysis*
+3+| *Analysis*
 
 | *Users and market affected*
 a| 
@@ -108,6 +110,7 @@ Markets:
 - Educational institutions and students interested in space science and technology.
 - Space tourism and recreational industries.
 
+|
 | *Impact products, programs and services*
 a| 
 
@@ -135,6 +138,7 @@ a|
 
 SpaceX's goal to send a rocket to Mars is an ambitious project that requires innovative technologies and systems. It offers benefits such as a profitable interplanetary transportation system, new commercial opportunities on Mars, establishing SpaceX as a leader in space exploration, and generating long-term revenue. The mission faces challenges such as meeting safety, reliability, and cost requirements. It will impact multiple stakeholders, including astronauts, government agencies, and commercial entities. Impact products, programs, and services, such as spacecraft, propulsion systems, and launch services, will be crucial to the success of the mission.
 
+|
 | *Return*
 a|
 
@@ -142,6 +146,7 @@ The return on investment of SpaceX getting a rocket to Mars is difficult to pred
 
 It's worth noting that the return on investment for interplanetary missions is typically longer-term and may take several years or even decades to fully materialize. Therefore, a well-planned and executed Mars mission can provide a significant return on investment for SpaceX in the long term.
 
+|
 | *Anticipated business impact*
 a| 
 
@@ -155,13 +160,15 @@ The anticipated business impact of SpaceX getting a rocket to Mars could include
 
 > Note: Actual impact will depend on success of mission, demand for interplanetary services, and ability to monetize investments.
 
-2+| *Delivery Strategy*
+3+| *Delivery Strategy*
 
 | *Funnel entry date*
 | 01/01/2020
+|
 
 | *In/out-house*
 | In-house
+|
 
 | *Sponsors*
 a| 
@@ -177,6 +184,7 @@ The project sponsors/stakeholders in a SpaceX mission to Mars could include:
 
 It's worth noting that the project sponsors/stakeholders for a Mars mission could change over time as the mission evolves, and new opportunities and challenges emerge. Effective stakeholder management will be critical to the success of the mission, as it will ensure that all stakeholders are aligned on goals, objectives, and expectations.
 
+|
 | *Incremental implementation strategy*
 a|
 
@@ -191,6 +199,7 @@ The incremental implementation strategy for SpaceX getting a rocket to Mars:
 
 Fail fast approach: By rapidly prototyping and iteratively improving the rocket design, SpaceX can identify and address potential issues early on and minimize the risk of a costly failure later in the process. This approach allows SpaceX to make adjustments and improvements quickly, reducing the overall cost and time required to achieve a successful mission to Mars.
 
+|
 | *Sequence and dependencies*
 a| 
 
@@ -203,6 +212,7 @@ The sequence and dependencies of SpaceX's mission to Mars:
 1. Expansion and Commercialization - Explore new opportunities, build and expand on Mars, dependent on initial ops.
 1. Continual Improvement - Monitor and optimize performance, continually improve technology and infrastructure, dependent on expansion.
 
+|
 | *Milestones or checkpoints*
 a| 
 
@@ -219,6 +229,7 @@ Checkpoints for SpaceX's mission to Mars:
 1. Optimization of Performance
 1. Continual Improvement
 
+|
 | *Other notes and comments*
 a| 
 
@@ -233,15 +244,18 @@ In addition, the following should be taken into consideration for the mission to
 - Risk Management: The project should include a robust risk management plan to address potential challenges and minimize the impact of setbacks.
 - Collaboration and Partnerships: The project may benefit from collaboration and partnerships with other organizations, such as universities, research institutions, and other companies, to leverage their expertise and resources.
 
-2+| *Approval*
+3+| *Approval*
 
 | *Go or no-go*
 | Go
+|
 
 | *Approved by*
 | Elon Musk
+|
 
 | *Approved date*
 | 1st January 2025
+|
 
 |===
