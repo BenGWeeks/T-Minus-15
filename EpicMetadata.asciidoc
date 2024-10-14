@@ -113,7 +113,7 @@ Markets:
 - Educational institutions and students interested in space science and technology.
 - Space tourism and recreational industries.
 
-|
+| Test
 | *Impact products, programs and services*
 a| 
 
@@ -136,12 +136,13 @@ Services:
 - Maintenance and repair services for spacecraft and habitats on Mars.
 - Scientific and technical consulting services for Mars exploration and commercial activities.
 
+| Test
 | *Analysis summary*
 a|
 
 SpaceX's goal to send a rocket to Mars is an ambitious project that requires innovative technologies and systems. It offers benefits such as a profitable interplanetary transportation system, new commercial opportunities on Mars, establishing SpaceX as a leader in space exploration, and generating long-term revenue. The mission faces challenges such as meeting safety, reliability, and cost requirements. It will impact multiple stakeholders, including astronauts, government agencies, and commercial entities. Impact products, programs, and services, such as spacecraft, propulsion systems, and launch services, will be crucial to the success of the mission.
 
-|
+| Test
 | *Return*
 a|
 
@@ -149,7 +150,7 @@ The return on investment of SpaceX getting a rocket to Mars is difficult to pred
 
 It's worth noting that the return on investment for interplanetary missions is typically longer-term and may take several years or even decades to fully materialize. Therefore, a well-planned and executed Mars mission can provide a significant return on investment for SpaceX in the long term.
 
-|
+| Test
 | *Anticipated business impact*
 a| 
 
@@ -163,6 +164,7 @@ The anticipated business impact of SpaceX getting a rocket to Mars could include
 
 > Note: Actual impact will depend on success of mission, demand for interplanetary services, and ability to monetize investments.
 
+| Test
 3+| *Delivery Strategy*
 
 | *Funnel entry date*
@@ -247,6 +249,7 @@ In addition, the following should be taken into consideration for the mission to
 - Risk Management: The project should include a robust risk management plan to address potential challenges and minimize the impact of setbacks.
 - Collaboration and Partnerships: The project may benefit from collaboration and partnerships with other organizations, such as universities, research institutions, and other companies, to leverage their expertise and resources.
 
+| Test
 3+| *Approval*
 
 | *Go or no-go*
