@@ -67,7 +67,7 @@ a| SpaceX going to Mars can offer multiple benefits, such as:
 - Develop new technologies and innovations that can also benefit life on Earth.
 - Inspire future generations to pursue careers in STEM fields and space exploration.
 
-| Test
+| Hypothesis: We believe that [target user] will [achieve a specific outcome] by [using a particular feature or action], which will be proven by [specific metric or measurement].
 | *Business outcome hypothesis*
 a|
 
@@ -78,7 +78,20 @@ The business outcome hypothesis for SpaceX getting a rocket to Mars is to:
 - Establish SpaceX as a leader in space exploration and a dominant player in the emerging space industry.
 - Generate long-term revenue streams through contracts with governments and private entities for Mars missions and services.
 
-| Test
+| Describe how the success of the epic will be measured (30 to 200 words): for example, 50% increase in shoppers under 25; Availability increases from 95% to 99.7%, etc. Only use percentages if we have the data to actual define these with confidence.
+
+| *Background*
+a|
+| Give relevant background information on the company, their systems, to give context to what this Epic relates to (50-200 Words). This should give good context to the delivery team as well as executive sponsors that will go into the Proposal.
+
+| *Objective*
+a|
+| Give a concise statement that captures the primary goal or outcome you want to achieve with this Epic (50-200 words). This should give a clear reason why this solution is needed for both the delivery team and the executive sponsors.
+
+| *Prerequisites*
+a| 
+| Outline any prerequisites we need from the customer in order to deliver this Epic. For example, access to their systems, availability of key stakeholders, and alike.
+
 | *Non-Functional Requirements (NFRs)*
 a| 
 
@@ -91,7 +104,11 @@ a|
 - Interoperability: Ensure compatibility and integration with other systems and technologies.
 - Cost-effectiveness: Ensure the project is completed within budget and generates a return on investment.
 
-| Test
+| Detail the system's operational characteristics such as performance, security, reliability, and usability requirements that the solution must meet, but which do not directly contribute to its primary functionality (30 to 200 words).
+
+| *Leading Indicators*
+a|
+| Define tangible measurable indicators to provide leading indicators of the outcomes hypothesis (30 to 200 words): for example, a measurable change in purchaser demographics within 30 days of feature release. Only use percentages if confident!
 
 3+| *Analysis*
 
@@ -113,7 +130,7 @@ Markets:
 - Educational institutions and students interested in space science and technology.
 - Space tourism and recreational industries.
 
-| Test
+| Describe the user community and any markets or departments affected (such as personas in the user stories) by the delivery of this Epic (30 to 200 words).
 | *Impact products, programs and services*
 a| 
 
@@ -136,13 +153,13 @@ Services:
 - Maintenance and repair services for spacecraft and habitats on Mars.
 - Scientific and technical consulting services for Mars exploration and commercial activities.
 
-| Test
+| Identify solutions, programs, services, etc. that will may be impacted by the delivery of this Epic (30 to 200 words).
 | *Analysis summary*
 a|
 
 SpaceX's goal to send a rocket to Mars is an ambitious project that requires innovative technologies and systems. It offers benefits such as a profitable interplanetary transportation system, new commercial opportunities on Mars, establishing SpaceX as a leader in space exploration, and generating long-term revenue. The mission faces challenges such as meeting safety, reliability, and cost requirements. It will impact multiple stakeholders, including astronauts, government agencies, and commercial entities. Impact products, programs, and services, such as spacecraft, propulsion systems, and launch services, will be crucial to the success of the mission.
 
-| Test
+| 
 | *Return*
 a|
 
@@ -150,7 +167,7 @@ The return on investment of SpaceX getting a rocket to Mars is difficult to pred
 
 It's worth noting that the return on investment for interplanetary missions is typically longer-term and may take several years or even decades to fully materialize. Therefore, a well-planned and executed Mars mission can provide a significant return on investment for SpaceX in the long term.
 
-| Test
+| Outline the return for the business by the delivery of this solution, such as increased revenue, improved productivity, or other benefits, etc. (30 to 200 words)
 | *Anticipated business impact*
 a| 
 
@@ -164,7 +181,7 @@ The anticipated business impact of SpaceX getting a rocket to Mars could include
 
 > Note: Actual impact will depend on success of mission, demand for interplanetary services, and ability to monetize investments.
 
-| Test
+| 
 3+| *Delivery Strategy*
 
 | *Funnel entry date*
@@ -204,7 +221,7 @@ The incremental implementation strategy for SpaceX getting a rocket to Mars:
 
 Fail fast approach: By rapidly prototyping and iteratively improving the rocket design, SpaceX can identify and address potential issues early on and minimize the risk of a costly failure later in the process. This approach allows SpaceX to make adjustments and improvements quickly, reducing the overall cost and time required to achieve a successful mission to Mars.
 
-|
+| Outline how we will deliver the solution incrementally so that we do not end up with a single big deployment at the end of the project (and then find out we are blocked), e.g Features will be delivered to Production Feature-by-Feature weekly.
 | *Sequence and dependencies*
 a| 
 
@@ -217,7 +234,7 @@ The sequence and dependencies of SpaceX's mission to Mars:
 1. Expansion and Commercialization - Explore new opportunities, build and expand on Mars, dependent on initial ops.
 1. Continual Improvement - Monitor and optimize performance, continually improve technology and infrastructure, dependent on expansion.
 
-|
+| Outline the logic and sequence of work and dependencies. For example, "enabler" features may need to be done before functional features.
 | *Milestones or checkpoints*
 a| 
 
@@ -234,7 +251,24 @@ Checkpoints for SpaceX's mission to Mars:
 1. Optimization of Performance
 1. Continual Improvement
 
-|
+|Outline what milestones and checkpoints there will be. E.g. a kick-off meeting, weekly checkpoint meetings to update on progress and demo new functionality.
+
+| *Sequence and dependencies*
+a| 
+| Outline the logic and sequence of work and dependencies. For example, "enabler" features may need to be done before functional features.
+
+| *Technical Solution*
+a| 
+| Provide a high-level technical solution design (no more than 100-300 words). This should outline the technologies that will be implemented and any integrations.
+
+| *Licensing*
+a| 
+| Outline what licenses (including costs) are needed for the solution. This should be called out to ensure the customer is aware of any licensing requirements that are needed from their end.
+
+| *Permissions and Accounts*
+a| 
+| Outline what permissions and accounts will be need to access the system, such as accounts to deploy the solution, or testing.
+
 | *Other notes and comments*
 a| 
 
@@ -249,7 +283,7 @@ In addition, the following should be taken into consideration for the mission to
 - Risk Management: The project should include a robust risk management plan to address potential challenges and minimize the impact of setbacks.
 - Collaboration and Partnerships: The project may benefit from collaboration and partnerships with other organizations, such as universities, research institutions, and other companies, to leverage their expertise and resources.
 
-| Test
+| Any additional miscellaneous Information relevant to LPM
 3+| *Approval*
 
 | *Go or no-go*
