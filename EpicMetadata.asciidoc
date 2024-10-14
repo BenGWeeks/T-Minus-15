@@ -181,6 +181,14 @@ The anticipated business impact of SpaceX getting a rocket to Mars could include
 
 > Note: Actual impact will depend on success of mission, demand for interplanetary services, and ability to monetize investments.
 
+| *Technical Solution*
+a| 
+| Provide a high-level technical solution design (no more than 100-300 words). This should outline the technologies that will be implemented and any integrations.
+
+| *Licensing*
+a| 
+| Outline what licenses (including costs) are needed for the solution. This should be called out to ensure the customer is aware of any licensing requirements that are needed from their end.
+
 | 
 3+| *Delivery Strategy*
 
@@ -252,18 +260,6 @@ Checkpoints for SpaceX's mission to Mars:
 1. Continual Improvement
 
 |Outline what milestones and checkpoints there will be. E.g. a kick-off meeting, weekly checkpoint meetings to update on progress and demo new functionality.
-
-| *Sequence and dependencies*
-a| 
-| Outline the logic and sequence of work and dependencies. For example, "enabler" features may need to be done before functional features.
-
-| *Technical Solution*
-a| 
-| Provide a high-level technical solution design (no more than 100-300 words). This should outline the technologies that will be implemented and any integrations.
-
-| *Licensing*
-a| 
-| Outline what licenses (including costs) are needed for the solution. This should be called out to ensure the customer is aware of any licensing requirements that are needed from their end.
 
 | *Permissions and Accounts*
 a| 
