@@ -132,43 +132,62 @@ Optimize processes and reduce processing time, ensure data quality, and create a
 *Tips:* Advice on avoiding common mistakes
  
 *Post-PROD Changes:*
+
 - *Solution Layers Application:* Changes needed post-deployment (connection updates, reference adjustments)
+
 - *Visual Explanations:* Include screenshots for process illustration
  
 == 8. Database Information
  
 *DB Type:* Description of the database used (Dataverse, SQL, SharePoint)
+
 *Connection Details:* Instructions for database connection
+
 *Architecture:* Key tables and relationships within the database
+
 *Contacts:* Database access contact details
+
  
 == 9. Related Applications
  
 *Integrations:* List of integrated apps
+
 *Interaction:* Description of app interactions
+
  
 == 10. Contact Information
  
 *Primary Contacts:* Contact details of responsible individuals
+
 *Escalation:* Instructions for issue escalation
+
 *Backup Contacts:* Additional contact details
+
  
 == 11. Additional Information
  
 *Resources:* Links to official documentation, handover videos, and internal guides
+
 *Tools:* List of useful utilities and scripts
+
  
 == 12. License Management
  
 *License Requirements:* List of required licenses for Power Platform components
+
 *License Monitoring:* Steps for monitoring license status and user management
+
 *License Administrator Contact:* Contact for license-related issues
+
  
 == 13. Security and Privacy Information
  
 *Security Policies:* Description of security policies (e.g., data protection, encryption)
+
 *Handling Sensitive Data:* Instructions for managing sensitive data
+
 *Security Updates:* Instructions for staying informed about Power Platform security updates
+
  
 == 14. Testing and Validation
  
