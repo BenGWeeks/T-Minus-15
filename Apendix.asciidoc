@@ -55,43 +55,68 @@ Optimize processes and reduce processing time, ensure data quality, and create a
 == 3. Links to Applications and Portals
  
 *Key Links:*
+
 - Power Apps: URLs to Power Apps applications
+
 - Power Automate: Links to Power Automate flows
+
 - Power BI: URLs to Power BI reports (if applicable)
+
 - Power Pages: URLs to Power Pages portals (if applicable)
+
 - SharePoint Site: URLs to SharePoint sites (if applicable)
+
  
 *Related Apps:* Applications or services integrated with the project (e.g., DocuSign)
+
  
 == 4. Developer and Owner Information
  
 *Lead Developers:* Contact details of developers or teams
+
 *Knowledge Owners:* Individuals with specialized knowledge about the project
+
  
 *Developer Location:*
+
 - *Work Outside Ireland:* Whether developers from outside Ireland are allowed to work on the project
+
 - *Use of VDI Machines:* VDI machine requirements for security or access compliance
+
  
 == 5. Export and Deployment
  
 *Export Process:*
+
 - *TEST Environment:* Export instructions for the test environment
+
 - *UAT Environment:* Deployment instructions for the User Acceptance Testing (UAT) environment
+
 - *PROD Environment:* Production deployment process
+
  
 *Export Method:* CI/CD pipeline or manual export
+
  
 *Pipelines:*
+
 - *Links:* URLs to key CI/CD pipelines
+
 - *Access:* List of pipeline users and Approvers
+
 - *Repository Connection:* Details for repository connection (GitHub, Azure DevOps) and link
+
 - *Replace Files:* Information on configuration replacement files
+
  
 == 6. Client-Side Access
  
 *Procedure:* Steps to obtain access to client environments
+
 *Client Contacts:* Contact details of client representatives
+
 *Account Requirements:* Access specifics (passwords, privileges)
+
  
 == 7. Key Challenges
  
