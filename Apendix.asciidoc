@@ -14,26 +14,43 @@ Optimize processes and reduce processing time, ensure data quality, and create a
 == 2. Access and Authentication
  
 *Access List:*
+
 - *Administrative Access:* Permissions required for administrative tasks
+
 - *Power Platform URL:* https://make.powerapps.com/...
+
 - *Database (DB):* Type of database used (Dataverse, SQL Server, SharePoint) and access details
+
  
 *Access Process:*
+
 - *MFA (Multi-Factor Authentication):* Setup details, including configured mobile numbers
+
 - *Access Request:* Instructions for requesting system access
+
  
 *Sharing Access:*
+
 - *How to Share Access:* Guidelines for granting Power Platform application access
+
 - *Access Level Selection:* Instructions on determining appropriate access levels (e.g., owner, editor, viewer)
+
 - *Post-Access Actions:* Verification steps for proper configuration
+
 - *Using Azure Active Directory (AAD) Groups:* AAD group usage for access management, with a list of groups and their purposes
+
 - *Group Management:* How to add or remove users from AAD groups
+
  
 *Roles for Software Use:*
+
 - *Roles:* List of project roles (e.g., Administrator, Developer, User)
+
 - *Role Assignment:* Description of permissions for each role and modification instructions
+
  
 *Contact Person:* Responsible team or individual for access-related issues
+
  
 == 3. Links to Applications and Portals
  
