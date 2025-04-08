@@ -20,13 +20,13 @@ A test case is the steps that validate a user story. Each step should have an ex
 
 === Feautures vs Bugs vs Enhancements
 
-Understanding the differences between these categories are crutial and drives decision-making, communication, and iteration velocity.
+Knowing the difference between a bug, enhancement, and feature is the key to smarter decisions and smoother teamwork.
 
-A Bug is any defect that causes a User Story to fail its acceptance criteria. These are the gaps — the things that were supposed to work but don’t. Bugs are always tied to specific requirements and need immediate attention because they compromise the agreed definition of “done.”
+A Bug is any defect that causes a User Story to fail its acceptance criteria. These are the gaps — the things that were supposed to work but don’t. Bugs are always tied to specific requirements and need immediate attention because they compromise the agreed definition of “done.” They are prioritised by impact - Critical, Major, Minor, or Cosmetic - which directly influences sprint planning and triage.
 
-An Enhancement is an improvement request that does not block the acceptance of a User Story. Think usability tweaks, minor performance improvements, or visual polish — the stuff that makes good software feel great.
+An Enhancement is an improvement request that does not block the acceptance of a User Story. Think usability tweaks, minor performance improvements, or visual polish — the stuff that makes good software feel great. If implementing an enhancement takes more than 4 hours, it should be treated as a Feature instead - scoped and planned as such.
 
-A Feature is a new capability — a set of User Stories that introduces fresh functionality or a significant change to existing behavior. Features are the strategic layer: they expand the product’s scope and value.
+A Feature is a new capability — a set of User Stories that introduces fresh functionality or a significant change to existing behavior. Features are the strategic layer: they expand the product’s scope and value. They are planned during sprint planning and oftenrequire coordinated sedign, development, and QA. Any request that breaks new ground - technically or funcionally - is a feature.
 
 This classification ensures we’re fixing what’s broken, refining what’s working, and delivering what’s next — all without losing sight of why we're building in the first place.
 
