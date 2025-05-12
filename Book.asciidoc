@@ -5,7 +5,7 @@ Ben G. Weeks
 :toclevels: 3
 :sectnums:
 :sectnumlevels: 3
-:imagesdir: Images
+:imagesdir: .
 :front-cover-image: 01-3.png
 :stylesheet: CSS/tminus15-styles.css
 
