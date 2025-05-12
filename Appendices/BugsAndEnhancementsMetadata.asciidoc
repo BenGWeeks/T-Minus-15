@@ -1,0 +1,44 @@
+== Bugs & Enhancements Metadata
+
+.Example Bug metadata (with assistance from ChatGPT)
+[width=80%]
+|===
+2+| BUG
+
+2+| *General*
+
+| *Title*
+| Carbon Dioxide build-up malfunction
+
+| *State*
+| Resolved
+
+| *Owner*
+| Mike Chaffee
+
+| *Area*
+| SpaceX > Exploration > Mars
+
+| *Iteration*
+| Sprint 4
+
+2+| *Planning*
+
+| *Original estimate*
+| 1
+
+| Remaining effort
+| 1
+
+2+| *Details*
+
+| Severity
+| Critical
+
+| Description
+a| 
+
+Carbon dioxide removal issue detected in the life support system due to failure of the CO2 scrubber to effectively remove the gas from the atmosphere within the rocket, leading to a buildup of CO2 levels that pose a danger to the crew's health.
+
+| Resolution
+| Adjusting the scrubber's settings to optimize its performance

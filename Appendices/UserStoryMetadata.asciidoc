@@ -1,0 +1,57 @@
+== User Story metadata
+
+.Example User Story metadata (with assistance from ChatGPT)
+[width=80%]
+|===
+2+| USER STORY
+
+2+| *General*
+
+| *Title*
+| As a coloniser, I want to breathe a safe and healthy atmosphere, so I don’t suffer from oxygen deprivation or inhale harmful substances
+
+| *State*
+| Prep
+
+| *Story type*
+| User Story
+
+| *Owner*
+| Mike Chaffee
+
+| *Area*
+| SpaceX > Exploration > Mars
+
+| *Iteration*
+| Sprint 4
+
+2+| *Details*
+
+| Persona(s)
+| Coloniser
+
+| Description
+a| 
+
+Breathing a safe and healthy atmosphere is critical for the crew members of a rocket to Mars. The life support system must provide a steady supply of clean air that is free from harmful substances and has sufficient oxygen to keep the crew members from suffering from oxygen deprivation. The system should also continuously monitor the air quality and make any necessary adjustments to maintain a safe and healthy atmosphere for the crew.
+
+| Acceptance Criteria
+a| 
+
+SCENARIO: On a trip to Mars
+
+GIVEN the life support system is operational
+
+WHEN a crew member wants to breathe
+
+THEN the air should be: Continuously supplied with adequate levels of oxygen
+
+AND Monitored to be free from harmful substances
+
+AND Alarms triggered and corrective actions taken if air deviates from safe standards
+
+AND Equipped with backup supply of oxygen for emergency situations
+
+AND Tested and validated for reliability under various scenarios and conditions
+
+AND accessible and controllable from the crew's living quarters.

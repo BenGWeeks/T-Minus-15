@@ -1,0 +1,225 @@
+== Shipping Value, Not Just Code
+
+Let's be brutally honest - your business doesn't care about your elegant architecture or perfect test coverage. They care about getting valuable features into users' hands before the competition does. In today's market, velocity isn't just nice to have - it's survival.
+
+This chapter is about building the delivery engine that turns great ideas into deployed features with minimal friction. Get this right, and you'll ship value continuously while your competitors are still stuck in planning meetings and approval queues.
+
+=== CI/CD: The Backbone of Modern Delivery
+
+**Continuous Integration** isn't just a technical practice - it's a cultural shift. Instead of developers hoarding changes in isolation for weeks, everyone pushes small changes frequently to a shared codebase. Each change triggers automated builds and tests that catch problems immediately. Think of it as constant quality control rather than quality inspection.
+
+The goal is simple: avoid "integration hell" - that painful period before release where everyone's code collides in spectacular ways. When a developer merges their changes multiple times daily rather than monthly, conflicts are smaller, simpler, and cheaper to fix.
+
+**Continuous Delivery vs. Continuous Deployment** - these terms get muddled, but the distinction matters:
+
+* **Continuous Delivery** means every code change is automatically built, tested, and prepared for release. The actual push to production still requires human approval. You're always *ready* to release, but you choose when to pull the trigger.
+
+* **Continuous Deployment** takes it one step further - every change that passes all tests automatically deploys to production without human intervention. It's like having a highway with no tollbooths.
+
+For more information, please see:
+[Design a CI/CD pipeline using Azure DevOps](https://docs.microsoft.com/en-us/azure/architecture/example-scenario/apps/devops-dotnet-webapp)
+
+[VSTS – The Road to Continuous Delivery with Visual Studio Team Services](https://msdn.microsoft.com/magazine/mt814804.aspx)
+
+=== Pick a Branching Strategy That Won't Make Your Team Miserable
+
+Version control isn't optional in 2025. It's as fundamental as electricity to your development workflow. But simply having Git isn't enough - how you use it can either supercharge your team or create endless headaches.
+
+With modern distributed teams, cloud-based source control like GitHub or Azure DevOps isn't just convenient - it's essential. And let's be real: Git won over the version control wars years ago. If you're still using TFVC or SVN, it's time to move on. Git is the lingua franca of modern development, and your developers already know it.
+
+But here's where teams really get tripped up: choosing a branching strategy.
+
+=== GitFlow vs. Release Flow: A Tale of Two Strategies
+
+Let me save you months of pain: **GitFlow is needlessly complex for most teams**.
+
+GitFlow was designed for managing multiple versions of software simultaneously and has branches for everything - development, features, releases, hotfixes, you name it. Each branch has a specific purpose that maps to an environment.
+
+// INSERT
+Figure 20. GitFlow uses the principle of branches matching environments (for dev, QA and production for example)
+
+Sounds organized, right? But here's what actually happens with GitFlow:
+
+* Your developers constantly ask "Wait, do I branch from develop or master for this feature?"
+* Merge conflicts become epic battles that waste entire afternoons
+* Your CI/CD pipelines turn into spaghetti trying to handle all these branch types
+* You spend more time managing git than actually writing code
+
+After watching countless teams struggle with GitFlow, we strongly advocate for **Release Flow** - the same approach Microsoft uses internally for major products like Azure DevOps.
+
+Release Flow is refreshingly straightforward: everybody works off the main branch. For new work, create a short-lived topic branch, do your thing, and merge it back to main via pull request. When you're ready to release, create a release branch that captures that point in time. Need a hotfix? Make it on main and cherry-pick it to the affected release branch.
+
+You can read more about Release Flow and the VSTS team here:
+
+[Release Flow: How we do branching on the VSTS team](https://devblogs.microsoft.com/devops/release-flow-how-we-do-branching-on-the-vsts-team/)
+
+[Release Flow](https://docs.microsoft.com/en-us/azure/devops/learn/devops-at-microsoft/release-flow)
+
+=== Topic Branches: Keep 'Em Short and Sweet
+
+Topic branches are where the real work happens in Release Flow. Here's how it works:
+
+1. Developer pulls latest main branch
+2. Creates a new topic branch for their specific task
+3. Makes their changes and runs local tests
+4. Opens a pull request when ready for team review
+
+The beauty of topic branches is they're focused on one thing - a specific feature, bug fix, or enhancement. They're not environment-specific like in GitFlow. This makes them easy to understand: "This branch adds payment processing" or "This branch fixes the login bug."
+
+Crucial point: keep these branches **short-lived**. Aim for hours or days, not weeks. Long-lived branches are like leftovers in your fridge - they get stinky fast and nobody wants to deal with them. The longer a branch lives, the more it diverges from main, and the more painful the eventual merge becomes.
+
+When submitting a pull request, follow the "pride principle" - only submit code you'd be proud to show off. Before bothering others with a review, ask yourself: "Does this work as expected? Is it well-tested? Would I be happy inheriting this code?"
+
+// INSERT 
+Figure 21. Overview of the Release Flow branching methodology where we work on topics from the master branch. When releases are made a separate branch is created in case hot fixes are needed for production.
+
+// INSERT <insert image of rocket branching and merging>
+
+=== Lock Down Your Repo with Sensible Policies
+
+A codebase without guardrails is a freeway without lanes - chaos is inevitable. Set up these non-negotiable policies in your repo:
+
+* **No direct pushes to main** - Everything goes through pull requests. No exceptions, not even for the CTO at 2 AM.
+
+* **Server-side merges only** - Keep merges consistent by doing them on the server, not on developer machines where local settings can cause issues.
+
+* **Required code reviews** - Every line of code should be seen by at least one other team member before it hits main. Four eyes are better than two at catching bugs.
+
+* **Builds must succeed** - If the build breaks, the PR doesn't merge. Period. A failing build is like a check engine light - you don't keep driving.
+
+* **All comments must be addressed** - Comments without resolution create ambiguity about whether issues were fixed or just ignored.
+
+These policies aren't bureaucracy - they're safety nets that prevent your team from shooting themselves in the foot. They enforce discipline without requiring superhuman willpower from your developers.
+
+=== Git Habits That Won't Make Your Team Hate You
+
+A common source of team friction? Poor git practices. Print this list and stick it to your monitor:
+
+* **Be your own first reviewer** - Don't make your teammates sift through obvious bugs or formatting issues. Would you serve a half-baked cake? No? Then don't serve half-baked code.
+
+* **Document your trail** - When closing issues, explain *what* you did and *why*. Future-you will thank past-you when debugging six months later. Screenshots of before/after are worth their weight in gold.
+
+* **Branch names should tell a story** - Name your branches so anyone can understand what they're for at a glance: `fix/login-timeout` or `feature/payment-gateway` beats `johns-stuff` every time.
+
+* **Organize your branches** - Use folders like `feature/` or `bugfix/` to group similar work. Your repo shouldn't look like your teenager's bedroom floor.
+
+* **Create release snapshots** - Tag or branch at every release so you can always answer "what exactly was in version 2.4.3?"
+
+* **Decide your hotfix philosophy** - Will you fix forward (apply to main and let it flow to the next release) or backport fixes to old releases? Neither approach is universally right, but picking one consistently prevents chaos.
+
+=== Infrastructure-as-Code: Because Clicking in Consoles is for Amateurs
+
+Manually setting up servers and configuring environments is like writing code without version control - a recipe for disaster. Infrastructure-as-Code (IaC) means you define your entire cloud environment - servers, networks, databases, the works - in code files that live in your repo.
+
+Why does this matter? Because:
+
+* **Version control for your infrastructure** - Roll back a bad configuration as easily as you roll back bad code.
+
+* **Consistent environments** - Eliminate the "works on my machine" problem by ensuring your dev, test, and prod environments are genuinely identical.
+
+* **No more cowboy operations** - That admin who "just needs to make one quick change" in production? Now they need a pull request like everyone else.
+
+* **Dev and Ops finally speaking the same language** - When operations engineers work with code rather than GUIs, they naturally collaborate better with developers.
+
+Implementing IaC isn't just a technical upgrade - it's a fundamental shift in how you think about your infrastructure. It turns static environments into dynamic, reproducible resources. If your competitors are still pointing and clicking in cloud consoles while you're deploying entire environments with a single command, guess who's moving faster?
+
+=== Build Pipelines: Your Code's Assembly Line
+
+A build pipeline is your automated assembly line that takes raw code and transforms it into something deployable. Every time a developer pushes changes, the pipeline springs to life, performing a choreographed sequence of operations:
+
+1. **Fetch dependencies** - Pull in all the libraries your app needs (npm packages, NuGet packages, etc.)
+2. **Compile/transpile code** - Turn your high-level code into something machines understand
+3. **Run automated tests** - Verify nothing broke
+4. **Static analysis** - Check for security issues and code smells
+5. **Package everything** - Bundle it all into a deployable artifact
+
+Without a build pipeline, you're back in 2005 - developers muttering "it works on my machine" while production crashes and burns. Your build pipeline is the first line of defense against the chaos of human error.
+
+=== Release Pipelines: From Code to Customer in One Click
+
+While build pipelines prepare your software for launch, release pipelines actually fly it to its destination. They're the logistics system that safely delivers your code across environments until it reaches real users.
+
+A proper release pipeline should:
+
+* Deploy to dev environments automatically when builds succeed
+* Deploy to test environments on a schedule or on demand
+* Deploy to production with appropriate approvals
+* Roll back automatically if health checks fail
+* Keep detailed records of what was deployed when and by whom
+
+
+Smart teams add automated gates throughout the pipeline: security scans before dev deployment, performance testing before QA, compliance checks before production. This ensures that only code meeting your standards progresses to the next stage.
+
+The final approval process varies by organization. Some use Change Advisory Boards (CABs), others require sign-off from specific stakeholders, and the most advanced teams use data-driven automated approvals based on test coverage and performance metrics. Whatever your process, document it clearly so everyone knows how code flows from commit to customer.
+
+=== From Ideas to Delivery: Your Rocket's Flight Path
+
+Every valuable feature begins as a simple idea. Unlike traditional development where ideas disappear into a black hole for months, the T-Minus-15 approach keeps ideas visible and moves them through distinct environments as they transform from concept to reality:
+
+==== IDEATION & PLANNING
+
+This is your launchpad - where raw ideas get captured, refined, and organized. Before writing a single line of code, ideas need to be:
+
+* Clearly articulated as user stories or requirements
+* Prioritized based on business value and technical dependencies
+* Broken down into manageable pieces
+* Assigned acceptance criteria so you'll know when they're done
+
+Tools like Azure DevOps or GitHub Projects work well for managing this process, but even a well-organized Trello board can do the job. The key is visibility - everyone should see what's coming next and why.
+
+==== ENGINEERING
+
+This is your rocket assembly facility. When code gets merged to main, it lands here first. The engineering environment should:
+
+* Be completely automated - no manual deployments
+* Reset regularly to match the latest successful build
+* Use cheaper infrastructure than production (if you're on Azure, use a separate dev subscription with cost guardrails)
+* Be a safe place for devs to verify their changes work in a shared environment
+
+==== TEST
+
+Consider this your launch simulation facility. Every feature that passes engineering checks gets promoted here for thorough testing:
+
+* Deploy automatically on a schedule (e.g., Monday/Wednesday/Friday mornings)
+* Allow manual deployments when needed - don't make QA wait until Wednesday if something's ready Tuesday
+* Make this environment the star of your checkpoint meetings - demo from here, not from someone's laptop
+* Keep it as production-like as possible, including data structure (but not real customer data!)
+
+==== OPERATIONS (PRODUCTION)
+
+This is where your rocket carries actual passengers. Treat it with appropriate respect:
+
+* **Absolutely no manual changes** - if it's not in your code repo, it doesn't go to production
+* Use deployment slots and traffic shifting (blue/green deployments) to minimize risk
+* Implement progressive rollouts - start with 5% of users and gradually increase
+* Maintain robust monitoring and rollback capabilities for when things inevitably go wrong
+
+=== Release Notes That People Actually Read
+
+Nobody reads boring release notes. But great release notes are your marketing campaign to stakeholders - they showcase your team's value delivery and build excitement for what you've created.
+
+Don't waste this opportunity with technical jargon or vague statements like "fixed various bugs." Instead:
+
+* Use clear, benefit-focused language: "Checkout now 30% faster" not "Optimized database queries"
+* Include visuals - screenshots or short animations of new features
+* Organize by impact - lead with game-changers, not minor tweaks
+* Keep it skimmable with bullet points and bold highlights
+* Link to documentation or tutorials for complex features
+
+<INSERT>
+Table 7. Example release note showing Features deployed to a Tesla Model X.
+
+=== The Anti-Dramatic Launch: Boring is Beautiful
+
+Forget the midnight deployments and launch-day panic. Those aren't badges of honor - they're signs of poor planning.
+
+The best launches are boring. By the time you officially announce a feature to the entire business, it should have been:
+
+1. Running in production for days or weeks
+2. Used by friendly test groups who helped iron out kinks
+3. Gradually rolled out to increasing percentages of users
+4. Monitored for performance and errors
+
+This approach dramatically reduces risk. When SpaceX launches a rocket to the space station, they've already tested every component extensively. They don't just build it and hope it works the first time in production. Neither should you.
+
+Finally, support your launch with proper communication. Create short tutorial videos, host brief training sessions, and prepare your support team with documentation. Even the best software fails if people don't know how to use it.
