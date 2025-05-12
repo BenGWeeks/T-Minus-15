@@ -1,4 +1,4 @@
-name: Build Book
+name: Build Book for Amazon KDP
 
 on:
   push:
@@ -20,10 +20,11 @@ jobs:
           ruby-version: '3.1'
           bundler-cache: true
           
-      - name: Install Asciidoctor and PDF extension
+      - name: Install Asciidoctor and extensions
         run: |
           gem install asciidoctor
           gem install asciidoctor-pdf
+          gem install asciidoctor-epub3 || true
           
       - name: Install additional fonts
         run: |
@@ -35,14 +36,15 @@ jobs:
         run: |
           cat > Book.asciidoc << 'EOF'
           = T-Minus-15: Secrets of an Elite DevOps Team
+          Ben G. Weeks
           :doctype: book
           :toc:
           :toclevels: 3
           :sectnums:
           :sectnumlevels: 3
           :imagesdir: Images
-          :front-cover-image: Cover/cover.png
-          :pdf-style: CSS/theme.yml
+          :front-cover-image: 01-3.png
+          :stylesheet: CSS/tminus15-styles.css
           
           include::AboutTheAuthor.asciidoc[]
           
@@ -114,10 +116,10 @@ jobs:
           include::Thanks.asciidoc[]
           EOF
           
-      - name: Create basic PDF theme
+      - name: Create PDF theme
         run: |
-          mkdir -p CSS
-          cat > CSS/theme.yml << 'EOF'
+          cat > tminus15-theme.yml << 'EOF'
+          extends: default
           page:
             layout: portrait
             margin: [0.75in, 1in, 0.75in, 1in]
@@ -133,27 +135,35 @@ jobs:
           
       - name: Build PDF
         run: |
-          asciidoctor-pdf Book.asciidoc -o T-Minus-15.pdf
+          asciidoctor-pdf -a pdf-theme=tminus15-theme.yml Book.asciidoc -o T-Minus-15.pdf
+          echo "PDF build complete, check results"
+          ls -la T-Minus-15.pdf
           
       - name: Build EPUB (optional)
         run: |
-          gem install asciidoctor-epub3
           asciidoctor-epub3 Book.asciidoc -o T-Minus-15.epub || echo "EPUB build failed, continuing anyway"
           
-      - name: Upload compiled book
-        uses: actions/upload-artifact@v2
-        with:
-          name: compiled-book
-          path: |
-            T-Minus-15.pdf
-            T-Minus-15.epub
+      - name: Save artifacts in workspace
+        run: |
+          mkdir -p book-output
+          cp T-Minus-15.pdf book-output/ || echo "No PDF found"
+          cp T-Minus-15.epub book-output/ || echo "No EPUB found"
+          echo "Saved artifacts to book-output directory"
+          ls -la book-output/
           
+      # Create tag-based release only if this is a tag push
       - name: Create release on tag
         if: startsWith(github.ref, 'refs/tags/')
-        uses: softprops/action-gh-release@v0.1.15
-        with:
-          files: |
-            T-Minus-15.pdf
-            T-Minus-15.epub
+        run: |
+          echo "Creating release for tag ${GITHUB_REF#refs/tags/}"
+          
+          # Export the artifact files as GitHub Release assets
+          echo "GITHUB_TOKEN=${{ secrets.GITHUB_TOKEN }}" > .env
+          
+          # Create the release
+          gh release create ${GITHUB_REF#refs/tags/} \
+            --title "T-Minus-15 Book Release ${GITHUB_REF#refs/tags/}" \
+            --notes "Book compiled for Amazon KDP" \
+            T-Minus-15.pdf T-Minus-15.epub
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
