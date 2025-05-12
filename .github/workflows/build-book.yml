@@ -141,7 +141,7 @@ jobs:
           asciidoctor-epub3 Book.asciidoc -o T-Minus-15.epub || echo "EPUB build failed, continuing anyway"
           
       - name: Upload compiled book
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v2
         with:
           name: compiled-book
           path: |
@@ -150,7 +150,7 @@ jobs:
           
       - name: Create release on tag
         if: startsWith(github.ref, 'refs/tags/')
-        uses: softprops/action-gh-release@v1
+        uses: softprops/action-gh-release@v0.1.15
         with:
           files: |
             T-Minus-15.pdf
