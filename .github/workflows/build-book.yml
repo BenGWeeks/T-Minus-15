@@ -154,16 +154,19 @@ jobs:
       # Create tag-based release only if this is a tag push
       - name: Create release on tag
         if: startsWith(github.ref, 'refs/tags/')
-        run: |
-          echo "Creating release for tag ${GITHUB_REF#refs/tags/}"
-          
-          # Export the artifact files as GitHub Release assets
-          echo "GITHUB_TOKEN=${{ secrets.GITHUB_TOKEN }}" > .env
-          
-          # Create the release
-          gh release create ${GITHUB_REF#refs/tags/} \
-            --title "T-Minus-15 Book Release ${GITHUB_REF#refs/tags/}" \
-            --notes "Book compiled for Amazon KDP" \
-            T-Minus-15.pdf T-Minus-15.epub
+        uses: softprops/action-gh-release@v1
+        with:
+          files: |
+            T-Minus-15.pdf
+            T-Minus-15.epub
+          draft: false
+          prerelease: ${{ startsWith(github.ref_name, 'v0.') || contains(github.ref_name, 'alpha') || contains(github.ref_name, 'beta') || contains(github.ref_name, 'rc') }}
+          name: T-Minus-15 Book Release ${{ github.ref_name }}
+          body: |
+            ${{ startsWith(github.ref_name, 'v0.') || contains(github.ref_name, 'alpha') || contains(github.ref_name, 'beta') || contains(github.ref_name, 'rc') && 'Pre-release build of T-Minus-15 book for testing/review. Not production-ready.' || 'Book compiled for Amazon KDP' }}
+
+            Files included:
+            - PDF (for printing and Amazon KDP)
+            - EPUB (for e-readers)
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
