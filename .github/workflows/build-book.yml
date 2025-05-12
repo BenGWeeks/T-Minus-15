@@ -1,7 +1,9 @@
 name: Book Build for Amazon KDP
 
 on:
-  workflow_dispatch:  # Manual triggering only
+  workflow_dispatch:  # Manual triggering
+  push:
+    branches: [ main ]  # Automatic triggering on push to main branch
 
 jobs:
   # Job 1: Set up the environment and build the book files
