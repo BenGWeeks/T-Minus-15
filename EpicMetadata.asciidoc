@@ -1,4 +1,4 @@
-== Epic metadata
+= Epic metadata
 
 // VS Code specific styling that won't be shown in GitHub
 ifdef::env-vscode[]
@@ -13,8 +13,8 @@ table li p { margin: 0 !important; padding: 0 !important; }
 ++++
 endif::[]
 
-// Simple table formatting for GitHub compatibility
-[%header]
+// Force column widths with explicit format
+[cols="1,2,2", options="header", width="100%"]
 |===
 3+| EPIC
 
