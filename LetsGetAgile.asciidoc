@@ -7,7 +7,7 @@ Every company is a software company{empty}footnote:[Microsoft CEO Satya Nadella 
 The ability to adapt to the market is critical in the modern economy. With advances in technology this creates lower barriers to entry where newcomers can create disruption and shake things up. As a result, according to Yale professor Richard Foster, the lifespan of a company in the S&P500 has shrunk by more than 50 years in the last century, from 67 years in the 1920s to a more modest 15 years{empty}footnote:[Creative Destruction Whips through Corporate America, https://engageinnovate.files.wordpress.com/2012/03/creative-destruction-whips-through-corporate-america_final2012.pdf]. S&P500 companies, you have been warned – 1 of you is being replaced every two weeks, and for the newcomers … the opportunity is there for the taking!
 
 .Creative Destruction Whips through Corporate America
-image::Images/Average%20company%20lifespan.png[float=center,align=center,link=https://engageinnovate.files.wordpress.com/2012/03/creative-destruction-whips-through-corporate-america_final2012.pdf]
+image::Images/AverageCompanyLifespan.png[float=center,align=center,link=https://engageinnovate.files.wordpress.com/2012/03/creative-destruction-whips-through-corporate-america_final2012.pdf]
 
 === Overview of Agile
 
@@ -124,7 +124,7 @@ In the T-Minus-15 methodology we advocate the general use of a 3-week sprint (15
 To give a high-level overview of the project (Epic) you can put together a Gantt chart down to the level of the sprints along with specific milestones or events such as 'Go live', 'Release to production', etc. However, as we talk about later when we go into DevOps principles, where possible reduce the 'big bang' launch date. Rather, an iterative deployment to product is preferred with a comms date for announcing to the wider business (which is not the day after the first release to production!).
 
 .A simple Gantt Chart of the Epic MVP release. Note that the delivery plan doesn't need to get much more detailed than this.
-image::Images/Gantt%20Chart.png[float=center,align=center]
+image::Images/GanttChart.png[float=center,align=center]
 
 As an aside, in line with SAFe^TM^ you may also have an Innovation & Planning (IP) sprint. This sprint _acts as an estimating buffer for meeting PI Objectives and provides dedicated time for innovation, continuing education, PI Planning, and Inspect and Adapt (I&A) events_{empty}footnote:[Innovation & Planning Iteration, https://www.scaledagileframework.com/innovation-and-planning-iteration/]. For more information on IP sprints, see https://www.scaledagileframework.com/innovation-and-planning-iteration/.
 
@@ -133,7 +133,7 @@ As an aside, in line with SAFe^TM^ you may also have an Innovation & Planning (I
 The Sprint Burndown Chart gives the team a quick graphical representation of the remaining work left in that sprint. It shows us in a view if the team are on track to deliver the promised functionality by the end of the sprint. The ideal burn down diagonal is shown in white and the actual remaining effort (typically shown in hours) in the green bars.
 
 .Representation of the sprint burndown chart.
-image::Images/Burndown%20chart.png[float=center,align=center]
+image::Images/BurndownChart.png[float=center,align=center]
 
 What does the burndown chart above tell us? Well, it looks like the team had a little bit of a slow start, then picked up speed and got ahead of schedule. They then hit some blockers by the looks of it and started to slip behind schedule, but managed to pick it up with a good effort at the end and completed the sprint. 
 
@@ -249,3 +249,4 @@ So, here are some of the advantages of implementing WIP limits within the team s
 * Encourage the team to work collaboratively to move work items along.
 
 You can complete the WIP limits for your organisation in the Appendix.
+

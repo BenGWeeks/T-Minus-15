@@ -7,7 +7,7 @@ With fear of jumping on a using a portmanteau trend (a shortening a number of wo
 Whilst Agile is intended to close the gap between the customers (business) and the development team, DevOps aims to close the gap between the development team and operations that typically operate in siloes. You can therefore see how utilising both can bring about operational effectiveness of the idea to value for the business. And likewise to Agile, DevOps also requires a cultural change within the enterprise.
 
 .Here we can see a nice summary of where Agile (Scrum) and DevOps operate. Thanks to my son Isaac for his representation of business, developers and IT operators! :-)
-image::Images/Agile%20vs%20DevOps.png[float=center,align=center]
+image::Images/AgileVsDevOps.png[float=center,align=center]
 
 === DevOps Principles
 
@@ -24,7 +24,7 @@ DevOps has the following 7 key principles{empty}footnote:[7 Key Principles for a
 DevOps has the principle of continuous improvement, and as such has a continuous lifecycle as follows:
 
 .The familiar DevOps lifecycle of Prep > Design > Engineer > Test > Operate.
-image::Images/Infinity%20Lifecycle%20(Book).png[float=center,align=center]
+image::Images/InfinityLifecycleBook.png[float=center,align=center]
 
 It should be noted that these individual activities can be carried out within a sprint focused on that activity, as well as during other sprints. The naming convention of these activities has an associated role (see the A-Team). In addition, we have lifecycles for all our work items, whether they are the Epic itself, or its’ Capabilities, Features, Tasks, Improvements or Bugs.
 
@@ -76,3 +76,4 @@ During a project of over 3 or 4 engineering sprints, you may want a dedicated Te
 Following the principles of SAFe^R^, we make deployments to production “on demand”. We want to deploy to production little-and-often rather than “big bang” launches. This reduces the stress on the team on doing deployments because they are used to doing them frequently with each deployment being less of a code change. In addition, you can implement A-B deployments such as using deployment slots in Azure to allow for gradual rollouts of changes.
 
 Whilst making deployments is great, think about the adoption of the value you are delivering to the business as well. Do they know what has been deployed? Using Release Notes that includes details on Features, Bug fixes and Improvements, in your release pipeline is a great way to ensure the business are aware of the great value your team are delivering. Do the business need training? Is there a communication strategy to inform the wider audience of changes? Are we learning from the deployment feeding back into our continuous improvement?
+

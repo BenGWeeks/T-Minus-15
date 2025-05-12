@@ -25,7 +25,7 @@ Get visual: If possible (and applicable) create UX/UI wireframes and walk-throug
 The Product Backlog is our single list of requirements for the business. It is a hierarchical list of Epics, Features, Tasks, Bugs and Improvements.
 
 .Hierarchical structure of our product backlog. NB Risks and issues are held separately outside the hierarchy, but everything else should have a parent/child relationship.
-image::Images/Product%20backlog.png[float=center,align=center]
+image::Images/ProductBacklog.png[float=center,align=center]
 
 These items can be prioritized into an order of delivery where the User Stories and above should only be updated with the consent of the Product Owner. The Scrum team will use the currency of Story Points to estimate the workload for items. We’ll cover Story Points later, but in essence they are a unit of prescribed varying sizes (a modified Fibonacci sequence) to help the team estimate work sizes. These estimates also help the Product Owner prioritize work items.
 
@@ -42,7 +42,7 @@ Why do we need this epic? What value are we delivering to the business? These ar
 An Epic can be thought of as an initiative to be undertaken that will initially be a Minimum Viable Product (MVP). An Epic will be delivered through the use of lean start-up principles.
 
 .An economic lean start-up strategy, enabling risk and investment incrementally, whilst allowing for flow, visibility and building with fast, integrated learning cycles as outlined in Principle 4 of SAFe^R^.
-image::Images/Lean%20Startup.png[float=center,align=center]
+image::Images/LeanStartup.png[float=center,align=center]
 
 To see the Epic metadata please see Appendix.
 
@@ -144,3 +144,4 @@ We can categorize client requirements into these broad areas:
 Enter MoSCoW: MoSCoW is a prioritization technique that categorizes requirements as Must Have, Should Have, Could Have, and Won't Have. This helps to prioritize what's most important to the client and focus on delivering the most essential requirements first. The MoSCoW method ensures that you focus on delivering what's most important to the client, so you can keep them happy and deliver a product that meets their needs.
 
 In conclusion, understanding client requirements is critical to delivering a successful project. By asking questions, working as a team, building a backlog, using MoSCoW to prioritize, and being aware of the different types of requirements, you can ensure that you deliver a product that meets the client's expectations and exceeds their needs. Remember, happy clients lead to more business and a better reputation, so make sure you understand their requirements and prioritize them accordingly.
+
