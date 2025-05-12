@@ -1,0 +1,159 @@
+name: Build Book
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+  workflow_dispatch:  # Enable manual triggering
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.1'
+          bundler-cache: true
+          
+      - name: Install Asciidoctor and PDF extension
+        run: |
+          gem install asciidoctor
+          gem install asciidoctor-pdf
+          
+      - name: Install additional fonts
+        run: |
+          mkdir -p ~/.fonts
+          cp -r Fonts/* ~/.fonts/ || true
+          fc-cache -f -v
+          
+      - name: Create main book file
+        run: |
+          cat > Book.asciidoc << 'EOF'
+          = T-Minus-15: Secrets of an Elite DevOps Team
+          :doctype: book
+          :toc:
+          :toclevels: 3
+          :sectnums:
+          :sectnumlevels: 3
+          :imagesdir: Images
+          :front-cover-image: Cover/cover.png
+          :pdf-style: CSS/theme.yml
+          
+          include::AboutTheAuthor.asciidoc[]
+          
+          include::Foreword.asciidoc[]
+          
+          include::Sponsors.asciidoc[]
+          
+          include::WhatsThisAllAbout.asciidoc[]
+          
+          == Decoding the client's wants and needs
+          include::DecodingTheClientsWantsAndNeeds.asciidoc[]
+          
+          == Crafting great user experiences
+          include::CraftingGreatUserExperiences.asciidoc[]
+          
+          == Let's get Agile!
+          include::LetsGetAgile.asciidoc[]
+          
+          == So what about DevOps?
+          include::SoWhatAboutDevOps.asciidoc[]
+          
+          == The Avengers of Agile: Assembling a Cross-Functional Squad That Delivers Results
+          include::TheAvengersOfAgile.asciidoc[]
+          
+          == Raising the Bar: The Pursuit of Quality in Agile Projects
+          include::RaisingTheBar.asciidoc[]
+          
+          == Delivering value
+          include::DeliveringValue.asciidoc[]
+          
+          == Happy customers
+          include::HappyCustomers.asciidoc[]
+          
+          == 15-steps to success
+          include::15StepsToSuccess.asciidoc[]
+          
+          [appendix]
+          == Epic metadata
+          include::EpicMetadata.asciidoc[]
+          
+          [appendix]
+          == Feature metadata
+          include::FeatureMetadata.asciidoc[]
+          
+          [appendix]
+          == User Story metadata
+          include::UserStoryMetadata.asciidoc[]
+          
+          [appendix]
+          == Task metadata
+          include::TaskMetadata.asciidoc[]
+          
+          [appendix]
+          == Bugs and Enhancements metadata
+          include::BugsAndEnhancementsMetadata.asciidoc[]
+          
+          [appendix]
+          == WIP limits
+          include::WIPLimits.asciidoc[]
+          
+          [appendix]
+          == Meetings
+          include::Meetings.asciidoc[]
+          
+          [appendix]
+          == Azure DevOps Process Template Setup
+          include::AzureDevOpsProcessTemplateSetup.asciidoc[]
+          
+          include::Thanks.asciidoc[]
+          EOF
+          
+      - name: Create basic PDF theme
+        run: |
+          mkdir -p CSS
+          cat > CSS/theme.yml << 'EOF'
+          page:
+            layout: portrait
+            margin: [0.75in, 1in, 0.75in, 1in]
+            size: Letter
+          base:
+            font-family: Times-Roman
+            font-size: 12
+          heading:
+            font-family: Helvetica
+          title-page:
+            align: center
+          EOF
+          
+      - name: Build PDF
+        run: |
+          asciidoctor-pdf Book.asciidoc -o T-Minus-15.pdf
+          
+      - name: Build EPUB (optional)
+        run: |
+          gem install asciidoctor-epub3
+          asciidoctor-epub3 Book.asciidoc -o T-Minus-15.epub || echo "EPUB build failed, continuing anyway"
+          
+      - name: Upload compiled book
+        uses: actions/upload-artifact@v3
+        with:
+          name: compiled-book
+          path: |
+            T-Minus-15.pdf
+            T-Minus-15.epub
+          
+      - name: Create release on tag
+        if: startsWith(github.ref, 'refs/tags/')
+        uses: softprops/action-gh-release@v1
+        with:
+          files: |
+            T-Minus-15.pdf
+            T-Minus-15.epub
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
