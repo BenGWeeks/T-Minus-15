@@ -1,15 +1,5 @@
 == Epic metadata
-
-// CSS for AsciiDoc extension styling
-++++
-<style>
-body { font-size: 12px !important; }
-table { width: 100% !important; table-layout: fixed !important; }
-table * { font-size: 12px !important; }
-table li { margin: 0 !important; padding: 0 !important; }
-table li p { margin: 0 !important; padding: 0 !important; }
-</style>
-++++
+:stylesheet: CSS/tminus15-styles.css
 
 .Guidance and example Epic metadata (with assistance from ChatGPT)
 [width=100%, cols="20%,40%,40%"]
