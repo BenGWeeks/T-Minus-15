@@ -76,14 +76,13 @@ jobs:
           sudo gem install asciidoctor-pdf > /dev/null
           asciidoctor-pdf Book.asciidoc -o book.pdf
           
-      # Create a tag for the release
-      - name: Create release tag
-        id: create_tag
+      # Generate a release ID without pushing tags
+      - name: Generate release ID
+        id: release_id
         run: |
-          TAG_NAME="kdp-build-$(date +%Y%m%d-%H%M%S)"
-          echo "tag_name=${TAG_NAME}" >> $GITHUB_OUTPUT
-          git tag $TAG_NAME
-          git push origin $TAG_NAME
+          RELEASE_ID="kdp-build-$(date +%Y%m%d-%H%M%S)"
+          echo "release_id=${RELEASE_ID}" >> $GITHUB_OUTPUT
+          echo "Created release ID: ${RELEASE_ID}"
 
       # Create the GitHub release
       - name: Create GitHub Release
@@ -92,7 +91,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          tag_name: ${{ steps.create_tag.outputs.tag_name }}
+          tag_name: ${{ steps.release_id.outputs.release_id }}
           release_name: T-Minus-15 Book for KDP
           draft: false
           prerelease: true
