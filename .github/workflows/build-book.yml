@@ -32,6 +32,9 @@ jobs:
         id: build-pdf
         run: |
           echo "Starting PDF build..."
+          # Make sure directories are properly recognized
+          mkdir -p Chapters Appendices Images
+          # Run the build with the new folder structure
           if asciidoctor-pdf Book.asciidoc -o book.pdf; then
             echo "PDF build succeeded"
             echo "build_success=true" >> $GITHUB_OUTPUT
@@ -53,11 +56,11 @@ jobs:
       # Upload artifacts between jobs
       - name: Save book artifacts
         if: steps.build-pdf.outputs.build_success == 'true'
-        uses: actions/upload-artifact@v3
-        with:
-          name: book-artifacts
-          path: book.pdf
-          retention-days: 1
+        run: |
+          mkdir -p book-outputs
+          cp book.pdf book-outputs/
+          echo "Book artifacts saved to book-outputs directory"
+          ls -la book-outputs/
         
   # Job 2: Create the GitHub release with the built files
   create-release:
@@ -79,6 +82,8 @@ jobs:
           sudo apt-get update -q
           sudo apt-get install -y asciidoctor > /dev/null
           sudo gem install asciidoctor-pdf > /dev/null
+          # Make sure directories are properly recognized
+          mkdir -p Chapters Appendices Images
           # Build the PDF
           asciidoctor-pdf Book.asciidoc -o book.pdf
           # Verify the build
