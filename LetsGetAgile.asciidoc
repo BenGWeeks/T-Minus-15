@@ -53,7 +53,7 @@ However, within a larger Enterprise SAFeR believes that “best architectures, r
 
 === The Pro's and Con's of Agile
 
-But it’s not all rainbows and unicorns. There are pro’s and con’s to any methodology and some scenarios may suit other methodologies. For example, if you are developing nuclear reactors, missiles or alike you may want to choose a different strategy. Some of the pro’s and con’s of agile can be summarised as follows:
+But it's not all rainbows and unicorns. There are pro's and con's to any methodology and some scenarios may suit other methodologies. For example, if you are developing nuclear reactors, missiles or alike you may want to choose a different strategy. Some of the pro's and con's of agile can be summarised as follows:
 
 .Table of the pro's and con's of Agile
 |===
@@ -65,13 +65,13 @@ But it’s not all rainbows and unicorns. There are pro’s and con’s to any m
 | Tangible built components visible to business quickly and can be modified
 | Components may not be 100% as expected by business
 
-| Bugs raised can fixed iteratively during the build process.	
+| Bugs raised can fixed iteratively during the build process.
 | Solution will not be bug free.
 |===
 
 === Agility for the Enterprise
 
-As outlined in “Thinking of Building a Cloud Operating Model”{empty}footnote:[Thinking of Building a Cloud Operating Model, https://www.amazon.co.uk/Thinking-Building-Microsoft-Operating-Questions/dp/1907453237] from Dan Scarfe et al (I couldn’t have said it better myself!):
+As outlined in 'Thinking of Building a Cloud Operating Model'{empty}footnote:[Thinking of Building a Cloud Operating Model, https://www.amazon.co.uk/Thinking-Building-Microsoft-Operating-Questions/dp/1907453237] from Dan Scarfe et al (I couldn't have said it better myself!):
 
 _Having teams operating using an Agile methodology is great, but how does an enterprise facilitate these teams working in this new framework? How can the enterprise manage these teams and ensure that value is being delivered across the organisation and have a high-level overview of what is happening?_
 
@@ -79,13 +79,13 @@ _This is where the SAFeR is a framework for managing multiple business-focussed 
 
 _SAFeR provides a mechanism to manage and then prioritize these major initiatives and provide a bridge into both the IT and business teams that might enable this epic to be delivered._
 
-_Underneath the portfolio (epic) level is the program level. Epics are just that, epic! Each epic is broken down into a series of features and enablers which are grouped into a program increment, which is a time-bound period where you deliver some form of business value. This value is managed by an agile release train. Within each program increment, you have a number of scrum teams who actually deliver the work. Over, you’ll see a diagram showing the high-level view of this process._
+_Underneath the portfolio (epic) level is the program level. Epics are just that, epic! Each epic is broken down into a series of features and enablers which are grouped into a program increment, which is a time-bound period where you deliver some form of business value. This value is managed by an agile release train. Within each program increment, you have a number of scrum teams who actually deliver the work. Over, you'll see a diagram showing the high-level view of this process._
 
 _The thing that is most interesting about SAFeR is its applicability across such a broad range of initiatives you might be running an as organisation. The fact that by using SAFeR, Agile can be applied to far more than just software development. Agile budgeting and planning can now be used to represent and manage the entire innovation pipeline within your organisation._
 
 _As an IT organisation, your responsibility becomes standing up, feeding and watering a given number of downstream agile sprint teams. These multi-disciplinary teams will span different technologies. They will have different skillsets. They will do different things. But they will be there, willing and able, to work through the constant stream of requirements. No more functional requirement. No more detailed business cases. No more friction between the business and IT. Peace, and hopefully, harmony._
 
-_This brief description doesn’t begin to do justice to the intricacies, or power, of SAFeR. When you fully understand it and see it in action, you will appreciate its power and how useful it can be. For more information on SAFeR, please see www.scaledagile.com._
+_This brief description doesn't begin to do justice to the intricacies, or power, of SAFeR. When you fully understand it and see it in action, you will appreciate its power and how useful it can be. For more information on SAFeR, please see www.scaledagile.com._
 
 === Scrum
 
@@ -97,7 +97,7 @@ image::Images/Scrum.png[float=center,align=center]
 
 === Kanban vs Scrum
 
-Whilst Scrum is organised into Sprints of a few weeks, Kanban is more about seeing progression in work done. We use Kanban to see progression of Stories, Features and Epics. With Kanban, the  focus is more on the flow of workload. Some projects are better suited to Kanban if they are very iterative. For example, quite often Power BI projects I have worked on have better suited Kanban where there is a lot of back and forth with a stakeholder on getting a report “just right” with change being the word, and it’s therefore not always possible to organise a “sprints” worth of requirements because of the nature of the work. In addition, this work is often carried out by a single person and doesn’t warrant the overhead of the various scrum roles.
+Whilst Scrum is organised into Sprints of a few weeks, Kanban is more about seeing progression in work done. We use Kanban to see progression of Stories, Features and Epics. With Kanban, the  focus is more on the flow of workload. Some projects are better suited to Kanban if they are very iterative. For example, quite often Power BI projects I have worked on have better suited Kanban where there is a lot of back and forth with a stakeholder on getting a report “just right” with change being the word, and it's therefore not always possible to organise a “sprints” worth of requirements because of the nature of the work. In addition, this work is often carried out by a single person and doesn't warrant the overhead of the various scrum roles.
 
 Alternatively, if you want that member to be part of a team (perhaps delivering a different Feature or set of Stories to the rest of the team, but working in the same sprint) you could define a rather loose Story of “I want a certain report” with tasks underneath that move across more like a Kanban board. Our daily stand-up boards are essentially Kanban boards after all, just we have Stories.
 
@@ -107,7 +107,7 @@ Although the majority of the methodology is geared towards Scrum, consider that 
 
 Sprints are generally used for tracking progress of Stories, Tasks, Improvements and Bugs.
 
-Our sprints should align to the lifecycle we identified earlier, therefore; Sprint 0 will generally always be a Prep & design sprint. So we can generalise sprints into the following types (although we don’t need to be strict about the specific content of the sprints, it just serves as a good generalisation):
+Our sprints should align to the lifecycle we identified earlier, therefore; Sprint 0 will generally always be a Prep & design sprint. So we can generalise sprints into the following types (although we don't need to be strict about the specific content of the sprints, it just serves as a good generalisation):
 
 // My opinion on this has now changed.
 
@@ -115,13 +115,13 @@ Our sprints should align to the lifecycle we identified earlier, therefore; Spri
 
 **Engineering sprint(s)** for technically building and developing the solution - these should form most of the sprints to deliver an Epic.
 
-**Testing sprint(s)** are stabilization / dedicated testing sprints mid-way through for larger projects. As a rule, you should have one of these sprints for every 3 or 4 engineering sprints. Do not be confused – we are doing testing right from the start! This is a sprint were we are concentrating on improving quality.
+**Testing sprint(s)** are stabilization / dedicated testing sprints mid-way through for larger projects. As a rule, you should have one of these sprints for every 3 or 4 engineering sprints. Do not be confused, we are doing testing right from the start! This is a sprint were we are concentrating on improving quality.
 
-**Operational sprint(s)** are where we’re are going live! Typically done at the end of the project unless you want multiple releases to production in a single project. This could include tasks such as documentation, training, and alike.
+**Operational sprint(s)** are where we're are going live! Typically done at the end of the project unless you want multiple releases to production in a single project. This could include tasks such as documentation, training, and alike.
 
-In the T-Minus-15 methodology we advocate the general use of a 3-week sprint (15-man days, hence T-Minus-15). Feel free to use a T-Minus-10 or T-Minus-20 but from experience the 3-week sprint allows for a long enough duration to “get stuck in” without an overhead of sprint planning meeting time to organise the next sprint.
+In the T-Minus-15 methodology we advocate the general use of a 3-week sprint (15-man days, hence T-Minus-15). Feel free to use a T-Minus-10 or T-Minus-20 but from experience the 3-week sprint allows for a long enough duration to 'get stuck in' without an overhead of sprint planning meeting time to organise the next sprint.
 
-To give a high-level overview of the project (Epic) you can put together a Gantt chart down to the level of the sprints along with specific milestones or events such as “Go live”, “Release to production”, etc. However, as we talk about later when we go into DevOps principles, where possible reduce the “big bang” launch date. Rather, an iterative deployment to product is preferred with a comms date for announcing to the wider business (which is not the day after the first release to production!).
+To give a high-level overview of the project (Epic) you can put together a Gantt chart down to the level of the sprints along with specific milestones or events such as 'Go live', 'Release to production', etc. However, as we talk about later when we go into DevOps principles, where possible reduce the 'big bang' launch date. Rather, an iterative deployment to product is preferred with a comms date for announcing to the wider business (which is not the day after the first release to production!).
 
 .A simple Gantt Chart of the Epic MVP release. Note that the delivery plan doesn't need to get much more detailed than this.
 image::Images/Gantt%20Chart.png[float=center,align=center]
@@ -173,21 +173,16 @@ For these project issues, we focus on two key aspects: impact assessment (how do
 An example: _"During the SpaceX Starship project, a key supplier went bankrupt, leaving us without critical components."_ This is a project issue, not a technical bug. Our response: _"We immediately assessed inventory, identified alternative suppliers, expedited new contracts, and adjusted the project timeline to accommodate the 3-week delay."_
 
 Project issues need urgency and ownership. Always assign someone responsible for resolving each issue, set clear deadlines, and follow up consistently. The longer an issue remains unresolved, the more impact it typically has on your project timeline and budget.
-
 === Story point estimation
 
 // This needs updating
-
-A Story Point is a method for the team to size the effort for the related Story. Typically, the smallest story is assigned a size of 1 and then other Stories are sized of this using a modified Fibonacci sequence (0.25, 0.5, 1, 2, 4, 8, 16). The Story point usually represents a single number that represents a combination of qualities of volume (how much effort), complexity (how hard), knowledge (what’s known) and uncertainty (what’s unknown).
-
-**However, contrary to traditional story points, the T-Minus-15 methodology draws a comparison of the story point and engineering effort, where 1 story point equates to 1 day of effort. This allows the team to more easily visualise and size story sizes. It also allows a way to provisionally pre-plan sprints in advance and calculate the capacity of the team for the number of story points that can be undertaken.**
 
 To calculate the total story points that can be carried out in a sprint, we have to appreciate that the engineering time is not the only time required to size a user story! Use the following formula to calculate the total effort for a Story:
 
 .This is a general formula for calculating the total effort involved for a Story.
 image::Images/Estimating.png[float=center,align=center]
 
-From the above, in summary the total effort is approximately twice the engineering effort we put in the Story Points. This is useful for calculating the total effort for Features and capacity of Sprints. As a general rule for example, you can see that for every 4 Engineers, on average you’re going to need 1 Test Pilot.
+From the above, in summary the total effort is approximately twice the engineering effort we put in the Story Points. This is useful for calculating the total effort for Features and capacity of Sprints. As a general rule for example, you can see that for every 4 Engineers, on average you're going to need 1 Test Pilot.
 
 === Kanban boards
 
@@ -195,20 +190,20 @@ We use Kanban boards to track progress of Stories, Features and Epics. A Kanban 
 
 // INSERT
 
-Stories in particular also have a “Definition of done” for each column that we will look at in section
+Stories in particular also have a 'Definition of done' for each column that we will look at in section
 
 === Rules
 
 Who and how do we update items in the backlog? Here are our work items rules:
 
-1.	Only the Epic Owner can update an Epic.
-2.	Only the Business Owner can update a Feature.
-3.	Only the Prepper and Scrum Master can update User Stories.
-4.	The scrum master is responsible for closing a Story.
-5.	There should be no time remaining for Closed items children.
-6.	All members of the A-Team should have specific tasks in the sprint.
-7.	Stories can only be set to “Done” when they meet their definition of done for the relevant statuses.
-8.	The Test Pilot and Tech Lead is responsible for confirming a release is ready for Production.
+1. Only the Epic Owner can update an Epic.
+2. Only the Business Owner can update a Feature.
+3. Only the Prepper and Scrum Master can update User Stories.
+4. The scrum master is responsible for closing a Story.
+5. There should be no time remaining for Closed items children.
+6. All members of the A-Team should have specific tasks in the sprint.
+7. Stories can only be set to "Done" when they meet their definition of done for the relevant statuses.
+8. The Test Pilot and Tech Lead is responsible for confirming a release is ready for Production.
 
 === States
 
@@ -218,7 +213,7 @@ All items in the product backlog have various states associated with them to tra
 
 === Definition of done
 
-As your team update the states of work items on a Kanban board, it’s important to agree with what we mean by “done”. By specifying what we call a “Definition of Done” for each column in the Kanban board it is clear for all the team as to what the acceptance of the item being complete is.
+As your team update the states of work items on a Kanban board, it's important to agree with what we mean by “done”. By specifying what we call a “Definition of Done” for each column in the Kanban board it is clear for all the team as to what the acceptance of the item being complete is.
 
 // CREATE TABLE
 
@@ -232,25 +227,25 @@ Work-In-Progress (WIP) limits are used to impose limitations on the number of it
 
 WIP limits are important to ensure that the team do not undertake hundreds of items to work on (because you have to say “yes” right?!), but actually complete only a rather small fraction of these. Much better to release a smaller amount of high-quality high-value (HQHV) than a large amount of low-quality. Working on too many items simultaneously will mean the team are not focused on ensuring each work item is high value.
 
-In actual fact, having a WIP limit enables you to deliver things quicker. Think of juggling. I can juggle 1 to 3 balls pretty well and quickly. If I were to try to juggle 4 or 5 balls, I wouldn’t be very effective at juggling because I would actually spend most of my time picking the balls up rather than juggling!
+In actual fact, having a WIP limit enables you to deliver things quicker. Think of juggling. I can juggle 1 to 3 balls pretty well and quickly. If I were to try to juggle 4 or 5 balls, I wouldn't be very effective at juggling because I would actually spend most of my time picking the balls up rather than juggling!
 
-So, next time as a team member you get asked “can you start this” you can say “I would love to, but I’ve hit my WIP limit, so will prioritize that next” (something along those lines!).
+So, next time as a team member you get asked “can you start this” you can say “I would love to, but I've hit my WIP limit, so will prioritize that next” (something along those lines!).
 
 What WIP limits should be set? You should set WIP limits for your business for Epics, Features and Stories. Typically each will have a Kanban board associated this those items to show progress. In addition, because we have columns in our board that are primarily associated with different roles, we should probably adjust the WIP limit per column.
 
-In most tools, such as Azure DevOps, it’s possible to set WIP limits on your Kanban boards (and per column).
+In most tools, such as Azure DevOps, it's possible to set WIP limits on your Kanban boards (and per column).
 
 As a rule of thumb, I would recommend a WIP limit for Stories of 2 per person, a Feature of 2 per Team. So, for example, if you have 2 Test Pilots in your team, you may decide to have a WIP limit of 4 for Stories that are ready for Testing.
 
 // CREATE TABLE
 
-So what happens if the engineers have already shipped 4 Stories to the Test Pilot? Then it’s time for some pair programming on other Stories with a colleague, peer reviews, or roll your sleeves up and help with getting those Stories through testing. With a T-shaped skills cross-section that we talk about later in section 8.4 Skills it means you have a degree of flexibility to help out with adjacent tasks accordingly.
+So what happens if the engineers have already shipped 4 Stories to the Test Pilot? Then it's time for some pair programming on other Stories with a colleague, peer reviews, or roll your sleeves up and help with getting those Stories through testing. With a T-shaped skills cross-section that we talk about later in section 8.4 Skills it means you have a degree of flexibility to help out with adjacent tasks accordingly.
 
 So, here are some of the advantages of implementing WIP limits within the team specifically:
 
-*	Reduce the amount of context switching for team members and ultimately mean we are delivering more of which is a higher quality.
-*	Code reviews don’t build up and the original developers lose context of that code.
-*	Merges to the master branch are more frequent ultimately resulting in small potential releases to production.
-*	Encourage the team to work collaboratively to move work items along.
+* Reduce the amount of context switching for team members and ultimately mean we are delivering more of which is a higher quality.
+* Code reviews don't build up and the original developers lose context of that code.
+* Merges to the master branch are more frequent ultimately resulting in small potential releases to production.
+* Encourage the team to work collaboratively to move work items along.
 
 You can complete the WIP limits for your organisation in the Appendix.
