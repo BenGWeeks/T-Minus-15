@@ -1,63 +1,113 @@
-name: Basic Book Build
+name: Book Build for Amazon KDP
 
 on:
   workflow_dispatch:  # Manual triggering only
 
 jobs:
-  build:
+  # Job 1: Set up the environment and build the book files
+  build-book:
+    name: Build Book PDF
     runs-on: ubuntu-latest
+    outputs:
+      pdf_path: ${{ steps.build-pdf.outputs.pdf_path }}
+      build_success: ${{ steps.build-pdf.outputs.build_success }}
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
       
-      - name: Install Asciidoctor and PDF extension
+      - name: Set up environment
         run: |
           sudo apt-get update
           sudo apt-get install -y asciidoctor
           sudo gem install asciidoctor-pdf
           asciidoctor --version
-          echo "Current directory contents:"
-          ls -la
-          echo "Book.asciidoc exists?"
-          ls -la Book.asciidoc || echo "Book.asciidoc not found"
       
       - name: Build PDF
+        id: build-pdf
         run: |
           echo "Starting PDF build..."
-          asciidoctor-pdf Book.asciidoc -o book.pdf || echo "PDF build failed"
-          echo "PDF build result:"
-          ls -la book.pdf || echo "PDF file not found"
-          echo "Build directory contents:"
-          ls -la
-      
-      - name: Debug build results
-        run: |
-          echo "Current directory: $(pwd)"
-          echo "All files in current directory:"
-          find . -type f -name "*.pdf" -o -name "*.epub"
-          echo "Build complete"
+          if asciidoctor-pdf Book.asciidoc -o book.pdf; then
+            echo "PDF build succeeded"
+            echo "build_success=true" >> $GITHUB_OUTPUT
+            echo "pdf_path=book.pdf" >> $GITHUB_OUTPUT
+          else
+            echo "PDF build failed"
+            echo "build_success=false" >> $GITHUB_OUTPUT
+            echo "pdf_path=" >> $GITHUB_OUTPUT
+          fi
           
-      # Just create a release on the current commit
-      - name: Create GitHub Release directly
-        if: github.event_name == 'workflow_dispatch'
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          # Verify the build results
+          if [ -f "book.pdf" ]; then
+            echo "PDF file exists and has size:"  
+            ls -la book.pdf
+          else
+            echo "PDF file was not created successfully"
+          fi
+      
+      # Upload artifacts between jobs
+      - name: Save book artifacts
+        if: steps.build-pdf.outputs.build_success == 'true'
         run: |
-          # Create a tag for this manual build
-          TAG_NAME="manual-build-$(date +%Y%m%d-%H%M%S)"
+          mkdir -p book-outputs
+          cp book.pdf book-outputs/
+          echo "Book artifacts saved to book-outputs directory"
+          ls -la book-outputs/
+        
+  # Job 2: Create the GitHub release with the built files
+  create-release:
+    name: Create GitHub Release
+    needs: build-book
+    runs-on: ubuntu-latest
+    steps:
+      # Need to checkout again since this is a separate job
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # Get the build artifacts from the previous job
+      - name: Download build artifacts
+        if: needs.build-book.outputs.build_success == 'true'
+        run: |
+          # In a real workflow with upload-artifact support, we'd download artifacts here
+          # For this simplified approach, we'll rebuild the files quickly
+          sudo apt-get update -q
+          sudo apt-get install -y asciidoctor > /dev/null
+          sudo gem install asciidoctor-pdf > /dev/null
+          asciidoctor-pdf Book.asciidoc -o book.pdf
+          
+      # Create a tag for the release
+      - name: Create release tag
+        id: create_tag
+        run: |
+          TAG_NAME="kdp-build-$(date +%Y%m%d-%H%M%S)"
+          echo "tag_name=${TAG_NAME}" >> $GITHUB_OUTPUT
           git tag $TAG_NAME
           git push origin $TAG_NAME
-          
-          # Use the GitHub CLI to create a release
-          if [ -f "book.pdf" ]; then
-            gh release create $TAG_NAME \
-              --title "T-Minus-15 Manual Build $(date +%Y-%m-%d)" \
-              --notes "Manual build of T-Minus-15 book" \
-              book.pdf
-            echo "Created release with PDF attached"
-          else
-            gh release create $TAG_NAME \
-              --title "T-Minus-15 Build (No PDF)" \
-              --notes "Build failed to generate PDF"
-            echo "Created release but PDF was not found"
-          fi
+
+      # Create the GitHub release
+      - name: Create GitHub Release
+        id: create_release
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: ${{ steps.create_tag.outputs.tag_name }}
+          release_name: T-Minus-15 Book for KDP
+          draft: false
+          prerelease: true
+          body: |
+            Book compiled for Amazon KDP Publishing
+            
+            This automated build contains:
+            - PDF for print publishing on Amazon KDP
+
+      # Upload the PDF as a release asset if it exists
+      - name: Upload PDF Release Asset
+        if: needs.build-book.outputs.build_success == 'true'
+        uses: actions/upload-release-asset@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ steps.create_release.outputs.upload_url }}
+          asset_path: ./book.pdf
+          asset_name: T-Minus-15.pdf
+          asset_content_type: application/pdf
