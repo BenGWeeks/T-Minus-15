@@ -1,5 +1,7 @@
 == Epic metadata
+:stylesheet: CSS/tminus15-styles.css
 
+// For improved rendering in GitHub and VS Code
 ++++
 <style>
 body { font-size: 12px !important; }
