@@ -115,13 +115,23 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
+          # Copy cover file to the release directory
+          echo "Preparing cover file for release..."
+          if [ -f "Cover/TMinus15Cover.pdf" ]; then
+            cp "Cover/TMinus15Cover.pdf" .
+            echo "Cover file copied successfully: $(du -h TMinus15Cover.pdf)"
+          else
+            echo "WARNING: Cover file not found at Cover/TMinus15Cover.pdf"
+          fi
+          
           # Create the release
           echo "Creating release ${{ steps.release_id.outputs.release_id }}..."
           gh release create ${{ steps.release_id.outputs.release_id }} \
             --title "T-Minus-15 Book for KDP" \
             --notes "Book compiled for Amazon KDP Publishing on $(date +'%Y-%m-%d')" \
             --prerelease \
-            "$FINAL_FILENAME"
+            "$FINAL_FILENAME" \
+            "TMinus15Cover.pdf#Cover for Amazon KDP"
           
           echo "Release created successfully with PDF attached"
           gh release view ${{ steps.release_id.outputs.release_id }}

@@ -1,4 +1,4 @@
-== The Art of Engineering
+== ENGINEER: The Art of Engineering
 
 Welcome to the Engineering stage of the T-Minus-15 journey. By now, we’ve planned, prepped, and designed our solution – the blueprint is drawn, the engines are primed. In this chapter, we dive into actually building the product. But The Art of Engineering isn’t about slinging code frantically; it’s about mindset and practices that turn good engineers into an elite DevOps team. We’ll keep it informal and insightful – something you could read out loud on a coffee break – focusing on how to think and work as an engineer rather than any specific coding tutorial. By reinforcing T-Minus-15 values, we’ll ensure that when it’s time to hand over to our Test Pilots (testers), they aren’t getting a ticking time bomb but a well-crafted piece of the puzzle. Let’s get started.
 

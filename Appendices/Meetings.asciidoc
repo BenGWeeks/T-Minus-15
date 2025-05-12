@@ -1,47 +1,37 @@
-== Meetings That Don't Suck
+== Meetings
 
-=== Mission Control: Your Monthly Command Center
+=== Mission Control
 
-**Why have it?** This is your strategic checkpoint. Keep stakeholders aligned, surface blockers before they become disasters, and make sure the rocket stays on course.
+Objective: 
 
-**When?** Monthly - put it on everyone's calendar as a recurring appointment
+Frequency: Monthly
 
-**Who needs to be there?** Scrum Masters and key Stakeholders (the people who can actually make decisions)
+Attendees: Scrum masters, Stakeholders
 
-**What to cover:**
-- 5 min: Quick wins from the past month (always start positive!)
-- 15 min: Progress against key milestones and metrics
-- 15 min: Roadblocks that need stakeholder intervention
-- 10 min: Upcoming decisions and resource needs
-- 5 min: Action items and owners
+Agenda: 
 
-=== T-Plus Support Check-ins: Keep the Engine Running
+=== T-Plus Monthly Support Meetings
 
-**Why have it?** Your software is live, but your job isn't done. These meetings ensure your solution keeps delivering value long after the champagne bottles are empty.
+Objective: To ensure the continued success and adoption of the supplied solution(s)
 
-**When?** Monthly - schedule them for 6 months post-launch minimum
+Frequency: Monthly
 
-**Who needs to be there?** Stakeholders and whoever owns the solution now
+Attendees: Stakeholders
 
-**What to cover:**
-- Usage metrics and adoption trends (are people actually using what you built?)
-- Performance against original success criteria
-- User feedback and enhancement requests
-- Support ticket patterns and resolution times
-- Quick wins for the next month
+Agenda: A monthly meeting will be held for the solution to cover aspects such as outlined in the Reports section.
 
-=== Project Landing: The Smooth Touchdown
+=== Project Closure Meeting
 
-**Why have it?** Don't just abandon your project - give it a proper handoff. This meeting closes the loop, captures lessons, and ensures a smooth transition to business-as-usual support.
+Objective: To ensure the project is completed according to the client's expectations, get feedback and hand over the project to the Operations team.
 
-**When?** Schedule it for the final day of your last sprint, after you've deployed to production
+Frequency: Typically held on the last day of project (final Sprint), and after the solution has been deployment to Production.
 
-**Who needs to be there?** Scrum Master, Operations Manager, and key Stakeholders
+Attendees: Scrum masters, Operations Manager, Stakeholders
 
-**What to cover:**
-- Showcase what you've actually delivered vs. what was promised
-- Budget transparency - where the money went and any variance
-- Official project archiving (close it in your time tracking system)
-- Customer feedback collection (use a standardized survey)
-- Formal handover to the Operations Manager (introduce them!)
-- Clear explanation of how support works going forward
+Agenda: 
+  - Provide update on the delivered Features
+  - Budget review
+  - Project archived in Harvest
+  - Client feedback (link to survey) 
+  - Introduce the Operations Manager
+  - Provide summary overview of the support process

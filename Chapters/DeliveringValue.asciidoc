@@ -1,4 +1,4 @@
-== Shipping Value, Not Just Code
+== OPERATE: Shipping Value, Not Just Code
 
 Let's be brutally honest - your business doesn't care about your elegant architecture or perfect test coverage. They care about getting valuable features into users' hands before the competition does. In today's market, velocity isn't just nice to have - it's survival.
 

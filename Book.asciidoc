@@ -6,7 +6,6 @@ Ben G. Weeks
 :sectnums:
 :sectnumlevels: 3
 :imagesdir: Images
-:front-cover-image: Images/01-3.png
 :stylesheet: CSS/tminus15-styles.css
 
 include::AboutTheAuthor.asciidoc[]
@@ -17,63 +16,46 @@ include::Sponsors.asciidoc[]
 
 include::Chapters/WhatsThisAllAbout.asciidoc[]
 
-== Decoding the client's wants and needs
 include::Chapters/DecodingTheClientsWantsAndNeeds.asciidoc[]
 
-== Crafting great user experiences
 include::Chapters/CraftingGreatUserExperiences.asciidoc[]
 
-== Let's get Agile!
 include::Chapters/LetsGetAgile.asciidoc[]
 
-== So what about DevOps?
 include::Chapters/SoWhatAboutDevOps.asciidoc[]
 
-== The Avengers of Agile: Assembling a Cross-Functional Squad That Delivers Results
 include::Chapters/TheAvengersOfAgile.asciidoc[]
 
-== Raising the Bar: The Pursuit of Quality in Agile Projects
 include::Chapters/RaisingTheBar.asciidoc[]
 
-== Delivering value
 include::Chapters/DeliveringValue.asciidoc[]
 
-== Happy customers
 include::Chapters/HappyCustomers.asciidoc[]
 
-== 15-steps to success
 include::Chapters/15StepsToSuccess.asciidoc[]
 
 [appendix]
-== Epic metadata
 include::Appendices/EpicMetadata.asciidoc[]
 
 [appendix]
-== Feature metadata
 include::Appendices/FeatureMetadata.asciidoc[]
 
 [appendix]
-== User Story metadata
 include::Appendices/UserStoryMetadata.asciidoc[]
 
 [appendix]
-== Task metadata
 include::Appendices/TaskMetadata.asciidoc[]
 
 [appendix]
-== Bugs and Enhancements metadata
 include::Appendices/BugsAndEnhancementsMetadata.asciidoc[]
 
 [appendix]
-== WIP limits
 include::Appendices/WIPLimits.asciidoc[]
 
 [appendix]
-== Meetings
 include::Appendices/Meetings.asciidoc[]
 
 [appendix]
-== Azure DevOps Process Template Setup
 include::Appendices/AzureDevOpsProcessTemplateSetup.asciidoc[]
 
 include::Thanks.asciidoc[]

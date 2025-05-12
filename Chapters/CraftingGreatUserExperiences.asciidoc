@@ -1,4 +1,4 @@
-== Crafting UX That Doesn't Suck
+== DESIGN: Crafting UX That Doesn't Suck
 
 Let's be real: nobody cares how clever your code is if users hate using your product. The fanciest algorithms and most elegant architecture mean nothing if people abandon your app after 30 seconds of confusion. Great user experience isn't a nice-to-have luxury - it's the difference between success and digital tumbleweed.
 
