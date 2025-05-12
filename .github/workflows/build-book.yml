@@ -53,11 +53,11 @@ jobs:
       # Upload artifacts between jobs
       - name: Save book artifacts
         if: steps.build-pdf.outputs.build_success == 'true'
-        run: |
-          mkdir -p book-outputs
-          cp book.pdf book-outputs/
-          echo "Book artifacts saved to book-outputs directory"
-          ls -la book-outputs/
+        uses: actions/upload-artifact@v3
+        with:
+          name: book-artifacts
+          path: book.pdf
+          retention-days: 1
         
   # Job 2: Create the GitHub release with the built files
   create-release:
@@ -69,50 +69,48 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      # Get the build artifacts from the previous job
-      - name: Download build artifacts
+      # Rebuild the PDF for the release
+      # Note: We're just rebuilding since it's faster than setting up artifact transfer
+      - name: Build PDF for release
         if: needs.build-book.outputs.build_success == 'true'
         run: |
-          # In a real workflow with upload-artifact support, we'd download artifacts here
-          # For this simplified approach, we'll rebuild the files quickly
+          echo "Building PDF for release..."
+          # Install dependencies
           sudo apt-get update -q
           sudo apt-get install -y asciidoctor > /dev/null
           sudo gem install asciidoctor-pdf > /dev/null
+          # Build the PDF
           asciidoctor-pdf Book.asciidoc -o book.pdf
+          # Verify the build
+          if [ -f "book.pdf" ]; then
+            echo "PDF file exists: $(du -h book.pdf)"
+          else
+            echo "ERROR: PDF file was not created successfully"
+            exit 1
+          fi
           
-      # Generate a release ID without pushing tags
+      # Generate a release ID and tag
       - name: Generate release ID
         id: release_id
         run: |
-          RELEASE_ID="kdp-build-$(date +%Y%m%d-%H%M%S)"
+          RELEASE_ID="v0.$(date +%Y%m%d.%H%M%S)"
           echo "release_id=${RELEASE_ID}" >> $GITHUB_OUTPUT
           echo "Created release ID: ${RELEASE_ID}"
+          echo "PDF exists: $(ls -la book.pdf)"
 
-      # Create the GitHub release
-      - name: Create GitHub Release
-        id: create_release
-        uses: actions/create-release@v1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          tag_name: ${{ steps.release_id.outputs.release_id }}
-          release_name: T-Minus-15 Book for KDP
-          draft: false
-          prerelease: true
-          body: |
-            Book compiled for Amazon KDP Publishing
-            
-            This automated build contains:
-            - PDF for print publishing on Amazon KDP
-
-      # Upload the PDF as a release asset if it exists
-      - name: Upload PDF Release Asset
+      # Create GitHub release and upload PDF using GitHub CLI (simpler approach)
+      - name: Create GitHub Release with CLI
         if: needs.build-book.outputs.build_success == 'true'
-        uses: actions/upload-release-asset@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: ./book.pdf
-          asset_name: T-Minus-15.pdf
-          asset_content_type: application/pdf
+        run: |
+          # Create the release
+          echo "Creating release ${{ steps.release_id.outputs.release_id }}..."
+          gh release create ${{ steps.release_id.outputs.release_id }} \
+            --title "T-Minus-15 Book for KDP" \
+            --notes "Book compiled for Amazon KDP Publishing on $(date +'%Y-%m-%d')" \
+            --prerelease \
+            book.pdf
+          
+          echo "Release created successfully with PDF attached"
+          gh release view ${{ steps.release_id.outputs.release_id }}
