@@ -1,12 +1,7 @@
 == Epic metadata
-// AsciiDoc attributes for better GitHub rendering
-:table-caption!:
-:table-stripes: none
-:icons: font
 
-// VS Code specific styling
+// VS Code specific styling that won't be shown in GitHub
 ifdef::env-vscode[]
-:docinfo: shared
 ++++
 <style>
 body { font-size: 12px !important; }
@@ -18,8 +13,8 @@ table li p { margin: 0 !important; padding: 0 !important; }
 ++++
 endif::[]
 
-.Guidance and example Epic metadata (with assistance from ChatGPT)
-[cols="2,4,4", frame="all", grid="all", options="header"]
+// Simple table formatting for GitHub compatibility
+[%header]
 |===
 3+| EPIC
 
