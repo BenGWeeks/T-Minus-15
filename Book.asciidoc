@@ -1,0 +1,79 @@
+= T-Minus-15: Secrets of an Elite DevOps Team
+Ben G. Weeks
+:doctype: book
+:toc:
+:toclevels: 3
+:sectnums:
+:sectnumlevels: 3
+:imagesdir: .
+:front-cover-image: 01-3.png
+:stylesheet: CSS/tminus15-styles.css
+
+include::AboutTheAuthor.asciidoc[]
+
+include::Foreword.asciidoc[]
+
+include::Sponsors.asciidoc[]
+
+include::WhatsThisAllAbout.asciidoc[]
+
+== Decoding the client's wants and needs
+include::DecodingTheClientsWantsAndNeeds.asciidoc[]
+
+== Crafting great user experiences
+include::CraftingGreatUserExperiences.asciidoc[]
+
+== Let's get Agile!
+include::LetsGetAgile.asciidoc[]
+
+== So what about DevOps?
+include::SoWhatAboutDevOps.asciidoc[]
+
+== The Avengers of Agile: Assembling a Cross-Functional Squad That Delivers Results
+include::TheAvengersOfAgile.asciidoc[]
+
+== Raising the Bar: The Pursuit of Quality in Agile Projects
+include::RaisingTheBar.asciidoc[]
+
+== Delivering value
+include::DeliveringValue.asciidoc[]
+
+== Happy customers
+include::HappyCustomers.asciidoc[]
+
+== 15-steps to success
+include::15StepsToSuccess.asciidoc[]
+
+[appendix]
+== Epic metadata
+include::EpicMetadata.asciidoc[]
+
+[appendix]
+== Feature metadata
+include::FeatureMetadata.asciidoc[]
+
+[appendix]
+== User Story metadata
+include::UserStoryMetadata.asciidoc[]
+
+[appendix]
+== Task metadata
+include::TaskMetadata.asciidoc[]
+
+[appendix]
+== Bugs and Enhancements metadata
+include::BugsAndEnhancementsMetadata.asciidoc[]
+
+[appendix]
+== WIP limits
+include::WIPLimits.asciidoc[]
+
+[appendix]
+== Meetings
+include::Meetings.asciidoc[]
+
+[appendix]
+== Azure DevOps Process Template Setup
+include::AzureDevOpsProcessTemplateSetup.asciidoc[]
+
+include::Thanks.asciidoc[]
