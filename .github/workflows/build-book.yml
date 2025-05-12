@@ -1,11 +1,7 @@
-name: Build Book for Amazon KDP
+name: Simple Book Build
 
 on:
-  push:
-    branches: [ main ]
-  pull_request:
-    branches: [ main ]
-  workflow_dispatch:  # Enable manual triggering
+  workflow_dispatch:  # Only manual triggering for testing
 
 jobs:
   build:
@@ -13,160 +9,53 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
-        
-      - name: Set up Ruby
-        uses: ruby/setup-ruby@v1
-        with:
-          ruby-version: '3.1'
-          bundler-cache: true
-          
-      - name: Install Asciidoctor and extensions
+      
+      - name: Debug - List repository files
+        run: ls -la
+      
+      - name: Install Asciidoctor
         run: |
-          gem install asciidoctor
-          gem install asciidoctor-pdf
-          gem install asciidoctor-epub3 || true
-          
-      - name: Install additional fonts
+          sudo apt-get update
+          sudo apt-get install -y asciidoctor ruby
+          sudo gem install asciidoctor-pdf
+          asciidoctor --version
+      
+      - name: Build HTML version first for testing
         run: |
-          mkdir -p ~/.fonts
-          cp -r Fonts/* ~/.fonts/ || true
-          fc-cache -f -v
-          
-      - name: Create main book file
-        run: |
-          cat > Book.asciidoc << 'EOF'
-          = T-Minus-15: Secrets of an Elite DevOps Team
-          Ben G. Weeks
-          :doctype: book
-          :toc:
-          :toclevels: 3
-          :sectnums:
-          :sectnumlevels: 3
-          :imagesdir: Images
-          :front-cover-image: 01-3.png
-          :stylesheet: CSS/tminus15-styles.css
-          
-          include::AboutTheAuthor.asciidoc[]
-          
-          include::Foreword.asciidoc[]
-          
-          include::Sponsors.asciidoc[]
-          
-          include::WhatsThisAllAbout.asciidoc[]
-          
-          == Decoding the client's wants and needs
-          include::DecodingTheClientsWantsAndNeeds.asciidoc[]
-          
-          == Crafting great user experiences
-          include::CraftingGreatUserExperiences.asciidoc[]
-          
-          == Let's get Agile!
-          include::LetsGetAgile.asciidoc[]
-          
-          == So what about DevOps?
-          include::SoWhatAboutDevOps.asciidoc[]
-          
-          == The Avengers of Agile: Assembling a Cross-Functional Squad That Delivers Results
-          include::TheAvengersOfAgile.asciidoc[]
-          
-          == Raising the Bar: The Pursuit of Quality in Agile Projects
-          include::RaisingTheBar.asciidoc[]
-          
-          == Delivering value
-          include::DeliveringValue.asciidoc[]
-          
-          == Happy customers
-          include::HappyCustomers.asciidoc[]
-          
-          == 15-steps to success
-          include::15StepsToSuccess.asciidoc[]
-          
-          [appendix]
-          == Epic metadata
-          include::EpicMetadata.asciidoc[]
-          
-          [appendix]
-          == Feature metadata
-          include::FeatureMetadata.asciidoc[]
-          
-          [appendix]
-          == User Story metadata
-          include::UserStoryMetadata.asciidoc[]
-          
-          [appendix]
-          == Task metadata
-          include::TaskMetadata.asciidoc[]
-          
-          [appendix]
-          == Bugs and Enhancements metadata
-          include::BugsAndEnhancementsMetadata.asciidoc[]
-          
-          [appendix]
-          == WIP limits
-          include::WIPLimits.asciidoc[]
-          
-          [appendix]
-          == Meetings
-          include::Meetings.asciidoc[]
-          
-          [appendix]
-          == Azure DevOps Process Template Setup
-          include::AzureDevOpsProcessTemplateSetup.asciidoc[]
-          
-          include::Thanks.asciidoc[]
-          EOF
-          
-      - name: Create PDF theme
-        run: |
-          cat > tminus15-theme.yml << 'EOF'
-          extends: default
-          page:
-            layout: portrait
-            margin: [0.75in, 1in, 0.75in, 1in]
-            size: Letter
-          base:
-            font-family: Times-Roman
-            font-size: 12
-          heading:
-            font-family: Helvetica
-          title-page:
-            align: center
-          EOF
-          
+          asciidoctor -a toc Book.asciidoc -o book.html
+          echo "HTML build result:"
+          ls -la book.html || echo "HTML build failed"
+      
       - name: Build PDF
         run: |
-          asciidoctor-pdf -a pdf-theme=tminus15-theme.yml Book.asciidoc -o T-Minus-15.pdf
-          echo "PDF build complete, check results"
-          ls -la T-Minus-15.pdf
-          
-      - name: Build EPUB (optional)
-        run: |
-          asciidoctor-epub3 Book.asciidoc -o T-Minus-15.epub || echo "EPUB build failed, continuing anyway"
-          
-      - name: Save artifacts in workspace
-        run: |
-          mkdir -p book-output
-          cp T-Minus-15.pdf book-output/ || echo "No PDF found"
-          cp T-Minus-15.epub book-output/ || echo "No EPUB found"
-          echo "Saved artifacts to book-output directory"
-          ls -la book-output/
-          
-      # Create tag-based release only if this is a tag push
-      - name: Create release on tag
-        if: startsWith(github.ref, 'refs/tags/')
+          echo "Starting PDF build..."
+          asciidoctor-pdf Book.asciidoc -o book.pdf || echo "PDF build failed but continuing"
+          echo "PDF build result:"
+          ls -la book.pdf || echo "PDF file not found"
+      
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v2
+        with:
+          name: book-files
+          path: |
+            book.html
+            book.pdf
+          if-no-files-found: warn
+      
+      - name: Manual release
         uses: softprops/action-gh-release@v1
+        if: github.event_name == 'workflow_dispatch'
         with:
           files: |
-            T-Minus-15.pdf
-            T-Minus-15.epub
-          draft: false
-          prerelease: ${{ startsWith(github.ref_name, 'v0.') || contains(github.ref_name, 'alpha') || contains(github.ref_name, 'beta') || contains(github.ref_name, 'rc') }}
-          name: T-Minus-15 Book Release ${{ github.ref_name }}
+            book.html
+            book.pdf
+          tag_name: manual-build-${{ github.run_number }}
+          name: Manual Book Build ${{ github.run_number }}
           body: |
-            ${{ startsWith(github.ref_name, 'v0.') || contains(github.ref_name, 'alpha') || contains(github.ref_name, 'beta') || contains(github.ref_name, 'rc') && 'Pre-release build of T-Minus-15 book for testing/review. Not production-ready.' || 'Book compiled for Amazon KDP' }}
-
+            This is a manually triggered build of the T-Minus-15 book.
+            
             Files included:
+            - HTML (for web viewing)
             - PDF (for printing and Amazon KDP)
-            - EPUB (for e-readers)
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
