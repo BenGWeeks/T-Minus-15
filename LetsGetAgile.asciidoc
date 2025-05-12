@@ -2,22 +2,22 @@
 
 === Why do we need to be Agile?
 
-Every company is a software company{empty}footnote:[Microsoft CEO Satya Nadella on fuelling ‘tech intensity’ in the UK, https://news.microsoft.com/en-gb/2018/11/07/microsoft-ceo-satya-nadella-on-fuelling-tech-intensity-in-the-uk/], just look at the top 4 companies by market capitalization{empty}footnote:[List of public corporations by market capitalization, https://en.wikipedia.org/wiki/List_of_public_corporations_by_market_capitalization#2019] being (as of 31st March 2019), Microsoft, Apple Inc., Amazon.com, Alphabet Inc. (Google), but that doesn’t mean “just doing software” is going to work - just ask General Electric, Intel, P&G and HP who made significant investments in IT but without results. To be successful, companies need to be nimble and be able to adjust to the changing marketplace. If they’re not, their competitors sure are! And it’s not just the big boys who are doing Agile (through whatever means they call it, “Start-up culture”, “The Google Way”), but it’s the new kids on the block as well such as Airbnb, Lyft and Tesla to name but a few.
+Every company is a software company{empty}footnote:[Microsoft CEO Satya Nadella on fuelling 'tech intensity' in the UK, https://news.microsoft.com/en-gb/2018/11/07/microsoft-ceo-satya-nadella-on-fuelling-tech-intensity-in-the-uk/], just look at the top 4 companies by market capitalization{empty}footnote:[List of public corporations by market capitalization, https://en.wikipedia.org/wiki/List_of_public_corporations_by_market_capitalization#2019] being (as of 31st March 2019), Microsoft, Apple Inc., Amazon.com, Alphabet Inc. (Google), but that doesn't mean “just doing software” is going to work - just ask General Electric, Intel, P&G and HP who made significant investments in IT but without results. To be successful, companies need to be nimble and be able to adjust to the changing marketplace. If they're not, their competitors sure are! And it's not just the big boys who are doing Agile (through whatever means they call it, “Start-up culture”, “The Google Way”), but it's the new kids on the block as well such as Airbnb, Lyft and Tesla to name but a few.
 
 The ability to adapt to the market is critical in the modern economy. With advances in technology this creates lower barriers to entry where newcomers can create disruption and shake things up. As a result, according to Yale professor Richard Foster, the lifespan of a company in the S&P500 has shrunk by more than 50 years in the last century, from 67 years in the 1920s to a more modest 15 years{empty}footnote:[Creative Destruction Whips through Corporate America, https://engageinnovate.files.wordpress.com/2012/03/creative-destruction-whips-through-corporate-america_final2012.pdf]. S&P500 companies, you have been warned – 1 of you is being replaced every two weeks, and for the newcomers … the opportunity is there for the taking!
 
-.Creative Destruction W"hips through Corporate America
+.Creative Destruction Whips through Corporate America
 image::Images/Average%20company%20lifespan.png[float=center,align=center,link=https://engageinnovate.files.wordpress.com/2012/03/creative-destruction-whips-through-corporate-america_final2012.pdf]
 
 === Overview of Agile
 
-Agile is a software development concept that evolves software through collaboration between the business and development. It’s methodology encourages an evolutionary approach to solution development (as opposed to a more waterfall method that would typically have a larger design period). The idea is to get a deliverable to the customer asap from which iterative improvements can be made. Having early deliverables will mean everyone is much more clearer about what needs to be developed further and where improvements can be made.
+Agile is a software development concept that evolves software through collaboration between the business and development. Its methodology encourages an evolutionary approach to solution development (as opposed to a more waterfall method that would typically have a larger design period). The idea is to get a deliverable to the customer asap from which iterative improvements can be made. Having early deliverables will mean everyone is much more clearer about what needs to be developed further and where improvements can be made.
 
 Agile was popularized by the Manifesto for Agile Software  Development which stated several values and principles.
 
-=== The Agile Manefesto
+=== The Agile Manifesto
 
-Agile is an adaptive methodology that’s highest priority is the satisfy the customer through early and continuous delivery of value. By working in short sprints, the team can deliver value quickly in “chunks” whilst also giving the customer the ability to provide feedback and adjust future requirements accordingly. The “chunks” are sprints that typically are periods of 2 to 3-weeks.
+Agile is an adaptive methodology whose highest priority is to satisfy the customer through early and continuous delivery of value. By working in short sprints, the team can deliver value quickly in “chunks” whilst also giving the customer the ability to provide feedback and adjust future requirements accordingly. The “chunks” are sprints that typically are periods of 2 to 3-weeks.
 
 The methodology aims to get business and development working together closely throughout the project. The team are given the suitable environment in order to make decisions in the delivery and succeed in satisfying the customer.
 
@@ -27,27 +27,27 @@ Work is organised into a product backlog (basically a list of requirements that 
 
 The Agile Manifesto{empty}footnote:[Manifesto for Agile Software Development, http://agilemanifesto.org/] declares following values: 
 
-1.  Individuals and Interactions over processes and tools
-1.	Working Software over comprehensive documentation
-1.	Customer Collaboration over contract negotiation
-1.	Responding to Change over following a plan
+1. Individuals and Interactions over processes and tools
+2. Working Software over comprehensive documentation
+3. Customer Collaboration over contract negotiation
+4. Responding to Change over following a plan
 
 The Agile Manifesto Principles{empty}footnote:[Agile Manifesto Principles, http://agilemanifesto.org/principles.html] these values are built on are:
 
-1.	Our highest priority is to satisfy the customer through early and continuous delivery of valuable software.
-1.	Welcome changing requirements, even late in development. Agile processes harness change for the customer's competitive advantage.
-1.	Deliver working software frequently, from a couple of weeks to a couple of months, with a preference to the shorter timescale.
-1.	Business people and developers must work together daily throughout the project.
-1.	Build projects around motivated individuals. 
-1.	Give them the environment and support they need, and trust them to get the job done.
-1.	The most efficient and effective method of conveying information to and within a development team is face-to-face conversation.
-1.	Working software is the primary measure of progress.
-1.	Agile processes promote sustainable development. 
-1.	The sponsors, developers, and users should be able to maintain a constant pace indefinitely.
-1.	Continuous attention to technical excellence and good design enhances agility.
-1.	Simplicity--the art of maximizing the amount of work not done--is essential.
-1.	The best architectures, requirements, and designs emerge from self-organizing teams.
-1.	At regular intervals, the team reflects on how to become more effective, then tunes and adjusts its behaviour accordingly.
+1. Our highest priority is to satisfy the customer through early and continuous delivery of valuable software.
+2. Welcome changing requirements, even late in development. Agile processes harness change for the customer's competitive advantage.
+3. Deliver working software frequently, from a couple of weeks to a couple of months, with a preference to the shorter timescale.
+4. Business people and developers must work together daily throughout the project.
+5. Build projects around motivated individuals. 
+6. Give them the environment and support they need, and trust them to get the job done.
+7. The most efficient and effective method of conveying information to and within a development team is face-to-face conversation.
+8. Working software is the primary measure of progress.
+9. Agile processes promote sustainable development. 
+10. The sponsors, developers, and users should be able to maintain a constant pace indefinitely.
+11. Continuous attention to technical excellence and good design enhances agility.
+12. Simplicity--the art of maximizing the amount of work not done--is essential.
+13. The best architectures, requirements, and designs emerge from self-organizing teams.
+14. At regular intervals, the team reflects on how to become more effective, then tunes and adjusts its behaviour accordingly.
 
 However, within a larger Enterprise SAFeR believes that “best architectures, requirements, and designs” do not necessarily  emerge from self-organizing teams in contrast to the Agile principles. For an Enterprise, you need to have a common design principle across all teams and that is why this function is therefore proposed to be driven from outside of the team by Enterprise, Solution, and System Architects/Engineers.
 
@@ -139,88 +139,40 @@ What does the burndown chart above tell us? Well, it looks like the team had a l
 
 If a team is evidently not on track to deliver the effort estimated by the end of the sprint, the scrum master must approach the product owner to discuss the options available, namely:
 
-1.	To descope functionality (Stories) from this sprint, or,
-1.	To extend the sprint to allow for time to complete the work.
+1. To descope functionality (Stories) from this sprint, or,
+2. To extend the sprint to allow for time to complete the work.
 
 This can be a difficult conversion and one of the sought after skills of a scrum master to tackle this event head-on. The scrum master (and team) needs to address this head on weekly in the checkpoint meeting (rather than leaving it to the end of the project!). This is the primary reason why the weekly checkpoint meeting is indeed weekly (and not just at the end/start of sprints).
 
-=== The Product Backlog
-
-The Product Backlog is our single list of requirements for the business. It is a hierarchical list of Epics, Features, Tasks, Bugs and Improvements.
-
-.Hierarchical structure of our product backlog. NB Risks and issues are held separately outside the hierarchy, but everything else should have a parent/child relationship.
-image::Images/Product%20backlog.png[float=center,align=center]
-
-These items can be prioritized into an order of delivery where the User Stories and above should only be updated with the consent of the Product Owner. The Scrum team will use the currency of Story Points to estimate the workload for items. We’ll cover Story Points later, but in essence they are a unit of prescribed varying sizes (a modified Fibonacci sequence) to help the team estimate work sizes. These estimates also help the Product Owner prioritize work items.
-
-We also have the concept of “Enablers” for Epics, Features and Stories. Enablers are way of putting architectural, infrastructure, code refactoring, research, prototyping, compliance, and other work that users may regard as “invisible” but are important in delivering HVHQ solutions. To read more about enablers with regards to SAFeR please see https://www.scaledagileframework.com/enablers/.
-
-In this methodology we recommend treating bugs and improvements and children of a Stories. That is, every bug should be related to a Story as should an Improvement.
-
-“Pruning” the product backlog and keeping it an object of beauty is the reasonability of the team. The backlog gives clarity to the business and the team of the work that needs to be undertaken. You should ensure the product backlog is nicely populated (in terms of metadata for the various items), well structured (not a mess of items at any 1 particular level) and no orphaned items (e.g. bugs  and improvements that don’t belong to Stories).
-
-=== Epics
-
-Why do we need this epic? What value are we delivering to the business? These are the two important questions you need to ask about a project initiative before you start to figure out the “How”! The Epic is the overarching workload that we are taking to the customer (whether internal or external) for approval. Therefore, the budget holder needs it handed on a plate to them why they are approving this project! So, let’s make it easy for them. If possible, put in financial savings or other facts and figures that with help you win the pitch.
-
-An Epic can be thought of as an initiative to be undertaken that will initially be a Minimum Viable Product (MVP). An Epic will be delivered through the use of lean start-up principles.
-
-.An economic lean start-up strategy, enabling risk and investment incrementally, whilst allowing for flow, visibility and building with fast, integrated learning cycles as outlined in Principle 4 of SAFe^R^.
-image::Images/Lean%20Startup.png[float=center,align=center]
-
-To see the Epic metadata please see Appendix.
-
-To find out more about Epics, please see https://www.scaledagileframework.com/epic/.
-
-=== Features
-
-A Feature is a unit of value to be delivered to the business. It is described as a feature and benefit. They are not written in a user story voice (“As a someone, I would like something”) as they typically support multiple roles. A Feature is undertaken by a single team and delivered during a release.
-
-To see the Feature metadata please see Appendix.
-
-To find out more about Features according to the SAFeR framework, please see https://www.scaledagileframework.com/features-and-capabilities/.
-
-=== Stories
-
-User Stories are requirements that are written in user readable language. Stories are the centrepiece of our requirements backlog. This is the requirement that the business are asking for, that the engineers build against and the test pilots validate against.
-
-To see the User Story metadata please see Appendix.
-
-=== Tasks
-
-Tasks are activities that can be assigned to team members that are deemed necessary to fulfil a user story. All tasks should be carried out to meet a requirement. So think carefully if you have orphaned tasks as to why you are doing them. If there a missing requirement that you are aware of but haven’t documented?
-
-To see the Task metadata please see Appendix.
-
-===	Bugs
-
-First thing, we need to set expectations with the client. Much as our lovely developers may try, there is no such thing as bug free software.
-
-To see the Bug metadata please see Appendix.
-
-=== Enhancements
-
-Enhancements are like Bugs, except a Bug is a failure to meet a User Story, whereas an Enhancement is something that does not specifically cause a failure to a user story. We could argue to the cows come home if something is a bug or an enhancement, but if we’ve structured our project right (in terms of contractual obligations), it doesn’t really matter too much how we classify it! Why is it useful to keep bugs and enhancements separate? Because it is a way for the business (and team themselves) to request updates without affecting the quality report and to most likely help prioritize these kinds of changes below bugs.
-
-To see the Enhancements metadata please see Appendix.
-
 === Risks & Issues
 
-We track risks and issues that are covered in the weekly T-Minus-15 Checkpoint meeting.
+We track risks and issues throughout the project lifecycle. The Planner typically takes ownership of tracking these items, updating the team during daily stand-ups until they are closed. 
+
+Only risks and issues with significant impact or those requiring stakeholder intervention should be raised during the weekly T-Minus-15 Checkpoint meeting. We shouldn't burden stakeholders with routine problems the team can handle internally. This focused approach ensures stakeholders can concentrate on strategic matters while the team maintains ownership of tactical challenges.
+
+This filtering process ensures that stakeholder time is respected while still providing them with the information they need to make important decisions or remove obstacles beyond the team's control.
+
+Let's take a closer look at the difference between risks and issues.
 
 === What is a risk?
 
-A risk is something that has a potential to occur with a subsequent consequence. For a risk, we therefore need to consider the potential impact, likelihood of occurrence, and what steps we can take to mitigate or reduce the likelihood.
+A risk is something that has the potential to occur with negative consequences. Remember, we can't mitigate risks until we identify them first! Keep your ears open in meetings - that's where risks often surface.
+
+For each risk, we need to consider three things: potential impact, likelihood of occurrence, and most importantly, steps we can take to mitigate it. I've seen cases where risks were identified but no mitigation was performed, and sure enough, the risk turned into an actual issue.
+
+An example: _"During our SpaceX launch planning, the team mentioned potential fuel line leaks in cold weather conditions."_ Once identified, we developed our mitigation: _"We added extra thermal inspections 24 hours before launch and trained a rapid response team specifically for fuel emergencies."_
+
+This simple approach - identify then mitigate - saved SpaceX from potential launch delays and millions in repair costs. The key was catching it early in those team discussions!
 
 === What is an issue?
 
-An issue is something that has already occurred. For an issue, we therefore need to consider what steps we shall take to resolve the issue.
+An issue is something that has already occurred - it's a project-level problem, not a technical bug in the code. Think of it as a risk that became reality or a significant project obstacle. While bugs affect functionality, issues impact timelines, resources, and overall project delivery.
 
-=== Personas
+For these project issues, we focus on two key aspects: impact assessment (how does this affect our timeline and deliverables?) and mitigation (what steps will get us back on track?).
 
-These are groups of users that we identify. When we come to capture the user stories, these are the users that they relate to. Personas help us think about specific roles in the organisation, and how our solution is going to meet their needs. Therefore, user stories should have metadata that connects that requirements to one or more specific personas.
+An example: _"During the SpaceX Starship project, a key supplier went bankrupt, leaving us without critical components."_ This is a project issue, not a technical bug. Our response: _"We immediately assessed inventory, identified alternative suppliers, expedited new contracts, and adjusted the project timeline to accommodate the 3-week delay."_
 
-These personas should match the swim lanes in any Information Architecture workflows.
+Project issues need urgency and ownership. Always assign someone responsible for resolving each issue, set clear deadlines, and follow up consistently. The longer an issue remains unresolved, the more impact it typically has on your project timeline and budget.
 
 === Story point estimation
 
@@ -250,13 +202,13 @@ Stories in particular also have a “Definition of done” for each column that 
 Who and how do we update items in the backlog? Here are our work items rules:
 
 1.	Only the Epic Owner can update an Epic.
-1.	Only the Business Owner can update a Feature.
-1.	Only the Prepper and Scrum Master can update User Stories.
-1.	The scrum master is responsible for closing a Story.
-1.	There should be no time remaining for Closed items children.
-1.	All members of the A-Team should have specific tasks in the sprint.
-1.	Stories can only be set to “Done” when they meet their definition of done for the relevant statuses.
-1.	The Test Pilot and Tech Lead is responsible for confirming a release is ready for Production.
+2.	Only the Business Owner can update a Feature.
+3.	Only the Prepper and Scrum Master can update User Stories.
+4.	The scrum master is responsible for closing a Story.
+5.	There should be no time remaining for Closed items children.
+6.	All members of the A-Team should have specific tasks in the sprint.
+7.	Stories can only be set to “Done” when they meet their definition of done for the relevant statuses.
+8.	The Test Pilot and Tech Lead is responsible for confirming a release is ready for Production.
 
 === States
 
@@ -297,7 +249,7 @@ So what happens if the engineers have already shipped 4 Stories to the Test Pilo
 So, here are some of the advantages of implementing WIP limits within the team specifically:
 
 *	Reduce the amount of context switching for team members and ultimately mean we are delivering more of which is a higher quality.
-*	Code reviews don’t build up and the original developers loose context of that code.
+*	Code reviews don’t build up and the original developers lose context of that code.
 *	Merges to the master branch are more frequent ultimately resulting in small potential releases to production.
 *	Encourage the team to work collaboratively to move work items along.
 
