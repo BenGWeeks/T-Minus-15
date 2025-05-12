@@ -1,8 +1,8 @@
 == Raising the Bar: The Pursuit of Quality in Agile Projects
 
-We want to ensure that what we deliver to our customers is something we can be proud of, it's not just good - it's awesome! We therefore need to ensure that each-and-every Story is therefore cross-reference and checked with 1 or more test cases.
+We want to ensure that what we deliver to our customers is something we can be proud of, it's not just good - it's awesome! We therefore need to ensure that each-and-every Story is cross-referenced and checked with 1 or more test cases.
 
-Additionally, if we want to ensure we are delivery high-quality high-value (HQHV) we need to ensure we are performing testing earlier (a “Shift Left” of testing) rather than leaving it to the last step before deployment. For this reason, the Test Pilot is an integral member of the team who will be writing test cases when the first line of code is being written.
+Additionally, if we want to ensure we are delivering high-quality high-value (HQHV) we need to ensure we are performing testing earlier (a “Shift Left” of testing) rather than leaving it to the last step before deployment. For this reason, the Test Pilot is an integral member of the team who will be writing test cases when the first line of code is being written.
 
 === The importance of acceptance criteria
 
@@ -17,6 +17,18 @@ In order to ensure that each and every Story can be validated, a User Story shou
 A test plan is a group of test cases. We recommend a Test Plan is made up from a number of Test Suites (one for each Feature). You then create a test case per user story.
 
 A test case is the steps that validate a user story. Each step should have an expected result. A tester can thus validate the test case step by step, and create a bug at the designated step that caused the failure. Along with a screenshot (always include a screenshot and any other relevant information), this should give developers the resources necessary to troubleshoot the majority of issues.
+
+=== Feautures vs Bugs vs Enhancements
+
+Knowing the difference between a bug, enhancement, and feature is the key to smarter decisions and smoother teamwork.
+
+A Bug is any defect that causes a User Story to fail its acceptance criteria. These are the gaps — the things that were supposed to work but don’t. Bugs are always tied to specific requirements and need immediate attention because they compromise the agreed definition of “done.” They are prioritised by impact - Critical, Major, Minor, or Cosmetic - which directly influences sprint planning and triage.
+
+An Enhancement is an improvement request that does not block the acceptance of a User Story. Think usability tweaks, minor performance improvements, or visual polish — the stuff that makes good software feel great. If implementing an enhancement takes more than 4 hours, it should be treated as a Feature instead - scoped and planned as such.
+
+A Feature is a new capability — a set of User Stories that introduces fresh functionality or a significant change to existing behavior. Features are the strategic layer: they expand the product’s scope and value. They are planned during sprint planning and oftenrequire coordinated sedign, development, and QA. Any request that breaks new ground - technically or funcionally - is a feature.
+
+This classification ensures we’re fixing what’s broken, refining what’s working, and delivering what’s next — all without losing sight of why we're building in the first place.
 
 === Static code analysis
 
