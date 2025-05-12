@@ -5,6 +5,10 @@ on:
   push:
     branches: [ main ]  # Automatic triggering on push to main branch
 
+# Set permissions for the workflow
+permissions:
+  contents: write  # Needed for creating releases
+
 jobs:
   # Job 1: Set up the environment and build the book files
   build-book:
