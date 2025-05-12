@@ -1,7 +1,10 @@
 == Epic metadata
-:stylesheet: CSS/tminus15-styles.css
+// AsciiDoc attributes for better GitHub rendering
+:table-caption!:
+:table-stripes: none
+:icons: font
 
-// These attributes will be applied only in VS Code's AsciiDoc preview and not in GitHub
+// VS Code specific styling
 ifdef::env-vscode[]
 :docinfo: shared
 ++++
@@ -16,7 +19,7 @@ table li p { margin: 0 !important; padding: 0 !important; }
 endif::[]
 
 .Guidance and example Epic metadata (with assistance from ChatGPT)
-[width=100%, cols="20%,40%,40%"]
+[cols="2,4,4", frame="all", grid="all", options="header"]
 |===
 3+| EPIC
 
