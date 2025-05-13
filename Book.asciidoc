@@ -8,52 +8,51 @@ Ben G. Weeks
 :toclevels: 2
 :sectnums:
 :sectnumlevels: 2
-:imagesdir: Images
 
-include::AboutTheAuthor.asciidoc[]
+include::about-the-author.asciidoc[]
 
-include::Foreword.asciidoc[]
+include::foreword.asciidoc[]
 
-include::Sponsors.asciidoc[]
+include::sponsors.asciidoc[]
 
-include::Chapters/WhatsThisAllAbout.asciidoc[]
+include::chapters/whats-this-all-about.asciidoc[]
 
-include::Chapters/LetsGetAgile.asciidoc[]
+include::chapters/lets-get-agile.asciidoc[]
 
-include::Chapters/SoWhatAboutDevOps.asciidoc[]
+include::chapters/so-what-about-dev-ops.asciidoc[]
 
-include::Chapters/TheAvengersOfAgile.asciidoc[]
+include::chapters/the-avengers-of-agile.asciidoc[]
 
-include::Chapters/DecodingTheClientsWantsAndNeeds.asciidoc[]
+include::chapters/decoding-the-clients-wants-and-needs.asciidoc[]
 
-include::Chapters/CraftingGreatUserExperiences.asciidoc[]
+include::chapters/crafting-great-user-experiences.asciidoc[]
 
-include::Chapters/TheArtOfEngineering.asciidoc[]
+include::chapters/the-art-of-engineering.asciidoc[]
 
-include::Chapters/RaisingTheBar.asciidoc[]
+include::chapters/raising-the-bar.asciidoc[]
 
-include::Chapters/DeliveringValue.asciidoc[]
+include::chapters/delivering-value.asciidoc[]
 
-include::Chapters/HappyCustomers.asciidoc[]
+include::chapters/happy-customers.asciidoc[]
 
-include::Chapters/15StepsToSuccess.asciidoc[]
-
-[appendix]
-include::Appendices/EpicMetadata.asciidoc[]
+include::chapters/15-steps-to-success.asciidoc[]
 
 [appendix]
-include::Appendices/FeatureMetadata.asciidoc[]
+include::appendices/epic-metadata.asciidoc[]
 
 [appendix]
-include::Appendices/UserStoryMetadata.asciidoc[]
+include::appendices/feature-metadata.asciidoc[]
 
 [appendix]
-include::Appendices/TaskMetadata.asciidoc[]
+include::appendices/user-story-metadata.asciidoc[]
 
 [appendix]
-include::Appendices/BugsAndEnhancementsMetadata.asciidoc[]
+include::appendices/task-metadata.asciidoc[]
 
 [appendix]
-include::Appendices/Meetings.asciidoc[]
+include::appendices/bugs-and-enhancements-metadata.asciidoc[]
 
-include::Thanks.asciidoc[]
+[appendix]
+include::appendices/meetings.asciidoc[]
+
+include::thanks.asciidoc[]

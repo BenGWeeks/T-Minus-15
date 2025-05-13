@@ -4,14 +4,14 @@ trigger: always_on
 
 # Writing Format Guidelines
 
-1. Use PascalCase for all file names (e.g., `PrepperGuidelines.asciidoc`, `UserStoryMetadata.asciidoc`).
-1. Place narrative chapters in the `/Chapters` folder.
-1. Place reference material and templates in the `/Appendices` folder.
-1. Store all image assets in the `/Images` directory using PascalCase (e.g., `PipelineDiagram.png`).
-1. CSS and styling assets go in the `/CSS` folder.
-1. Font files go in the `/Fonts` folder.
-1. The book cover image should reside in the `/Cover` folder.
-1. AI agent YAML files go into the `/agents` folder (e.g., `Pepper.yaml`).
+1. Use Kebab-Case for all file names (e.g., `prepper-guidelines.asciidoc`, `user-story-metadata.asciidoc`).
+1. Place narrative chapters in the `/chapters` folder.
+1. Place reference material and templates in the `/appendices` folder.
+1. Store all image assets in the `/images` directory using PascalCase (e.g., `pipeline-diagram.png`).
+1. CSS and styling assets go in the `/css` folder.
+1. Font files go in the `/fonts` folder.
+1. The book cover image should reside in the `/cover` folder.
+1. AI agent YAML files go into the `/agents` folder (e.g., `pepper.yaml`).
 1. AsciiDoc is the preferred format for all content chapters (`.asciidoc`).
 1. Markdown is used for documentation (`.md`) such as this guide and tone/style documents.
 1. Use proper heading hierarchy: `= Title` for chapters, `== Section`, `=== Subsection`, etc.

@@ -33,9 +33,9 @@ jobs:
         run: |
           echo "Starting PDF build..."
           # Make sure directories are properly recognized
-          mkdir -p Chapters Appendices Images
+          mkdir -p chapters appendices images
           # Run the build with the new folder structure
-          if asciidoctor-pdf -a pdf-theme=tminus15-theme.yml -a pdf-themesdir=Themes Book.asciidoc -o book.pdf; then
+          if asciidoctor-pdf -a pdf-theme=tminus15-theme.yml -a pdf-themesdir=themes book.asciidoc -o book.pdf; then
             echo "PDF build succeeded"
             echo "build_success=true" >> $GITHUB_OUTPUT
             echo "pdf_path=book.pdf" >> $GITHUB_OUTPUT
@@ -83,12 +83,12 @@ jobs:
           sudo apt-get install -y asciidoctor > /dev/null
           sudo gem install asciidoctor-pdf > /dev/null
           # Make sure directories are properly recognized
-          mkdir -p Chapters Appendices Images
+          mkdir -p chapters appendices images
           # Build the PDF
-          asciidoctor-pdf -a pdf-theme=tminus15-theme.yml -a pdf-themesdir=Themes Book.asciidoc -o book.pdf
+          asciidoctor-pdf -a pdf-theme=tminus15-theme.yml -a pdf-themesdir=themes book.asciidoc -o book.pdf
           # Generate file name with version
           VERSION="v0.$(date +%Y%m%d.%H%M%S)"
-          FINAL_FILENAME="T-Minus-15-${VERSION}.pdf"
+          FINAL_FILENAME="t-minus-15-${VERSION}.pdf"
           # Rename the PDF
           mv book.pdf "$FINAL_FILENAME"
           echo "FINAL_FILENAME=$FINAL_FILENAME" >> $GITHUB_ENV
@@ -117,11 +117,11 @@ jobs:
         run: |
           # Copy cover file to the release directory
           echo "Preparing cover file for release..."
-          if [ -f "Cover/TMinus15Cover.pdf" ]; then
-            cp "Cover/TMinus15Cover.pdf" .
-            echo "Cover file copied successfully: $(du -h TMinus15Cover.pdf)"
+          if [ -f "cover/tminus15-cover.pdf" ]; then
+            cp "cover/tminus15-cover.pdf" .
+            echo "Cover file copied successfully: $(du -h tminus15-cover.pdf)"
           else
-            echo "WARNING: Cover file not found at Cover/TMinus15Cover.pdf"
+            echo "WARNING: Cover file not found at cover/tminus15-cover.pdf"
           fi
           
           # Create the release
@@ -131,7 +131,7 @@ jobs:
             --notes "Book compiled for Amazon KDP Publishing on $(date +'%Y-%m-%d')" \
             --prerelease \
             "$FINAL_FILENAME" \
-            "TMinus15Cover.pdf"
+            "tminus15-cover.pdf"
           
           echo "Release created successfully with PDF attached"
           gh release view ${{ steps.release_id.outputs.release_id }}
