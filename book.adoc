@@ -1,7 +1,8 @@
 = T-Minus-15: Secrets of an Elite DevOps Team
 Ben G. Weeks
 :doctype: book
-:pdf-page-layout: mirror
+:pdf-page-layout: portrait
+:media: print
 :front-cover-image: none
 :pdf-footer: {page-number}
 :toc:
@@ -9,6 +10,7 @@ Ben G. Weeks
 :sectnums1:
 :sectnumlevels: 2
 :chapter-signifier: Step
+:chapter-refsig: Step
 :appendix-caption: Resource
 :appendix-refsig: Resource
 
