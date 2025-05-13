@@ -1,4 +1,4 @@
-=== The Avengers of Agile: Assembling a Cross-Functional Squad That Delivers Results
+=== The Avengers of Agile - Assembling a Cross-Functional Squad That Delivers Results
 
 In general, we need to ensure we have coverage of the 5 main stages in delivery (Prep > Design > Engineer > Test > Operate), therefore, the project team should look like the following:
 

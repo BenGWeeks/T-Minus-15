@@ -1,5 +1,4 @@
 == Epic metadata
-:stylesheet: CSS/tminus15-styles.css
 
 .Guidance and example Epic metadata (with assistance from ChatGPT)
 [width=100%, cols="20%,40%,40%"]
@@ -51,7 +50,6 @@ a| Current state of the Epic in the workflow. Possible states are:
 | 
 
 SpaceX is a private aerospace manufacturer and space transportation company founded by Elon Musk in 2002. The company is based in Hawthorne, California, and is known for its innovative approach to space exploration and technology development. SpaceX has made significant strides in the aerospace industry, including the development of the Falcon 9 rocket, the first privately developed and operated rocket to reach orbit, and the Dragon spacecraft, the first privately developed and operated spacecraft to deliver cargo to the International Space Station (ISS). The company has also made significant progress in the development of reusable rockets, which have the potential to revolutionize the aerospace industry by reducing the cost of space exploration and making it more accessible to a wider range of organizations and individuals.
-
 
 | *Objective*
 | Give a concise statement that captures the primary goal or outcome you want to achieve with this Epic (50-200 words). This should give a clear reason why this solution is needed for both the delivery team and the executive sponsors.

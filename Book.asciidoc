@@ -16,15 +16,15 @@ include::Sponsors.asciidoc[]
 
 include::Chapters/WhatsThisAllAbout.asciidoc[]
 
-include::Chapters/DecodingTheClientsWantsAndNeeds.asciidoc[]
-
-include::Chapters/CraftingGreatUserExperiences.asciidoc[]
-
 include::Chapters/LetsGetAgile.asciidoc[]
 
 include::Chapters/SoWhatAboutDevOps.asciidoc[]
 
 include::Chapters/TheAvengersOfAgile.asciidoc[]
+
+include::Chapters/DecodingTheClientsWantsAndNeeds.asciidoc[]
+
+include::Chapters/CraftingGreatUserExperiences.asciidoc[]
 
 include::Chapters/RaisingTheBar.asciidoc[]
 
@@ -54,8 +54,5 @@ include::Appendices/WIPLimits.asciidoc[]
 
 [appendix]
 include::Appendices/Meetings.asciidoc[]
-
-[appendix]
-include::Appendices/AzureDevOpsProcessTemplateSetup.asciidoc[]
 
 include::Thanks.asciidoc[]
