@@ -20,6 +20,7 @@ lists:
   text_font_size: 9
   marker_font_size: 9
   line_height: 1.2
+  item_spacing: 0
 
 table:
   width: 100%
