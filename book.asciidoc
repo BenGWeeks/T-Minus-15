@@ -15,6 +15,8 @@ include::foreword.asciidoc[]
 
 include::sponsors.asciidoc[]
 
+include::chapters/executive-summary.asciidoc[]
+
 include::chapters/whats-this-all-about.asciidoc[]
 
 include::chapters/lets-get-agile.asciidoc[]
