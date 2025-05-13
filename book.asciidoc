@@ -6,7 +6,7 @@ Ben G. Weeks
 :pdf-footer: {page-number}
 :toc:
 :toclevels: 2
-:sectnums:
+:sectnums1:
 :sectnumlevels: 2
 
 include::about-the-author.asciidoc[]
@@ -19,6 +19,7 @@ include::chapters/executive-summary.asciidoc[]
 
 include::chapters/whats-this-all-about.asciidoc[]
 
+:sectnums:
 include::chapters/lets-get-agile.asciidoc[]
 
 include::chapters/so-what-about-devops.asciidoc[]
