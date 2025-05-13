@@ -1,4 +1,4 @@
-=== Executive Summary
+== Executive Summary
 
 === Why did we write this?
 
