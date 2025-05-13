@@ -1,7 +1,7 @@
 == Bugs & Enhancements Metadata
 
 .Example Bug metadata (with assistance from ChatGPT)
-[width=100%, cols="20%,40%,40%"]
+[.xsmall, width=100%, cols="20%,40%,40%"]
 |===
 3+| BUG
 
