@@ -1,5 +1,10 @@
 extends: default
 
+labels:
+  chapter: Step
+
+appendix: Resource
+
 page:
   size: [6in, 9in]
   layout: mirror
