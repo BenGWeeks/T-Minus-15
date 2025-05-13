@@ -8,7 +8,7 @@ Had enough of theory? Me too. There are thousands of books on DevOps and Agile (
 
 === What is T-Minus-15?
 
-T-Minus-15 is your team's playbook, and it nests perfectly within the larger SAFeR framework if you're in enterprise-land and need to keep the big machine humming while your team moves at startup speed.
+T-Minus-15 is your team's playbook, and it nests perfectly within the larger SAFe® framework if you're in enterprise-land and need to keep the big machine humming while your team moves at startup speed.
 
 This isn't some academic exercise – I've battle-tested and refined this approach over 20 years in the trenches. From government agencies like Suffolk Constabulary to global behemoths like IBM and the UN, from scrappy startups to established players like Nissan and Grant Thornton – this process has delivered when it counts.
 

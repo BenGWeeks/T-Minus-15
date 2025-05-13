@@ -251,7 +251,7 @@ For the Epic, we need to populate a new "Resourcing" page.
 
 	*_Instructions to be completed._*
 	
-For an Epic we need to create the following States (as specified by the SAFe Framework):
+For an Epic we need to create the following States (as specified by the SAFe® Framework):
 	
 	. Create a new state of Name: Funnel, State category: Proposed, Color: 1st from bottom grey (1st column)
 	. Create a new State of Name: Reviewing, State category: Proposed, Color: 2nd from bottom grey (1st column)
