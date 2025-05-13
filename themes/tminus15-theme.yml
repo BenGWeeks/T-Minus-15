@@ -26,6 +26,8 @@ heading:
   h3_font_size: 10
   h4_font_size: 9
   h5_font_size: 8
+  h1_align: center
+  h1_margin_bottom: 1in
 
 lists:
   text_font_size: 9
