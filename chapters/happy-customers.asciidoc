@@ -37,8 +37,8 @@ The "build it and forget it" approach is the fastest way to destroy your custome
 
 **Ditch rigid maintenance contracts**. Instead, set up a time-and-materials support model where smaller enhancements (say, under 15% of monthly budget) can flow through without bureaucratic overhead. This creates two massive advantages:
 
-1. Your solution stays fresh instead of stagnating between major releases
-2. You eliminate endless "is this a bug or a feature?" debates that waste everyone's time
+. Your solution stays fresh instead of stagnating between major releases
+. You eliminate endless "is this a bug or a feature?" debates that waste everyone's time
 
 The T-Minus-15 approach to post-launch support is simple: create a lean process for addressing small changes quickly, reserve formal change control for significant modifications, and maintain a continuous improvement mindset.
 

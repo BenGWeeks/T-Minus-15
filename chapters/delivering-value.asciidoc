@@ -59,10 +59,10 @@ You can read more about Release Flow and the VSTS team here:
 
 Topic branches are where the real work happens in Release Flow. Here's how it works:
 
-1. Developer pulls latest main branch
-2. Creates a new topic branch for their specific task
-3. Makes their changes and runs local tests
-4. Opens a pull request when ready for team review
+. Developer pulls latest main branch
+. Creates a new topic branch for their specific task
+. Makes their changes and runs local tests
+. Opens a pull request when ready for team review
 
 The beauty of topic branches is they're focused on one thing - a specific feature, bug fix, or enhancement. They're not environment-specific like in GitFlow. This makes them easy to understand: "This branch adds payment processing" or "This branch fixes the login bug."
 
@@ -127,11 +127,11 @@ Implementing IaC isn't just a technical upgrade - it's a fundamental shift in ho
 
 A build pipeline is your automated assembly line that takes raw code and transforms it into something deployable. Every time a developer pushes changes, the pipeline springs to life, performing a choreographed sequence of operations:
 
-1. **Fetch dependencies** - Pull in all the libraries your app needs (npm packages, NuGet packages, etc.)
-2. **Compile/transpile code** - Turn your high-level code into something machines understand
-3. **Run automated tests** - Verify nothing broke
-4. **Static analysis** - Check for security issues and code smells
-5. **Package everything** - Bundle it all into a deployable artifact
+. **Fetch dependencies** - Pull in all the libraries your app needs (npm packages, NuGet packages, etc.)
+. **Compile/transpile code** - Turn your high-level code into something machines understand
+. **Run automated tests** - Verify nothing broke
+. **Static analysis** - Check for security issues and code smells
+. **Package everything** - Bundle it all into a deployable artifact
 
 Without a build pipeline, you're back in 2005 - developers muttering "it works on my machine" while production crashes and burns. Your build pipeline is the first line of defense against the chaos of human error.
 
@@ -215,10 +215,10 @@ Forget the midnight deployments and launch-day panic. Those aren't badges of hon
 
 The best launches are boring. By the time you officially announce a feature to the entire business, it should have been:
 
-1. Running in production for days or weeks
-2. Used by friendly test groups who helped iron out kinks
-3. Gradually rolled out to increasing percentages of users
-4. Monitored for performance and errors
+. Running in production for days or weeks
+. Used by friendly test groups who helped iron out kinks
+. Gradually rolled out to increasing percentages of users
+. Monitored for performance and errors
 
 This approach dramatically reduces risk. When SpaceX launches a rocket to the space station, they've already tested every component extensively. They don't just build it and hope it works the first time in production. Neither should you.
 

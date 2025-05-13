@@ -8,9 +8,9 @@ Team culture isn't just some fluffy HR concern - it's the rocket fuel that power
 
 What separates teams that consistently knock it out of the park from those that struggle? It's rarely technical skill. After working with hundreds of teams across industries, I can tell you the secret sauce has three key ingredients:
 
-1. **Psychological safety** - People feel safe to take risks, admit mistakes, and raise concerns without fear of embarrassment or punishment
-2. **Shared ownership** - "That's not my problem" doesn't exist in the vocabulary
-3. **Radical transparency** - Information flows freely, good and bad
+. **Psychological safety** - People feel safe to take risks, admit mistakes, and raise concerns without fear of embarrassment or punishment
+. **Shared ownership** - "That's not my problem" doesn't exist in the vocabulary
+. **Radical transparency** - Information flows freely, good and bad
 
 None of these ingredients appear in your typical Agile training, yet they're the difference between a team that just goes through the motions and one that delivers extraordinary results.
 
@@ -80,11 +80,11 @@ Every failure is a learning opportunity. When things go wrong (and they will), h
 
 A great postmortem template:
 
-1. What happened? (Just the facts)
-2. What was the impact? (On users, business, team)
-3. Why did it happen? (Look for systemic causes, not individual errors)
-4. What went well in our response?
-5. What specific changes would prevent this class of problem?
+. What happened? (Just the facts)
+. What was the impact? (On users, business, team)
+. Why did it happen? (Look for systemic causes, not individual errors)
+. What went well in our response?
+. What specific changes would prevent this class of problem?
 
 The magic happens when people feel safe saying things like "I deployed without running the full test suite because our CI pipeline is too slow" or "I didn't understand the requirements but was afraid to ask for clarification."
 
@@ -96,10 +96,10 @@ Collaboration doesn't mean everyone needs to agree on everything. That path lead
 
 Instead, aim for informed autonomy - where individuals or small groups make decisions after ensuring they have:
 
-1. Sought input from those affected
-2. Considered alternatives
-3. Understood constraints
-4. Aligned with team principles
+. Sought input from those affected
+. Considered alternatives
+. Understood constraints
+. Aligned with team principles
 
 Then they decide and move forward.
 

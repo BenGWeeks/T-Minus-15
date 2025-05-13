@@ -22,6 +22,11 @@ lists:
   line_height: 1.2
   item_spacing: 0
 
+role:
+  small-list:
+    font_size: 8
+    line_height: 1.2
+
 table:
   width: 100%
   font_size: 9
