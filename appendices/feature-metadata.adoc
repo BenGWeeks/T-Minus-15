@@ -67,13 +67,13 @@
 
 | Description
 |
-a|
+|
 
 The life support system for a rocket to Mars is a critical component of a successful mission. The system must maintain a safe and breathable atmosphere, handle waste disposal and processing, provide a reliable source of potable water and food, maintain a comfortable temperature range, provide electrical power, have emergency response plans, and have continuous monitoring and diagnostics. This system must ensure the health and well-being of the crew during the journey and on Mars.
 
 | Benefit hypothesis
 |
-a| 
+| 
 
 Creating a life support system for a rocket to Mars will ensure the health and survival of the crew during the journey and on the planet. With a functioning life support system, the crew will have access to a safe and breathable atmosphere, potable water, nutritious food, thermal comfort, and emergency response capabilities, allowing them to focus on their mission objectives and increase the chances of success. By providing a stable environment, the life support system will reduce the risk of crew illness, injury, or death, and increase the likelihood of a successful and sustainable mission. This will allow SpaceX to achieve its goal of establishing a human presence on Mars and pave the way for future exploration and settlement.
 

@@ -47,7 +47,7 @@
 
 | Description
 |
-a| 
+| 
 
 Carbon dioxide removal issue detected in the life support system due to failure of the CO2 scrubber to effectively remove the gas from the atmosphere within the rocket, leading to a buildup of CO2 levels that pose a danger to the crew's health.
 

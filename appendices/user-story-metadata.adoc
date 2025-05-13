@@ -40,13 +40,13 @@
 
 | Description
 |
-a| 
+| 
 
 Breathing a safe and healthy atmosphere is critical for the crew members of a rocket to Mars. The life support system must provide a steady supply of clean air that is free from harmful substances and has sufficient oxygen to keep the crew members from suffering from oxygen deprivation. The system should also continuously monitor the air quality and make any necessary adjustments to maintain a safe and healthy atmosphere for the crew.
 
 | Acceptance Criteria
 |
-a| 
+| 
 
 SCENARIO: On a trip to Mars
 GIVEN the life support system is operational

@@ -41,6 +41,6 @@
 
 | Description
 |
-a| Integrating the life support system with the rest of the rocket involves ensuring that all components of the system, including air circulation, oxygen generation, carbon dioxide removal, and temperature control, are seamlessly connected to the main systems of the rocket and function together efficiently and effectively. This is critical to providing a safe and healthy atmosphere for crew members during the journey to Mars.
+| Integrating the life support system with the rest of the rocket involves ensuring that all components of the system, including air circulation, oxygen generation, carbon dioxide removal, and temperature control, are seamlessly connected to the main systems of the rocket and function together efficiently and effectively. This is critical to providing a safe and healthy atmosphere for crew members during the journey to Mars.
 
 |===
