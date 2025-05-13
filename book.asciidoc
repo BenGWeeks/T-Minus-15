@@ -15,11 +15,9 @@ include::foreword.asciidoc[]
 
 include::sponsors.asciidoc[]
 
-include::chapters/executive-summary.asciidoc[]
-
-include::chapters/whats-this-all-about.asciidoc[]
-
 :sectnums:
+include::chapters/buckle-up.asciidoc[]
+
 include::chapters/lets-get-agile.asciidoc[]
 
 include::chapters/so-what-about-devops.asciidoc[]
