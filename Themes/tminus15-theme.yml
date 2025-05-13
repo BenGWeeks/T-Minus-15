@@ -1,3 +1,5 @@
+extends: default
+
 page:
   size: [6in, 9in]
   layout: mirror
