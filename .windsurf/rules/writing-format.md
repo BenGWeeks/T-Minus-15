@@ -7,7 +7,7 @@ trigger: always_on
 1. Use kebab-case for all file names (e.g., `prepper-guidelines.asciidoc`, `user-story-metadata.asciidoc`).
 1. Place narrative chapters in the `/chapters` folder.
 1. Place reference material and templates in the `/appendices` folder.
-1. Store all image assets in the `/images` directory using PascalCase (e.g., `pipeline-diagram.png`).
+1. Store all image assets in the `/images` directory using kebab-case (e.g., `pipeline-diagram.png`).
 1. CSS and styling assets go in the `/css` folder.
 1. Font files go in the `/fonts` folder.
 1. The book cover image should reside in the `/cover` folder.
