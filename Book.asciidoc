@@ -19,7 +19,7 @@ include::chapters/whats-this-all-about.asciidoc[]
 
 include::chapters/lets-get-agile.asciidoc[]
 
-include::chapters/so-what-about-dev-ops.asciidoc[]
+include::chapters/so-what-about-devops.asciidoc[]
 
 include::chapters/the-avengers-of-agile.asciidoc[]
 
