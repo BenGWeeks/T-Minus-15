@@ -1,0 +1,14 @@
+page:
+  size: [6in, 9in]
+
+base:
+  font_size: 12
+
+table:
+  width: 100%
+  font_size: 10
+  cell_padding: 4
+  head:
+    font_style: bold
+  body:
+    font_size: 10

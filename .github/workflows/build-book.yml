@@ -85,7 +85,7 @@ jobs:
           # Make sure directories are properly recognized
           mkdir -p Chapters Appendices Images
           # Build the PDF
-          asciidoctor-pdf Book.asciidoc -o book.pdf
+          asciidoctor-pdf -a pdf-theme=tminus15-theme.yml -a pdf-themesdir=Themes Book.asciidoc -o book.pdf
           # Generate file name with version
           VERSION="v0.$(date +%Y%m%d.%H%M%S)"
           FINAL_FILENAME="T-Minus-15 - Secrets of an Elite DevOps Team ${VERSION}.pdf"
