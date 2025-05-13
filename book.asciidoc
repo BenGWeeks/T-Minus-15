@@ -36,8 +36,6 @@ include::chapters/delivering-value.asciidoc[]
 
 include::chapters/happy-customers.asciidoc[]
 
-include::chapters/15-steps-to-success.asciidoc[]
-
 [appendix]
 include::appendices/epic-metadata.asciidoc[]
 
