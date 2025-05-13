@@ -35,7 +35,7 @@ jobs:
           # Make sure directories are properly recognized
           mkdir -p chapters appendices images
           # Run the build with the new folder structure
-          if asciidoctor-pdf -a pdf-theme=tminus15-theme.yml -a pdf-themesdir=themes book.asciidoc -o book.pdf; then
+          if asciidoctor-pdf -a pdf-theme=tminus15-theme.yml -a pdf-themesdir=themes book.asciidoc -o book.pdf --trace -v; then
             echo "PDF build succeeded"
             echo "build_success=true" >> $GITHUB_OUTPUT
             echo "pdf_path=book.pdf" >> $GITHUB_OUTPUT
@@ -85,7 +85,13 @@ jobs:
           # Make sure directories are properly recognized
           mkdir -p chapters appendices images
           # Build the PDF
-          asciidoctor-pdf -a pdf-theme=tminus15-theme.yml -a pdf-themesdir=themes book.asciidoc -o book.pdf
+          asciidoctor-pdf -a pdf-theme=tminus15-theme.yml -a pdf-themesdir=themes book.asciidoc -o book.pdf --trace -v
+
+          # Add a step to extract metadata from the PDF
+          echo "Checking PDF metadata:"
+          sudo apt-get install -y poppler-utils
+          pdfinfo book.pdf
+
           # Generate file name with version
           VERSION="v0.$(date +%Y%m%d.%H%M%S)"
           FINAL_FILENAME="t-minus-15-${VERSION}.pdf"
