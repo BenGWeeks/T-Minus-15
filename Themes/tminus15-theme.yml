@@ -1,5 +1,7 @@
 page:
   size: [6in, 9in]
+  layout: mirror
+  margin: [0.75in, 0.5in, 0.75in, 1in] # Top, Outer, Bottom, Inner
 
 base:
   font_size: 12
