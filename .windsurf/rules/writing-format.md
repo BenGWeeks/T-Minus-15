@@ -4,7 +4,7 @@ trigger: always_on
 
 # Writing Format Guidelines
 
-1. Use Kebab-Case for all file names (e.g., `prepper-guidelines.asciidoc`, `user-story-metadata.asciidoc`).
+1. Use kebab-case for all file names (e.g., `prepper-guidelines.asciidoc`, `user-story-metadata.asciidoc`).
 1. Place narrative chapters in the `/chapters` folder.
 1. Place reference material and templates in the `/appendices` folder.
 1. Store all image assets in the `/images` directory using PascalCase (e.g., `pipeline-diagram.png`).
