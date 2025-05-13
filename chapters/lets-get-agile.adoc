@@ -32,14 +32,17 @@ Your roadmap lives in the product backlog – a prioritized list of Features (wh
 The Agile Manifesto{empty}footnote:[Manifesto for Agile Software Development, http://agilemanifesto.org/] declares following values: 
 
 [.small-list]
+--
 . Individuals and Interactions over processes and tools
 . Working Software over comprehensive documentation
 . Customer Collaboration over contract negotiation
 . Responding to Change over following a plan
+--
 
 The Agile Manifesto Principles{empty}footnote:[Agile Manifesto Principles, http://agilemanifesto.org/principles.html] these values are built on are:
 
 [.small-list]
+--
 . Our highest priority is to satisfy the customer through early and continuous delivery of valuable software.
 . Welcome changing requirements, even late in development. Agile processes harness change for the customer's competitive advantage.
 . Deliver working software frequently, from a couple of weeks to a couple of months, with a preference to the shorter timescale.
@@ -54,6 +57,7 @@ The Agile Manifesto Principles{empty}footnote:[Agile Manifesto Principles, http:
 . Simplicity--the art of maximizing the amount of work not done--is essential.
 . The best architectures, requirements, and designs emerge from self-organizing teams.
 . At regular intervals, the team reflects on how to become more effective, then tunes and adjusts its behaviour accordingly.
+--
 
 However, within a larger Enterprise SAFeR believes that “best architectures, requirements, and designs” do not necessarily  emerge from self-organizing teams in contrast to the Agile principles. For an Enterprise, you need to have a common design principle across all teams and that is why this function is therefore proposed to be driven from outside of the team by Enterprise, Solution, and System Architects/Engineers.
 
@@ -203,6 +207,7 @@ Stories in particular also have a 'Definition of done' for each column that we w
 Who and how do we update items in the backlog? Here are our work items rules:
 
 [.small-list]
+--
 . Only the Epic Owner can update an Epic.
 . Only the Business Owner can update a Feature.
 . Only the Prepper and Scrum Master can update User Stories.
@@ -211,6 +216,7 @@ Who and how do we update items in the backlog? Here are our work items rules:
 . All members of the A-Team should have specific tasks in the sprint.
 . Stories can only be set to "Done" when they meet their definition of done for the relevant statuses.
 . The Test Pilot and Tech Lead is responsible for confirming a release is ready for Production.
+--
 
 === States
 

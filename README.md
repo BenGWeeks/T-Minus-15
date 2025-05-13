@@ -14,11 +14,11 @@ This book is specifically aimed at my team members and customers to know how we 
 
 To suggest changes, please submit a pull request. The format of this book uses [AsciiDoc](https://docs.asciidoctor.org/asciidoc/latest/).
 
-If you submit a pull request, please feel free to add your details to the [Thanks](https://github.com/BenGWeeks/T-Minus-15/blob/main/thanks.asciidoc) section.
+If you submit a pull request, please feel free to add your details to the [Thanks](https://github.com/BenGWeeks/T-Minus-15/blob/main/thanks.adoc) section.
 
-If you submit in the region of 25+ pull requests (dependent on size of the pull request and that includes new content and insight), you have the option to become a co-[author](https://github.com/BenGWeeks/T-Minus-15/blob/main/about-the-author.asciidoc).
+If you submit in the region of 25+ pull requests (dependent on size of the pull request and that includes new content and insight), you have the option to become a co-[author](https://github.com/BenGWeeks/T-Minus-15/blob/main/about-the-author.adoc).
 
-Sponsors of the project will be added to the [Sponsors](https://github.com/BenGWeeks/T-Minus-15/blob/main/sponsors.asciidoc) page (see link above to become a sponsor of the project).
+Sponsors of the project will be added to the [Sponsors](https://github.com/BenGWeeks/T-Minus-15/blob/main/sponsors.adoc) page (see link above to become a sponsor of the project).
 
 ## Presentations
 
@@ -26,31 +26,31 @@ We'll be adding various presentations to this repository for resources to use fo
 
 ## Compiling this book
 
-To compile  this book, see [book.asciidoc](https://github.com/BenGWeeks/T-Minus-15/blob/main/book.asciidoc).
+To compile  this book, see [book.adoc](https://github.com/BenGWeeks/T-Minus-15/blob/main/book.adoc).
 
 ### Chapters
 
-+ [About the Author](https://github.com/BenGWeeks/T-Minus-15/blob/main/about-the-author.asciidoc)
-+ [Foreword](https://github.com/BenGWeeks/T-Minus-15/blob/main/foreword.asciidoc)
-+ [Sponsors](https://github.com/BenGWeeks/T-Minus-15/blob/main/sponsors.asciidoc)
-+ Chapter 1: [Buckle Up - The T-Minus-15 countdown begins](https://github.com/BenGWeeks/T-Minus-15/blob/main/chapters/buckle-up.asciidoc)
-+ Chapter 2: [Let's get Agile!](https://github.com/BenGWeeks/T-Minus-15/blob/main/chapters/lets-get-agile.asciidoc)
-+ Chapter 3: [So what about DevOps?](https://github.com/BenGWeeks/T-Minus-15/blob/main/chapters/so-what-about-devops.asciidoc)
-+ Chapter 4: [The Avengers of Agile: Assembling a Cross-Functional Squad That Delivers Results](https://github.com/BenGWeeks/T-Minus-15/blob/main/chapters/the-avengers-of-agile.asciidoc)
-+ Chapter 5: [PREP: Decoding the client's wants and needs](https://github.com/BenGWeeks/T-Minus-15/blob/main/chapters/decoding-the-clients-wants-and-needs.asciidoc)
-+ Chapter 6: [DESIGN: Crafting great user experiences](https://github.com/BenGWeeks/T-Minus-15/blob/main/chapters/crafting-great-user-experiences.asciidoc)
-+ Chapter 7: [ENGINEER: The Art of Engineering](https://github.com/BenGWeeks/T-Minus-15/blob/main/chapters/the-art-of-engineering.asciidoc)
-+ Chapter 8: [TEST: Raising the Bar - The Pursuit of Quality in Agile Projects](https://github.com/BenGWeeks/T-Minus-15/blob/main/chapters/raising-the-bar.asciidoc)
-+ Chapter 9: [OPERATE: Delivering value](https://github.com/BenGWeeks/T-Minus-15/blob/main/chapters/delivering-value.asciidoc)
-+ Chapter 10: [Happy customers](https://github.com/BenGWeeks/T-Minus-15/blob/main/chapters/happy-customers.asciidoc)
-+ Chapter 11: [15-steps to success](https://github.com/BenGWeeks/T-Minus-15/blob/main/chapters/15-steps-to-success.asciidoc)
-+ Appendix 1: [Epic metadata](https://github.com/BenGWeeks/T-Minus-15/blob/main/appendices/epic-metadata.asciidoc)
-+ Appendix 2: [Feature metadata](https://github.com/BenGWeeks/T-Minus-15/blob/main/appendices/feature-metadata.asciidoc)
-+ Appendix 3: [User Story metadata](https://github.com/BenGWeeks/T-Minus-15/blob/main/appendices/user-story-metadata.asciidoc)
-+ Appendix 4: [Task metadata](https://github.com/BenGWeeks/T-Minus-15/blob/main/appendices/task-metadata.asciidoc)
-+ Appendix 5: [Bugs and Enhancements metadata](https://github.com/BenGWeeks/T-Minus-15/blob/main/appendices/bugs-and-enhancements-metadata.asciidoc)
-+ Appendix 9: [Meetings](https://github.com/BenGWeeks/T-Minus-15/blob/main/appendices/meetings.asciidoc)
-+ [Thanks](https://github.com/BenGWeeks/T-Minus-15/blob/main/thanks.asciidoc)
++ [About the Author](https://github.com/BenGWeeks/T-Minus-15/blob/main/about-the-author.adoc)
++ [Foreword](https://github.com/BenGWeeks/T-Minus-15/blob/main/foreword.adoc)
++ [Sponsors](https://github.com/BenGWeeks/T-Minus-15/blob/main/sponsors.adoc)
++ Chapter 1: [Buckle Up - The T-Minus-15 countdown begins](https://github.com/BenGWeeks/T-Minus-15/blob/main/chapters/buckle-up.adoc)
++ Chapter 2: [Let's get Agile!](https://github.com/BenGWeeks/T-Minus-15/blob/main/chapters/lets-get-agile.adoc)
++ Chapter 3: [So what about DevOps?](https://github.com/BenGWeeks/T-Minus-15/blob/main/chapters/so-what-about-devops.adoc)
++ Chapter 4: [The Avengers of Agile: Assembling a Cross-Functional Squad That Delivers Results](https://github.com/BenGWeeks/T-Minus-15/blob/main/chapters/the-avengers-of-agile.adoc)
++ Chapter 5: [PREP: Decoding the client's wants and needs](https://github.com/BenGWeeks/T-Minus-15/blob/main/chapters/decoding-the-clients-wants-and-needs.adoc)
++ Chapter 6: [DESIGN: Crafting great user experiences](https://github.com/BenGWeeks/T-Minus-15/blob/main/chapters/crafting-great-user-experiences.adoc)
++ Chapter 7: [ENGINEER: The Art of Engineering](https://github.com/BenGWeeks/T-Minus-15/blob/main/chapters/the-art-of-engineering.adoc)
++ Chapter 8: [TEST: Raising the Bar - The Pursuit of Quality in Agile Projects](https://github.com/BenGWeeks/T-Minus-15/blob/main/chapters/raising-the-bar.adoc)
++ Chapter 9: [OPERATE: Delivering value](https://github.com/BenGWeeks/T-Minus-15/blob/main/chapters/delivering-value.adoc)
++ Chapter 10: [Happy customers](https://github.com/BenGWeeks/T-Minus-15/blob/main/chapters/happy-customers.adoc)
++ Chapter 11: [15-steps to success](https://github.com/BenGWeeks/T-Minus-15/blob/main/chapters/15-steps-to-success.adoc)
++ Appendix 1: [Epic metadata](https://github.com/BenGWeeks/T-Minus-15/blob/main/appendices/epic-metadata.adoc)
++ Appendix 2: [Feature metadata](https://github.com/BenGWeeks/T-Minus-15/blob/main/appendices/feature-metadata.adoc)
++ Appendix 3: [User Story metadata](https://github.com/BenGWeeks/T-Minus-15/blob/main/appendices/user-story-metadata.adoc)
++ Appendix 4: [Task metadata](https://github.com/BenGWeeks/T-Minus-15/blob/main/appendices/task-metadata.adoc)
++ Appendix 5: [Bugs and Enhancements metadata](https://github.com/BenGWeeks/T-Minus-15/blob/main/appendices/bugs-and-enhancements-metadata.adoc)
++ Appendix 9: [Meetings](https://github.com/BenGWeeks/T-Minus-15/blob/main/appendices/meetings.adoc)
++ [Thanks](https://github.com/BenGWeeks/T-Minus-15/blob/main/thanks.adoc)
 
 ## Source
 

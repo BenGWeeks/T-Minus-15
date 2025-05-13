@@ -7,7 +7,7 @@ labels:
 page:
   size: [6in, 9in]
   layout: mirror
-  margin: [0.75in, 0.5in, 0.75in, 1in]
+  margin: [0.75in, 1in, 0.75in, 0.5in]
 
 base:
   font_size: 10
@@ -30,6 +30,8 @@ role:
   small-list:
     font_size: 8
     line_height: 1.2
+  xsmall-table:
+    font_size: 8
 
 table:
   width: 100%
