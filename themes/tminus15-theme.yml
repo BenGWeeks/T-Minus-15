@@ -11,6 +11,11 @@ page:
   margin-inner: 0.8in
   margin-outer: 0.4in
 
+chapter:
+  font_size: 14
+  align: center
+  margin_bottom: 1in
+
 base:
   font_size: 10
   line_height_length: 1.2
