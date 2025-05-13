@@ -5,6 +5,8 @@
 |===
 3+| FEATURE
 
+| *Field* | *Guidance* | *Example*
+
 3+| *General*
 
 | *Title*

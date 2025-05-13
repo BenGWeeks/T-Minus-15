@@ -5,6 +5,7 @@
 |===
 3+| USER STORY
 
+| *Field* | *Guidance* | *Example*
 3+| *General*
 
 | *Title*

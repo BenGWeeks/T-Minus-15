@@ -16,6 +16,11 @@ heading:
   h4_font_size: 9
   h5_font_size: 8
 
+lists:
+  text_font_size: 9
+  marker_font_size: 9
+  line_height: 1.2
+
 table:
   width: 100%
   font_size: 9

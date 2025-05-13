@@ -30,7 +30,7 @@ Engineers, don’t just “throw” functionality over the fence to the Test Pil
 
 As a manager, try to think creatively about how to instil these values in your team. Lead by example and demonstrate these values personally: Be transparent with your team and the customer, be accountable, recognise success in your team and award accordingly (Amazon vouchers, words of recognition and encouragement, bonuses, whatever works for your team), get stuck in and be part of solving problems, and ultimately, ensure the team are delivering high quality value to the business!
 
-=== Recruitment the best
+=== Recruit the best
 
 When recruiting for this A-Team with shared values, remember there is a tide of technology and best practices, so look for place an importance of aptitude to learn rather over skills that can be learnt. But know where your team has a skills deficit and recruit to improve this where possible. You will need to determine:
 

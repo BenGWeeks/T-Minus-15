@@ -35,7 +35,7 @@ jobs:
           # Make sure directories are properly recognized
           mkdir -p Chapters Appendices Images
           # Run the build with the new folder structure
-          if asciidoctor-pdf Book.asciidoc -o book.pdf; then
+          if asciidoctor-pdf -a pdf-theme=tminus15-theme.yml -a pdf-themesdir=Themes Book.asciidoc -o book.pdf; then
             echo "PDF build succeeded"
             echo "build_success=true" >> $GITHUB_OUTPUT
             echo "pdf_path=book.pdf" >> $GITHUB_OUTPUT
