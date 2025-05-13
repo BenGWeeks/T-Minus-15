@@ -7,7 +7,8 @@ labels:
 page:
   size: [6in, 9in]
   layout: mirror
-  margin: [0.5in, 0.4in, 0.5in, 0.8in]
+  margin-top: 0.5in
+  margin-bottom: 0.5in
   margin-inner: 0.8in
   margin-outer: 0.4in
 
