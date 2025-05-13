@@ -26,6 +26,8 @@ include::Chapters/DecodingTheClientsWantsAndNeeds.asciidoc[]
 
 include::Chapters/CraftingGreatUserExperiences.asciidoc[]
 
+include::Chapters/TheArtOfEngineering.asciidoc[]
+
 include::Chapters/RaisingTheBar.asciidoc[]
 
 include::Chapters/DeliveringValue.asciidoc[]
