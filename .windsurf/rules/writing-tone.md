@@ -9,8 +9,8 @@ trigger: always_on
 1. Supportive and empowering: Encourage the reader. Point out pitfalls but always offer a solution.
 1. Use contractions: Write "don't", "isn't", etc. Avoid overly formal phrasing.
 1. Embrace structure: Use numbered lists for processes, bullets for examples, and code fences where needed. But don't overdue it without paragraphs that explain things - image the book is read out.
-1. Be vivid but practical: Use real examples, analogies, or metaphors, but always tie them to a concrete takeaway.
-1. Be consistent: Use terms like "Prepper", "DevOps pipeline", "AI co-pilot" consistently throughout.
+1. Be vivid but practical: Use real examples, analogies, or metaphors, but always tie them to a concrete takeaway. For analogies, use SpaceX.
+1. Be consistent: Use terms like "Prepper", "T_Minus-15", consistently throughout.
 1. Avoid jargon unless defined: Assume the reader knows Agile basics, but define anything niche or specific to this method.
 1. Highlight values: Reinforce T-Minus-15 values like "be transparent", "automate the repeatable", and "deliver small and often."
 1. Keep readers awake: If you’re bored writing it, they’ll be bored reading it. Inject voice and enthusiasm.
