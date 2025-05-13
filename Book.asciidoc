@@ -3,35 +3,55 @@ Ben G. Weeks
 :doctype: book
 :pdf-page-layout: mirror
 :toc:
-:toclevels: 3
+:toclevels: 2
 :sectnums:
-:sectnumlevels: 3
+:sectnumlevels: 2
 :imagesdir: Images
 
 include::AboutTheAuthor.asciidoc[]
+
 include::Foreword.asciidoc[]
+
 include::Sponsors.asciidoc[]
+
 include::Chapters/WhatsThisAllAbout.asciidoc[]
+
 include::Chapters/LetsGetAgile.asciidoc[]
+
 include::Chapters/SoWhatAboutDevOps.asciidoc[]
+
 include::Chapters/TheAvengersOfAgile.asciidoc[]
+
 include::Chapters/DecodingTheClientsWantsAndNeeds.asciidoc[]
+
 include::Chapters/CraftingGreatUserExperiences.asciidoc[]
+
 include::Chapters/TheArtOfEngineering.asciidoc[]
+
 include::Chapters/RaisingTheBar.asciidoc[]
+
 include::Chapters/DeliveringValue.asciidoc[]
+
 include::Chapters/HappyCustomers.asciidoc[]
+
 include::Chapters/15StepsToSuccess.asciidoc[]
+
 [appendix]
 include::Appendices/EpicMetadata.asciidoc[]
+
 [appendix]
 include::Appendices/FeatureMetadata.asciidoc[]
+
 [appendix]
 include::Appendices/UserStoryMetadata.asciidoc[]
+
 [appendix]
 include::Appendices/TaskMetadata.asciidoc[]
+
 [appendix]
 include::Appendices/BugsAndEnhancementsMetadata.asciidoc[]
+
 [appendix]
 include::Appendices/Meetings.asciidoc[]
+
 include::Thanks.asciidoc[]
