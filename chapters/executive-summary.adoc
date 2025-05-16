@@ -1,0 +1,21 @@
+== Executive Summary
+
+=== Why did we write this?
+
+Welcome to T-Minus-15: Secrets of an Elite DevOps Team. This book is your launchpad for transforming how your tech team delivers value. Why did we write this? Because too many teams struggle with getting ideas into production quickly (and safely). T-Minus-15 is a methodology born from real-world, elite DevOps practices that bridges the gap between lofty Agile ideals and practical day-to-day execution. It's an informal field guide for tech leaders who want to cut through bureaucracy and empower their teams to ship reliable software faster.
+
+=== Who is this book for?
+
+Primarily, it's written for CTOs, team leads, and project owners responsible for rolling out new ways of working. If you're tasked with accelerating delivery or improving software quality (and maybe dealing with skeptical stakeholders), this book is for you. That said, it's a friendly read for anyone on a software team – from engineers and testers to product managers – who’s curious about leveling up their workflow. We keep things straightforward and conversational, so expect a bit of humor and hard-earned advice rather than dry theory.
+
+=== What does the T-Minus-15 methodology deliver?
+
+In short: a proven blueprint to go from idea to production in a repeatable, stress-free way. By following these steps, you'll foster a culture of transparency, accountability, and continuous improvement. Concretely, you can expect faster release cycles (no more death marches to a “big bang” release), higher quality output with fewer bugs, and a happier team that actually enjoys the process. We’ll show how to break work into manageable chunks, automate the boring stuff, test continuously, and get feedback early. The goal is to consistently deliver high-value features to your business 15 days (or less) at a time, without the usual fire drills.
+
+=== How do people and AI agents fit in?
+
+This methodology is human-centric – it's about getting people to collaborate better – but we also embrace AI as part of the team. Throughout the book, you’ll meet our six AI personas (like Poppy the Planner, Pepper the Prepper, and friends) who act as example “co-pilots”. These AI agents are there to illustrate how modern teams can leverage artificial intelligence: from automating tedious tasks to providing quick analyses and suggestions. They won’t replace the creative, decision-making power of your people (no robot rebellions here!), but they will augment your team’s capabilities. Think of them as friendly sidekicks that help your planners plan, your testers test, and so on. In your rollout, both your human team members and their AI helpers will work in tandem, each doing what they do best.
+
+=== What's the end goal?
+
+By the end of T-Minus-15, our mission is for you to have a clear roadmap for rolling out this way of working in your organization. Whether you’re a CTO aiming to streamline a large department or a squad lead trying to get a startup’s product out the door, you’ll find actionable advice, a touch of irreverence, and an unwavering focus on what actually works. Let's get started on this journey to elite DevOps performance – with a little help from some AI sidekicks along the way!

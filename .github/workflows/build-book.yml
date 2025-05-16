@@ -1,0 +1,143 @@
+name: Book Build for Amazon KDP
+
+on:
+  workflow_dispatch:  # Manual triggering
+  push:
+    branches: [ main ]  # Automatic triggering on push to main branch
+
+# Set permissions for the workflow
+permissions:
+  contents: write  # Needed for creating releases
+
+jobs:
+  # Job 1: Set up the environment and build the book files
+  build-book:
+    name: Build Book PDF
+    runs-on: ubuntu-latest
+    outputs:
+      pdf_path: ${{ steps.build-pdf.outputs.pdf_path }}
+      build_success: ${{ steps.build-pdf.outputs.build_success }}
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Set up environment
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y asciidoctor
+          sudo gem install asciidoctor-pdf
+          asciidoctor --version
+      
+      - name: Build PDF
+        id: build-pdf
+        run: |
+          echo "Starting PDF build..."
+          # Make sure directories are properly recognized
+          mkdir -p chapters appendices images
+          # Run the build with the new folder structure
+          if asciidoctor-pdf -a pdf-theme=tminus15-theme.yml -a pdf-themesdir=themes book.adoc -o book.pdf --trace -v; then
+            echo "PDF build succeeded"
+            echo "build_success=true" >> $GITHUB_OUTPUT
+            echo "pdf_path=book.pdf" >> $GITHUB_OUTPUT
+          else
+            echo "PDF build failed"
+            echo "build_success=false" >> $GITHUB_OUTPUT
+            echo "pdf_path=" >> $GITHUB_OUTPUT
+          fi
+          
+          # Verify the build results
+          if [ -f "book.pdf" ]; then
+            echo "PDF file exists and has size:"  
+            ls -la book.pdf
+          else
+            echo "PDF file was not created successfully"
+          fi
+      
+      # Upload artifacts between jobs
+      - name: Save book artifacts
+        if: steps.build-pdf.outputs.build_success == 'true'
+        run: |
+          mkdir -p book-outputs
+          cp book.pdf book-outputs/
+          echo "Book artifacts saved to book-outputs directory"
+          ls -la book-outputs/
+        
+  # Job 2: Create the GitHub release with the built files
+  create-release:
+    name: Create GitHub Release
+    needs: build-book
+    runs-on: ubuntu-latest
+    steps:
+      # Need to checkout again since this is a separate job
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # Rebuild the PDF for the release
+      # Note: We're just rebuilding since it's faster than setting up artifact transfer
+      - name: Build PDF for release
+        if: needs.build-book.outputs.build_success == 'true'
+        run: |
+          echo "Building PDF for release..."
+          # Install dependencies
+          sudo apt-get update -q
+          sudo apt-get install -y asciidoctor > /dev/null
+          sudo gem install asciidoctor-pdf > /dev/null
+          # Make sure directories are properly recognized
+          mkdir -p chapters appendices images
+          # Build the PDF
+          asciidoctor-pdf -a pdf-theme=tminus15-theme.yml -a pdf-themesdir=themes book.adoc -o book.pdf --trace -v
+
+          # Add a step to extract metadata from the PDF
+          echo "Checking PDF metadata:"
+          sudo apt-get install -y poppler-utils
+          pdfinfo book.pdf
+
+          # Generate file name with version
+          VERSION="v0.$(date +%Y%m%d.%H%M%S)"
+          FINAL_FILENAME="t-minus-15-${VERSION}.pdf"
+          # Rename the PDF
+          mv book.pdf "$FINAL_FILENAME"
+          echo "FINAL_FILENAME=$FINAL_FILENAME" >> $GITHUB_ENV
+          # Verify the build
+          if [ -f "$FINAL_FILENAME" ]; then
+            echo "PDF file exists: $(du -h "$FINAL_FILENAME")"
+          else
+            echo "ERROR: PDF file was not created successfully"
+            exit 1
+          fi
+          
+      # Generate a release ID and tag
+      - name: Generate release ID
+        id: release_id
+        run: |
+          RELEASE_ID="v0.$(date +%Y%m%d.%H%M%S)"
+          echo "release_id=${RELEASE_ID}" >> $GITHUB_OUTPUT
+          echo "Created release ID: ${RELEASE_ID}"
+          echo "PDF exists: $(ls -la "$FINAL_FILENAME")"
+
+      # Create GitHub release and upload PDF using GitHub CLI (simpler approach)
+      - name: Create GitHub Release with CLI
+        if: needs.build-book.outputs.build_success == 'true'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          # Copy cover file to the release directory
+          echo "Preparing cover file for release..."
+          if [ -f "cover/tminus15-cover.pdf" ]; then
+            cp "cover/tminus15-cover.pdf" .
+            echo "Cover file copied successfully: $(du -h tminus15-cover.pdf)"
+          else
+            echo "WARNING: Cover file not found at cover/tminus15-cover.pdf"
+          fi
+          
+          # Create the release
+          echo "Creating release ${{ steps.release_id.outputs.release_id }}..."
+          gh release create ${{ steps.release_id.outputs.release_id }} \
+            --title "T-Minus-15 Book for KDP" \
+            --notes "Book compiled for Amazon KDP Publishing on $(date +'%Y-%m-%d')" \
+            --prerelease \
+            "$FINAL_FILENAME" \
+            "tminus15-cover.pdf"
+          
+          echo "Release created successfully with PDF attached"
+          gh release view ${{ steps.release_id.outputs.release_id }}

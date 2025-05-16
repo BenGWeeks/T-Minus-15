@@ -1,0 +1,19 @@
+== What's this all about?
+
+=== Who is this book for?
+
+Let's cut to the chase – this book is for you if you want to actually ship software instead of just talking about it. Originally, I wrote this for my own team members and customers to explain how we deliver kick-ass projects. Now I'm sharing it with you because this approach works, and your clients (internal or external) need to understand it too. So go ahead – share it with them!
+
+Had enough of theory? Me too. There are thousands of books on DevOps and Agile (last I checked, 589 and over 8,000 on Amazon), but what you really need are the nuts and bolts. You don't want philosophy – you want specifics that you can apply tomorrow morning. That's exactly what T-Minus-15 delivers: work item metadata that actually makes sense, estimation techniques that don't waste your time, meeting structures that don't make you want to cry, team roles that function in the real world, and all the insider secrets we've learned from running elite DevOps teams.
+
+=== What is T-Minus-15?
+
+T-Minus-15 is your team's playbook, and it nests perfectly within the larger SAFe® framework if you're in enterprise-land and need to keep the big machine humming while your team moves at startup speed.
+
+This isn't some academic exercise – I've battle-tested and refined this approach over 20 years in the trenches. From government agencies like Suffolk Constabulary to global behemoths like IBM and the UN, from scrappy startups to established players like Nissan and Grant Thornton – this process has delivered when it counts.
+
+Why "T-Minus-15"? Think rocket launches. Not one big, terrifying launch that might explode, but a series of controlled, predictable launches at the end of each sprint. Real rocket scientists use "L-Minus" for launch countdowns, but "T-Minus" is more familiar to most of us. The "15" represents our sweet spot for sprint length: 15 working days. Boom – T-Minus-15.
+
+We don't just talk about this stuff – we live it daily on our own projects. Having a crystal-clear process means new team members get up to speed fast, veterans stay aligned, and clients understand exactly what we need from them. Because yes, your clients are team members too, and they've got jobs to do (you'll see).
+
+Just like the software we build, this book itself follows an iterative approach – you're reading version v1.950, and it keeps getting better.

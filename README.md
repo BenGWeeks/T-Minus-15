@@ -14,19 +14,19 @@ This book is specifically aimed at my team members and customers to know how we 
 
 To suggest changes, please submit a pull request. The format of this book uses [AsciiDoc](https://docs.asciidoctor.org/asciidoc/latest/).
 
-If you submit a pull request, please feel free to add your details to the [Thanks](https://github.com/BenGWeeks/T-Minus-15/blob/main/Thanks.asciidoc) section.
+If you submit a pull request, please feel free to add your details to the [Thanks](https://github.com/BenGWeeks/T-Minus-15/blob/main/thanks.adoc) section.
 
-If you submit in the region of 25+ pull requests (dependent on size of the pull request and that includes new content and insight), you have the option to become a co-[author](https://github.com/BenGWeeks/TheBitcoinPlaybook/blob/main/AboutTheAuthors.asciidoc).
+If you submit in the region of 25+ pull requests (dependent on size of the pull request and that includes new content and insight), you have the option to become a co-[author](https://github.com/BenGWeeks/T-Minus-15/blob/main/about-the-author.adoc).
 
-Sponsors of the project will be added to the [Sponsors](https://github.com/BenGWeeks/TheBitcoinPlaybook/blob/main/Introduction.asciidoc) page (see link above to become a sponsor of the project).
+Sponsors of the project will be added to the [Sponsors](https://github.com/BenGWeeks/T-Minus-15/blob/main/sponsors.adoc) page (see link above to become a sponsor of the project).
 
 ## Presentations
 
 We'll be adding various presentations to this repository for resources to use for training and education of team members, product owners, stakeholders alike.
 
-## Reading this book
+## Compiling this book
 
-To read this book, see [book.asciidoc](https://github.com/BenGWeeks/T-Minus-15/blob/main/Book.asciidoc). Click on each of the chapters to read in your browser. Or, when available, purchase the book from Amazon.
+To compile  this book, see [book.adoc](https://github.com/BenGWeeks/T-Minus-15/blob/main/book.adoc).
 
 ### Chapters
 
@@ -60,13 +60,9 @@ To read this book, see [book.asciidoc](https://github.com/BenGWeeks/T-Minus-15/b
 
 This repository will act as the source for the printed version of the book that will be published to Amazon Kindle Publishing.
 
-## Relevant links
-
-TBC
-
 ## License
 
-This book is made available under the [creative commons terms of license](https://github.com/BenGWeeks/TheBitcoinPlaybook/blob/main/LICENSE).
+This book is made available under the [creative commons terms of license](https://github.com/BenGWeeks/T-Minus-15/blob/main/LICENSE.md).
 
 ## Proceeds
 
