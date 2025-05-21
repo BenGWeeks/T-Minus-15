@@ -1,0 +1,53 @@
+extends: default
+
+labels:
+  chapter: Step
+  appendix: Resource
+
+page:
+  size: [6in, 9in]
+  layout: mirror
+  margin-top: 0.5in
+  margin-bottom: 0.5in
+  margin-inner: 0.8in
+  margin-outer: 0.4in
+
+chapter:
+  font_size: 14
+  align: center
+  margin_bottom: 1in
+
+base:
+  font_size: 10
+  line_height_length: 1.2
+
+heading:
+  h1_font_size: 14
+  h2_font_size: 12
+  h3_font_size: 10
+  h4_font_size: 9
+  h5_font_size: 8
+  h1_align: center
+  h1_margin_bottom: 1in
+
+lists:
+  text_font_size: 9
+  marker_font_size: 9
+  line_height: 1.2
+  item_spacing: 0
+
+role:
+  small-list:
+    font_size: 8
+    line_height: 1.2
+  xsmall-table:
+    font_size: 7
+
+table:
+  width: 100%
+  font_size: 9
+  cell_padding: 4
+  head:
+    font_style: bold
+  body:
+    font_size: 10

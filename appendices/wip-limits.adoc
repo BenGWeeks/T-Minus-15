@@ -1,0 +1,23 @@
+== WIP Limits
+
+Stop juggling too many tasks right now. Seriously. WIP (Work in Progress) Limits are your secret weapon to prevent the chaos of multitasking. They're simple guardrails that cap how many Features or Stories your team can work on at once.
+
+Why bother? Because your brain hates context switching. Every time you bounce between tasks, you waste 20% of your mental energy. Set WIP Limits and watch your team deliver faster while doing less work. When someone asks "Can you just squeeze in one more thing?", you can confidently say "Not until we finish what we've started."
+
+Here's the hard truth: 8 polished, working features beat 10 half-baked ones every time. Your users don't care how many features you started – they care which ones actually work.
+
+Take 10 minutes with your team to set your own WIP limits. You can use fixed numbers ("maximum 5 stories in development") or scale them based on team size ("2 stories per developer"). Make them visible and stick to them.
+
+.Example team WIP limits
+|===
+|New|Prep|Design|Engineer|Test|Operate|Closed
+
+|N/A
+|5
+|5
+|5
+|5
+|5
+|N/A
+
+|===
