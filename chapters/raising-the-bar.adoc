@@ -18,7 +18,7 @@ A test plan is a group of test cases. We recommend a Test Plan is made up from a
 
 A test case is the steps that validate a user story. Each step should have an expected result. A tester can thus validate the test case step by step, and create a bug at the designated step that caused the failure. Along with a screenshot (always include a screenshot and any other relevant information), this should give developers the resources necessary to troubleshoot the majority of issues.
 
-=== Feautures vs Bugs vs Enhancements
+=== Features vs Bugs vs Enhancements
 
 Knowing the difference between a bug, enhancement, and feature is the key to smarter decisions and smoother teamwork.
 
